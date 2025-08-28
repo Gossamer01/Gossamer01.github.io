@@ -92,6 +92,7 @@ form#quick_reply{padding: 0;margin: 0!important;width: 1026px;}
 
 
 
+
 /*****************NAVIGATION***************/
 .topbar {position: sticky;top: 0; z-index: 999; display: grid; grid-template: "icon username switcheroo links" / 65px auto auto auto; align-items: center; column-gap: 15px;width: 100%; height: 70px;margin: 0px 0px 16px 0px; 
     backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); background: var(--bg1bis); left: 0px;-webkit-transition: -webkit-transform 1.2s cubic-bezier(0.86, 0, 0.07, 1);
