@@ -7,7 +7,7 @@ body {font-family: poppins;background-attachment: fixed!important;font-size: 11p
 url("https://assets.codepen.io/2434198/magna-webfont.woff") format("woff");font-weight: normal;font-style: normal;}
   
 
-div#page-body {width: 940px;padding: 5px;}
+div#page-body {width: 940px;}
 
   a {color: inherit; text-decoration: none;}
 a:visited {color: white;}
@@ -24,14 +24,9 @@ a.permalink{background: var(--greybg);border: 1px solid #151515b3;padding: 4px 6
 
 /**************CATEGORIES**********/
 .maintitle {background-color: #a9a7ad;padding: 50px 0px 50px 50px;height: 40px;color: #eeeeee;  text-transform: uppercase;position: relative;overflow: hidden;width: 806px;margin-left: 2px;}
-  .glowup-circle-accent1 {height: 500px; width: 500px; border-radius: 100%;position: absolute; margin: -216px 0px 0px -73px; background-color: var(--accent4);
-    background: linear-gradient(to bottom right,var(--accent4),var(--accent5)); z-index: 4; mix-blend-mode: hard-light; mix-blend-mode: lighten; opacity: 0.8;}
-  .glowup-cat-orbit {background-image: url(https://images2.imgbox.com/28/3f/VXSLEHCA_o.png); height: 100%; width: 53%; margin: -50px 0px -50px -50px; background-position: bottom left;
-    background-repeat: no-repeat; mix-blend-mode: screen; position: absolute; opacity: .45; z-index: 5; background-size: cover;}
-  .glowup-cat-img {mix-blend-mode: overlay;position: absolute; z-index: 0; opacity: 1; filter: grayscale(1) brightness(1) contrast(0.3); width: 860px; height: 141px; margin-left: -52px; margin-top: -50px;}
-  .glowup-cat-img2 {height: 100%; width: 100%; background-image: url(https://images2.imgbox.com/30/78/j7tH2jGA_o.jpg); background-position: 0% 30%; background-size: cover;}
   .glowup-cat-title {font: 35px Poppins; line-height: 25px;font-weight: 200!important;letter-spacing: 1px; position: relative; z-index: 1;}
-  .glowup-cat-title h2 {font: 35px Poppins; line-height: 25px; font-weight: 200!important;letter-spacing: 1px;position: relative; z-index: 1; color: white; padding: 0; margin: 0;}
+  .glowup-cat-title h2 {font: 35px Poppins; line-height: 25px; font-weight: 200!important;letter-spacing: 1px;position: relative; z-index: 1; color: white; padding: 0; margin: 0;.
+  text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);}
   .glowup-cat-title b {font-weight: 800!important; line-height: 25px;}
   .glowup-cat-title ht {font: 10px Hind;font-weight: 800!important;line-height: 10px;padding-top: 10px;letter-spacing: 2px; position: relative;z-index: 1; display: block;color: white;}
 
@@ -63,7 +58,7 @@ headergrd {width: 100%; height: 100%; mix-blend-mode: saturation; display: block
   @keyframes overshake{00%{margin-top: -37px;}25%{margin-top: -62px;}50%{margin-top: -37px;}75%{margin-top: -12px;}100%{margin-top: -37px;}}
 
 .mainsite {z-index: 2; position: relative; box-sizing: border-box; flex-wrap: wrap;
-    display: flex; justify-content: space-between; align-items: stretch; margin-top: 25px; margin-bottom: 25px;  height: auto; width: 920px;}
+    display: flex; justify-content: space-between; align-items: stretch; margin-top: 25px; margin-bottom: 25px;  height: auto; width: 940px;}
 
 /**EMOTES**/
 #sceditor_smilies {background-color: var(--greybg);}
