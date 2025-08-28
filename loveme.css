@@ -24,8 +24,8 @@ a.permalink{background: var(--greybg);border: 1px solid #151515b3;padding: 4px 6
 /**************CATEGORIES**********/
 .maintitle {padding: 20px 0px 20px 20px;height: 40px;color: #eeeeee;  text-transform: uppercase;position: relative;overflow: hidden;width: 920px;margin-left: 2px;}
   .glowup-cat-title {font: 35px Poppins; line-height: 25px;font-weight: 200!important;letter-spacing: 1px; position: relative; z-index: 1;}
-  .glowup-cat-title h2 {font: 35px Poppins; line-height: 25px; font-weight: 200!important;letter-spacing: 1px;position: relative; z-index: 1; color: white; padding: 0; margin: 0;.
-  text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);}
+  .glowup-cat-title h2 {font: 35px Poppins; line-height: 25px; font-weight: 200!important;letter-spacing: 1px;position: relative; z-index: 1; color: white; padding: 0; margin: 0;
+                        text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);}
   .glowup-cat-title b {font-weight: 800!important; line-height: 25px;}
   .glowup-cat-title ht {font: 10px Hind;font-weight: 800!important;line-height: 10px;padding-top: 10px;letter-spacing: 2px; position: relative;z-index: 1; display: block;color: white;}
 
