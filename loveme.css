@@ -154,11 +154,11 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 /**************CATEGORIES**********/
 
 
-.section {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f3bd;outline: 1px solid white;outline-offset: -7px;backdrop-filter: blur(5px);border-radius: 10px;
-    padding: 25px;}
+.section {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;
+    backdrop-filter: blur(5px);border-radius: 10px;padding: 25px;}
 
-.section-s {height: 180px; background: linear-gradient(to bottom right,#a09bab2b,#a09bab82);  display: grid;  background-color: #d3d3d33b;  position: relative; margin-left: 2px;
-    outline-offset: 6px;  outline: 1px solid #d9d9d9; overflow: hidden; grid-template-columns: 25% 45% 30%; grid-template-rows: 72% 28%;  width: 841px;}
+.section-s {height: 180px;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);display: grid;background-color: #d3d3d33b;position: relative;margin-left: 2px;outline-offset: -6px;
+            outline: 1px solid #ffffff85;overflow: hidden;grid-template-columns: 25% 45% 30%;grid-template-rows: 72% 28%;width: 841px;border-radius: 5px;}
 .section-s section-icon {width: 33px; height: 33px; display: grid; place-items: center; margin-top: 15px;  margin-left: 15px; font-size: 23px;  color: white;  z-index: 21;
     background: linear-gradient(to bottom right,#ffffff1f,#ffffff78); border: 1px solid #ffffffab;  grid-area: 1 / 1 / 2 / 2; backdrop-filter: blur(5px);}
 .section-s h1 {grid-area: 1 / 1 / 2 / 2; display: grid; font-family: 'Poppins';text-transform: uppercase;  font-size: 23px; text-align: left; position: relative; z-index: 25; color: white;
@@ -201,7 +201,7 @@ section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
 .category-01 .section, .category-03 .section, .category-05 .section {grid-template: "section1 section2 section3"; column-gap: 17px;}
-.category-01 .section-s, .category-03 .section-s, .category-05 .section-s {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 268px;}
+.category-01 .section-s, .category-03 .section-s, .category-05 .section-s {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 283px;}
 .category-01 .section-s h1, .category-03 .section-s h1, .category-05 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
     line-height: 29px; margin-left: -14px; margin-top: 17px;  padding-left: 0px; font-style: initial;  grid-area: 1 / 2 / 2 / 3;}
 .category-01 .section-desc, .category-03 .section-desc, .category-05 .section-desc{color: #fff; font-size: 10px; padding: 8px; overflow: auto; grid-area: 1 / 1 / 5 / 4;}
