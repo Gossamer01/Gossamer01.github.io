@@ -47,7 +47,7 @@ down-b {color: white;}
     background-size: 100%; margin-top: -37px; animation: overshake 6s linear infinite;}
 .underbanner {opacity: 0.35; filter: blur(50px); width: 118%; height: 660px; position: absolute; top: -95px; left: -80px; z-index: -1;}
 .underbanner img {height: 100%; width: 100%;}
-.banner {width: 100%; position: relative; z-index: 2; margin-top: 30px; height: 450px; overflow: hidden; outline: 2px solid white;outline-offset: 7px;}
+.banner {width: 100%; position: relative; z-index: 2; margin-top: 30px; height: 450px; overflow: hidden; outline: 1px solid white;outline-offset: 7px;border-radius: 5px;}
 headertitle {width: 100%; height: 100%; display: flex; flex-direction: column; position: absolute; top: 0; left: 0; z-index: 2; align-items: center;
     justify-content: center; padding-bottom: 8px; color: #ffffff; font-size: 150px;text-transform: uppercase; font-weight: 300; font-family: 'magnaregular'; animation: shake-title 6s linear infinite;}
 headergrd {width: 100%; height: 100%; mix-blend-mode: saturation; display: block; position: absolute; top: 0; left: 0; z-index: 1; background: linear-gradient(180deg, rgba(var(--accent2),0.1), rgba(var(--accent2),0.2));}
@@ -154,7 +154,8 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 /**************CATEGORIES**********/
 
 
-.section {display: grid; width: 841px; padding: 7px; height: 100%; column-gap: 19px; row-gap: 20px; margin: 7px 0px;}
+.section {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f3bd;outline: 1px solid white;outline-offset: -7px;backdrop-filter: blur(5px);border-radius: 10px;
+    padding: 25px;}
 
 .section-s {height: 180px; background: linear-gradient(to bottom right,#a09bab2b,#a09bab82);  display: grid;  background-color: #d3d3d33b;  position: relative; margin-left: 2px;
     outline-offset: 6px;  outline: 1px solid #d9d9d9; overflow: hidden; grid-template-columns: 25% 45% 30%; grid-template-rows: 72% 28%;  width: 841px;}
