@@ -200,7 +200,7 @@ section-last-com strong {display: inline-block; vertical-align: middle;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
-.category-01 .section, .category-03 .section, .category-05 .section {grid-template: "section1 section2 section3"; column-gap: 10px;}
+.category-01 .section, .category-03 .section, .category-05 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
 .category-01 .section-s, .category-03 .section-s, .category-05 .section-s {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 283px;}
 .category-01 .section-s h1, .category-03 .section-s h1, .category-05 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
     line-height: 29px; margin-left: -14px; margin-top: 17px;  padding-left: 0px; font-style: initial;  grid-area: 1 / 2 / 2 / 3;}
@@ -226,9 +226,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-01 .section-desc catpic img{opacity: 0.3;}
 .category-01 .section-subfo a {font-size: 10px;}
 
-.category-02 .section, .category-04 .section {align-items: center; grid-template: "section1 section2";}
-.category-02 .section-s, .category-04 .section-s {height: 230px; width: 410px; grid-template-columns: 16% 64% 20%; grid-template-rows: 21% 31% 14% 35%; margin-top: auto; margin-bottom: auto;}
-.category-02 .section-s:nth-child(1) {height: auto; grid-template-columns: 12% 31% 6% 51%; grid-template-rows: 39% 61%; width: 841px; grid-area: 1 / 1 / 2 / 3;}
+.category-02 .section, .category-04 .section {align-items: center; grid-template: "section1 section2";row-gap: 10px;column-gap: 10px;}
+.category-02 .section-s, .category-04 .section-s {height: 230px; width: 438px; grid-template-columns: 16% 64% 20%; grid-template-rows: 21% 31% 14% 35%; margin-top: auto; margin-bottom: auto;}
+.category-02 .section-s:nth-child(1) {height: auto; grid-template-columns: 12% 31% 6% 51%; grid-template-rows: 39% 61%; width: 888px; grid-area: 1 / 1 / 2 / 3;}
 .category-02 .section-s:nth-child(1) section-notif {width: 60px; height: 60px; margin-top: 21px; margin-left: 21px;}
 .category-02 .section-s:nth-child(1) section-icon {width: 60px; height: 60px; margin-top: 20px; margin-left: 20px; font-size: 47px;}
 .category-02 .section-s:nth-child(1) h1 {grid-area: 1 / 2 / 2 / 4; font-size: 70px; width: 100%; margin: 17px; letter-spacing: -1px; line-height: 90%;font-style: initial; padding-left: 0;}
@@ -272,7 +272,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 
 .category-02 .section-pic, .category-04 .section-pic {background: #7a7a7a; width: 40px;  height: 40px;  margin-left: 26px;  margin-top: 21px;border-radius: initial;  padding: initial;  opacity: 1; 
     right: auto;  top: auto; grid-area: 4 / 1 / 5 / 2; z-index: 10}
-.category-02 user-pic-gradient, .category-04 user-pic-gradient {mix-blend-mode: darken; opacity: 0.3;  width: 416px;height: 210px;background: linear-gradient(to bottom right,var(--accent4),var(--accent5));
+.category-02 user-pic-gradient, .category-04 user-pic-gradient {mix-blend-mode: darken; opacity: 0.3;  width: 450px;height: 210px;background: linear-gradient(to bottom right,var(--accent4),var(--accent5));
     position: absolute; margin-top: -240px; margin-left: -29px; z-index: 3;}
 .category-02 user-pic, .category-04 user-pic {display: grid; place-items: center;  width: 40px;  height: 40px;  outline-offset: 6px; outline: 1px solid white;  background: none;  border-radius: initial;  padding: initial;}
 .category-02 user-pic img, .category-04 user-pic img { display: block; width: 40px;  height: 40px;  background-size: cover !important;filter: grayscale(1) brightness(1) contrast(0.5);  mix-blend-mode: overlay;  object-fit: cover;
