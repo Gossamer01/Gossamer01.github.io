@@ -204,7 +204,7 @@ section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
 .category-01 .section, .category-03 .section, .category-05 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
-.category-01 .section-s, .category-03 .section-s, .category-05 .section-s {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 283px;}
+.category-01 .section-s, .category-03 .section-s, .category-05 .section-s {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 288px;}
 .category-01 .section-s h1, .category-03 .section-s h1, .category-05 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
     line-height: 29px; margin-left: -14px; margin-top: 17px;  padding-left: 0px; font-style: initial;  grid-area: 1 / 2 / 2 / 3;}
 .category-01 .section-desc, .category-03 .section-desc, .category-05 .section-desc{color: #fff; font-size: 10px; padding: 8px; overflow: auto; grid-area: 1 / 1 / 5 / 4;}
