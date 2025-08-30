@@ -32,7 +32,8 @@ a.permalink{background: var(--greybg);border: 1px solid #151515b3;padding: 4px 6
 
 
 /******************SIDEBAR****************************/
-.sidebar {background: var(--accent3); width: 50px; left: 0px; position: relative;padding-top: 20px;}
+.sidebar {position: fixed;display: flex;left: 0;margin: 10px;z-index: 0;width: 65px;height: auto;justify-content: flex-start;background: #f3f3f380;backdrop-filter: blur(5px);border-radius: 10px;
+    flex-direction: column;align-content: center;flex-wrap: nowrap;align-items: center;}
 .sidebarlinks {position: sticky;top: 75px; color: white;}
 up-b {width: 50px; font-size: 20px; height: 30px; color: white; text-align: center; display: block;}
 .sidebarlinks a {height: 34px; position: relative; width: 50px; font-size: 20px;color: white; text-align: center; display: block;}
