@@ -38,7 +38,6 @@ a.permalink{background: var(--greybg);border: 1px solid #151515b3;padding: 4px 6
 up-b {width: 50%;font-size: 20px;height: 30px;text-align: center;display: inline-block;}
 .sidebarlinks a {height: 34px;position: relative;width: 50px;font-size: 20px;text-align: center;display: inline-flex;align-items: center;flex-direction: column;flex-wrap: nowrap;justify-content: center;}
 dark-b {width: 50px; font-size: 20px; height: 30px; color: white; text-align: center; display: block;}
-.theme-switch-wrapper {display: flex; align-items: center;}
 down-b {display: inline-block;width: 50%;font-size: 20px;}
 .switcheroo__squircles{flex-direction: column;}
 .directionsarrows {margin-top: 10px;}
@@ -145,17 +144,10 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 
 /*****************dark mode***************/
 /*toggle*/
-.theme-switch-wrapper {display: inline-block;align-items: center;position: fixed;z-index: 99;right: 0;}
-.theme-switch-wrapper em {font-size: 1rem;text-transform: uppercase;font-weight: 600;letter-spacing: 1px;opacity: 0.6;}
-.theme-switch {display: inline-block;height: 20px;position: relative;width: 40px;}
+.theme-switch-wrapper {align-items: center;z-index: 99;display: flex;justify-content: center;
+    flex-direction: column;flex-wrap: nowrap;width: 100%;}
 .theme-switch input {display:none;}
-.slider {background-color: #ccc;bottom: 0;cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: .4s;
-}
+.onoffbuttonmode {font-size: 23px;}
 
 .slider:before {
   background-color: var(--blanc);
