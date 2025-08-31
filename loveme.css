@@ -354,7 +354,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-01 section-last-com a.gensmall {font-family: 'Hind';font-style: inherit;}
 .category-se a.last-post-icon {display: inline-block;vertical-align: middle;margin-top: -25px;}
 .category-se strong {margin-top: -5px;}
-
+.category-se .section-desc catpic img {filter: contrast(100%) brightness(110%) grayscale(100%);}
 
 /***************AUTRES ELEMENTS CATE**************/
 
