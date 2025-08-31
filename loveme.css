@@ -351,6 +351,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-se .section-s h1 {grid-area: 1 / 2 / 3 / 3;padding-left: 0px;}
 .category-se .section-subfo {grid-area: 3 / 1 / 4 / 4;}
 .category-se section-last-com {grid-area: 2 / 2 / 3 / 4;margin-right: 0px;padding: 0px 15px 0px 0px;line-height: 20px;width: -webkit-fill-available;}
+.category-01 section-last-com a.gensmall {font-family: 'Hind';font-style: inherit;}
+.category-se a.last-post-icon {display: inline-block;vertical-align: middle;margin-top: -25px;}
+.category-se strong {margin-top: -5px;}
 
 
 /***************AUTRES ELEMENTS CATE**************/
