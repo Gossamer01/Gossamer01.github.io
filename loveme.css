@@ -358,7 +358,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-se .section-desc catpic img {filter: contrast(100%) brightness(110%) grayscale(100%);}
 .category-se .section {grid-template: "section1 section2";column-gap: 10px;row-gap: 10px;}
 .category-se .section-subfo a.gensmall {color: white;text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);
-    font-size: 11px;margin: 0px 3px 0px 3px;}
+    font-size: 11px;margin: 0px 3px 0px 3px;background: none;outline: none;}
 
 /***************AUTRES ELEMENTS CATE**************/
 
