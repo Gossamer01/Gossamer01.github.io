@@ -348,7 +348,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 
 .category-se .section-s {width: 50%;height: 225px;grid-template-rows: 51% 24% 25%;grid-template-columns: 14% 56% 30%;}
 .category-se section-notif {grid-area: 1 / 3 / 1 / 2;}
-.category-se .section-s h1 {grid-area: 1 / 2 / 3 / 3;}
+.category-se .section-s h1 {grid-area: 1 / 2 / 3 / 3;padding-left: 0px;}
 .category-se .section-subfo {grid-area: 3 / 1 / 4 / 4;}
 .category-se section-last-com {grid-area: 2 / 2 / 3 / 4;margin-right: 0px;padding: 0px 15px 0px 0px;line-height: 20px;width: -webkit-fill-available;}
 
