@@ -337,18 +337,18 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-005 .section-subfo {display: inline-table; height: 100%;  width: 235px;}
 .category-005 .section-subfo a {display: inline-block; font-size: 8px; width: auto;}
 
-.category-seo .section-s {width: 100%;height: 225px;grid-template-rows: 51% 24% 25%;grid-template-columns: 14% 56% 30%;}
-.category-seo section-notif {grid-area: 1 / 3 / 1 / 2;}
-.category-seo .section-s h1 {grid-area: 1 / 2 / 3 / 3;padding-left: 0px;}
-.category-seo .section-subfo {grid-area: 3 / 1 / 4 / 4;line-height: 0%;padding: 5px 10px 5px 10px;}
-.category-seo .section-subfo span {display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;height: 100%;line-height: 50%;}
-.category-seo section-last-com {grid-area: 2 / 2 / 3 / 4;margin-right: 0px;padding: 0px 15px 0px 0px;line-height: 20px;width: -webkit-fill-available;}
+.category-seoul .section-s {width: 100%;height: 225px;grid-template-rows: 51% 24% 25%;grid-template-columns: 14% 56% 30%;}
+.category-seoul section-notif {grid-area: 1 / 3 / 1 / 2;}
+.category-seoul .section-s h1 {grid-area: 1 / 2 / 3 / 3;padding-left: 0px;}
+.category-seoul .section-subfo {grid-area: 3 / 1 / 4 / 4;line-height: 0%;padding: 5px 10px 5px 10px;}
+.category-seoul .section-subfo span {display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;height: 100%;line-height: 50%;}
+.category-seoul section-last-com {grid-area: 2 / 2 / 3 / 4;margin-right: 0px;padding: 0px 15px 0px 0px;line-height: 20px;width: -webkit-fill-available;}
 .category-001 section-last-com a.gensmall {font-family: 'Hind';font-style: inherit;}
-.category-seo a.last-post-icon {display: inline-block;vertical-align: middle;margin-top: -25px;}
-.category-seo strong {margin-top: -5px;}
-.category-seo .section-desc catpic img {filter: contrast(100%) brightness(110%) grayscale(100%);}
-.category-seo .section {grid-template: "section1 section2";column-gap: 10px;row-gap: 10px;}
-.category-seo .section-subfo a.gensmall {color: white;text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);
+.category-seoul a.last-post-icon {display: inline-block;vertical-align: middle;margin-top: -25px;}
+.category-seoul strong {margin-top: -5px;}
+.category-seoul .section-desc catpic img {filter: contrast(100%) brightness(110%) grayscale(100%);}
+.category-seoul .section {grid-template: "section1 section2";column-gap: 10px;row-gap: 10px;}
+.category-seoul .section-subfo a.gensmall {color: white;text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);
     font-size: 11px;margin: 0px 3px 0px 3px;background: none;outline: none;}
 
 /***************AUTRES ELEMENTS CATE**************/
