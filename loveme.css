@@ -357,7 +357,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 /***************LISTE DES SUJETS**************/
 .gunavforums {display: grid;grid-template: "new navbar" / 160px auto;width: 911px;align-content: center;align-items: center;}
 a.gunewtop {outline-offset: 6px;text-transform: uppercase;padding: 7px;outline: 1px solid white;border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, var(--accent4), var(--accent5));
-    margin-right: 13px;font-family: Poppins;color: white;font-weight: 500;}
+    margin-right: 13px;font-family: Poppins;color: white!important;font-weight: 500;}
 
 /***************QEEL*************************/
 
