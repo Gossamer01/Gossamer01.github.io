@@ -120,7 +120,7 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 .mainmenu img {display: none;}
 
 /******************NAVIGATION TREE****************************/
-.navbar {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 910px;border-radius: 5px;}
+.navbar {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;}
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
     border-radius: 9px;  margin: 0px 3px;}
@@ -355,7 +355,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 
 
 /***************LISTE DES SUJETS**************/
-.gunavforums{display:grid;}
+.gunavforums {display: grid;grid-template: "new navbar" / 160px auto;width: 911px;}
 
 
 /***************QEEL*************************/
