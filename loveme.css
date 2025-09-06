@@ -410,6 +410,10 @@ topicrepvues {display: grid;grid-template: "mess vues";grid-area: 4 / 2 / 5 / 3;
 topicreplies, topicvues {display: flex;align-items: center;margin-right: 15px;}
 topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 
+.topiclistgu i.ph:before {font-family: "Phosphor" !important;content: "\e9b2";}
+.note i.ph::before {content: "\ec15";font-family: "Phosphor" !important;}
+.once i.ph:before {content: "\ebec";}
+
 
 /***************QEEL*************************/
 
