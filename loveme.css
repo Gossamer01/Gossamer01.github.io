@@ -120,7 +120,8 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 .mainmenu img {display: none;}
 
 /******************NAVIGATION TREE****************************/
-.navbar {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;}
+.navbar {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;display: grid;
+         justify-content: space-between;grid-template: "navbar pagination";}
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
     border-radius: 9px;  margin: 0px 3px;}
@@ -129,7 +130,8 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 .navbar ht {display: none;}
 
 .navbar2 h1{display: inline-block;vertical-align: middle; font-size: 10px; background: var(--bg2); border-radius: 9px; margin: 0px 3px;padding: 5px 8px;}
-.navbar2 {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;}
+.navbar2 {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;display: grid;
+         justify-content: space-between;grid-template: "navbar pagination";}
 
 .navbar2 ht {display: none;}
   
@@ -364,7 +366,7 @@ a.gunewtop {outline-offset: 6px;text-transform: uppercase;padding: 7px;outline: 
 
 .gunavforums span.gensmall a {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, var(--accent4), var(--accent5));width: 11px;display: inline-block;height: 11px;padding: 7px;
     vertical-align: middle;align-content: center;font-size: 11px;color: white;font-weight: bold;}
-.gunavforums span.gensmall b {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, var(--accent4), var(--accent5));width: 11px;display: inline-block;height: 11px;padding: 7px;
+.gunavforums span.gensmall b {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);width: 11px;display: inline-block;height: 11px;padding: 7px;
     vertical-align: middle;align-content: center;font-size: 11px;color: white;}
 
 /***************QEEL*************************/
