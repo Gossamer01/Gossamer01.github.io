@@ -400,7 +400,7 @@ topicavagu2 img {width: 50px;height: 50px;object-fit: cover;border-radius: 100%;
 lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f;display: grid;align-items: center;align-content: center;justify-content: start;justify-items: start;font-size: 10px;
     text-transform: uppercase;padding-left: 11px;font-family: 'Poppins';}
 
-.postdetails {color: white;grid-area: 3 / 3 / 4 / 4;text-align: right;font-size: 11px;font-family: poppins;text-transform: uppercase;line-height: 110%;font-weight: bold;align-content: center;}
+.postdetails {color: white;grid-area: 3 / 3 / 4 / 4;text-align: right;font-size: 11px;font-family: poppins;text-transform: uppercase;line-height: 110%;font-weight: bold;align-content: center;z-index: 5;}
 
 participategu {grid-area: 2 / 3 / 4 / 4;display: flex;width: 30px;height: 30px;border-radius: 100%;margin-left: -15px;margin-top: 4px;background: linear-gradient(to bottom right, #ffffff1f, #ffffff78);
     border: 1px solid #ffffffab;backdrop-filter: blur(5px);align-content: center;justify-content: center;align-items: center;z-index: 6;}
