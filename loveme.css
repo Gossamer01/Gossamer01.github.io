@@ -370,8 +370,8 @@ a.gunewtop {outline-offset: 6px;text-transform: uppercase;padding: 7px;outline: 
     vertical-align: middle;align-content: center;font-size: 11px;color: white;margin-right: 5px;margin-left: 5px;}
 .gunavforums span.gensmall a img {width: 12px;}
 .topicsguwow {grid-row-gap: 10px;}
-.topiclistgu {height: 95px;overflow: hidden;grid-template-columns: 12% 51% 19% 18%;grid-template-rows: 23% 6% 28% 43%;display: grid;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
-    border-radius: 5px;outline-offset: -6px;outline: 1px solid #ffffff85;padding: 17px;}
+.topiclistgu {height: 95px;overflow: hidden;grid-template-columns: 12% 51% 19% 18%;grid-template-rows: 28% 16% 30% 25%;display: grid;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
+    border-radius: 5px;outline-offset: -6px;outline: 1px solid #ffffff85;}
 
 /***************QEEL*************************/
 
