@@ -383,6 +383,8 @@ topictitlegu img{width: 1px;}
 topictitlegu strong {font-family: poppins;text-transform: uppercase;font-size: 9px;}
 .topiclistgu a.topictitle {font-size: 17px;font-family: poppins;font-weight: bold;letter-spacing: -0.5px;color: white!important;}
 
+.topicdescgu {text-transform: uppercase;font-size: 9px;font-weight: bold;font-family: 'Poppins';opacity: 50%;}
+
 lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f;display: grid;align-items: center;align-content: center;justify-content: start;justify-items: start;font-size: 10px;
     text-transform: uppercase;padding-left: 11px;font-family: 'Poppins';}
 
