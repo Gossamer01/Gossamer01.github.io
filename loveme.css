@@ -402,6 +402,11 @@ lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f
 
 .postdetails {color: white;grid-area: 3 / 3 / 4 / 4;text-align: right;font-size: 11px;font-family: poppins;text-transform: uppercase;line-height: 110%;font-weight: bold;align-content: center;}
 
+participategu {grid-area: 2 / 3 / 4 / 4;display: flex;width: 30px;height: 30px;border-radius: 100%;margin-left: -15px;margin-top: 4px;background: linear-gradient(to bottom right, #ffffff1f, #ffffff78);
+    border: 1px solid #ffffffab;backdrop-filter: blur(5px);align-content: center;justify-content: center;align-items: center;z-index: 6;}
+participategu img {width: 23px;object-fit: cover;border-radius: 100%;filter: grayscale(1) brightness(1) contrast(0.5);mix-blend-mode: darken;}
+
+
 /***************QEEL*************************/
 
 /************QUOTE CODE SPOILER HIDE********/
