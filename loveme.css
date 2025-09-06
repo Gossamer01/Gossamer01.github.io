@@ -385,6 +385,10 @@ topictitlegu strong {font-family: poppins;text-transform: uppercase;font-size: 9
 
 .topicdescgu {text-transform: uppercase;font-size: 9px;font-weight: bold;font-family: 'Poppins';opacity: 50%;}
 
+topicavagu {display: grid;grid-area: 1 / 4 / 5 / 5;justify-items: start;align-content: center;justify-content: start;align-items: center;height: 100%;width: 100%;mix-blend-mode: overlay;
+            filter: grayscale(1) brightness(1) contrast(0.5);}
+topicavagu img {max-width: 100%;object-fit: cover;}
+
 lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f;display: grid;align-items: center;align-content: center;justify-content: start;justify-items: start;font-size: 10px;
     text-transform: uppercase;padding-left: 11px;font-family: 'Poppins';}
 
