@@ -394,7 +394,7 @@ topicavagu2 img {width: 50px;height: 50px;object-fit: cover;border-radius: 100%;
 
 .topicnavpage {grid-area: 2 / 3 / 3 / 4;display: flex;z-index: 5;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: flex-end;align-items: center;color: #ffffff00;}
 .topicnavpage br {display: none;}
-.topicnavpage a {border-radius: 5px;text-align: center;background: #696969c2;width: 10px;display: inline-block;height: 10px;padding: 3px;vertical-align: middle;align-content: center;
+.topicnavpage a {border-radius: 5px;text-align: center;background: #696969c2;width: 11px;display: inline-block;height: 10px;padding: 3px;vertical-align: middle;align-content: center;
     font-size: 8px;color: white !important;font-weight: bold;margin: 2px;}
 
 lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f;display: grid;align-items: center;align-content: center;justify-content: start;justify-items: start;font-size: 10px;
