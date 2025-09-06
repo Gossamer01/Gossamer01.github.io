@@ -379,6 +379,7 @@ topicimgicon img {display: none;}
 topicimgicon.Pas.de.nouveaux.messages {color: white;}
 
 topictitlegu {display: grid;grid-area: 1 / 2 / 4 / 3;justify-items: start;align-content: center;justify-content: start;align-items: center;height: 100%;width: 100%;}
+topictitlegu img{width: 1px;}
 
 /***************QEEL*************************/
 
