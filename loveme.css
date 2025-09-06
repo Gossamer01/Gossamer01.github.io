@@ -380,7 +380,7 @@ topicimgicon.Pas.de.nouveaux.messages {color: white;}
 
 topictitlegu {display: grid;grid-area: 1 / 2 / 4 / 3;justify-items: start;align-content: center;justify-content: start;align-items: center;height: 100%;width: 100%;}
 topictitlegu img{width: 1px;}
-topictitlegu strong {font-family: poppins;text-transform: uppercase;font-size: 9px;}
+topictitlegu strong {font-family: poppins;text-transform: uppercase;font-size: 9px;margin-bottom: -5px;}
 .topiclistgu a.topictitle {font-size: 17px;font-family: poppins;font-weight: 500;letter-spacing: -0.5px;color: white!important;text-transform: lowercase;}
 
 .topicdescgu {text-transform: uppercase;font-size: 9px;font-weight: bold;font-family: 'Poppins';opacity: 50%;}
