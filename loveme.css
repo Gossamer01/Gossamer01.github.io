@@ -370,7 +370,7 @@ a.gunewtop {outline-offset: 6px;text-transform: uppercase;padding: 7px;outline: 
     vertical-align: middle;align-content: center;font-size: 11px;color: white;margin-right: 5px;margin-left: 5px;}
 .gunavforums span.gensmall a img {width: 12px;}
 .topicsguwow {grid-row-gap: 10px;}
-.topiclistgu {height: 95px;overflow: hidden;grid-template-columns: 9% 54% 19% 18%;grid-template-rows: 28% 16% 30% 25%;display: grid;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
+.topiclistgu {height: 95px;overflow: hidden;grid-template-columns: 8% 55% 19% 18%;grid-template-rows: 28% 16% 30% 25%;display: grid;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
     border-radius: 5px;outline-offset: -6px;outline: 1px solid #ffffff85;}
 
 topicimgicon {width: 43px;height: 43px;grid-area: 1 / 1 / 4 / 2;place-items: center;margin-top: 15px;margin-left: 15px;font-size: 23px;color: var(--accent3);z-index: 21;
@@ -380,6 +380,11 @@ topicimgicon.Pas.de.nouveaux.messages {color: white;}
 
 topictitlegu {display: grid;grid-area: 1 / 2 / 4 / 3;justify-items: start;align-content: center;justify-content: start;align-items: center;height: 100%;width: 100%;}
 topictitlegu img{width: 1px;}
+topictitlegu strong {font-family: poppins;text-transform: uppercase;font-size: 9px;}
+.topiclistgu a.topictitle {font-size: 17px;font-family: poppins;font-weight: bold;letter-spacing: -0.5px;color: white;}
+
+lastpostertopic {grid-area: 4 / 1 / 5 / 3;text-align: left;background: #7171711f;display: grid;align-items: center;align-content: center;justify-content: start;justify-items: start;font-size: 10px;
+    text-transform: uppercase;padding-left: 11px;font-family: 'Poppins';}
 
 /***************QEEL*************************/
 
