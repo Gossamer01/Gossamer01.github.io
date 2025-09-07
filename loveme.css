@@ -443,6 +443,11 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .navbar3 ht {display: none;}
 .navbar3 .nav {display: inline-block;vertical-align: middle;background: var(--bg2);border-radius: 9px;margin: 0px 3px;padding: 5px 8px;}
 
+.topicttgu {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: center;padding: 20px;background: #f3f3f380;outline: 1px solid white;width: 884px;border-radius: 5px;display: grid;
+    justify-content: center;align-content: center;align-items: center;justify-items: center;}
+.topicttgu h1 {background: linear-gradient(to bottom right, var(--accent4), var(--accent5));color: transparent;background-clip: text !important;
+    -webkit-background-clip: text !important;-moz-background-clip: text!important;-ms-background-clip: text!important;font-weight: bolder;font-family: 'magnaregular';text-transform: lowercase;font-size: 29px;}
+
 /************CODES DE POST*******************/
 
 
