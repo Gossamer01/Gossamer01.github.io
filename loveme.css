@@ -461,8 +461,9 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;margin-top: -123px;margin-left: 27px;}
 .posteravawrapper img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
 
-.posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 150px;height: 150px;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);margin-top: -790px;
-    margin-left: 774px;display: block;border-radius: 0px 5px 0px 0px;}
+.posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 150px;height: 150px;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
+    margin-top: -347px;margin-left: 774px;display: block;border-radius: 0px 5px 0px 0px;}
+.posteravagif2 {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);}
 .posteravagif img {width: 100%;height: 100%;object-fit: cover;opacity: 0.5;filter: grayscale(1);}
 
 
