@@ -445,8 +445,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 
 .topicttgu {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: center;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);outline: 1px solid white;width: 924px;
             border-radius: 5px;display: block;align-content: center;justify-items: center;}
-.topicttgu h1 {background: linear-gradient(to bottom right, var(--accent4), var(--accent5));color: transparent;background-clip: text !important;-webkit-background-clip: text !important;
-               -moz-background-clip: text!important;-ms-background-clip: text!important;font-family: Elsie;text-transform: lowercase;font-size: 33px;border-bottom: 5px solid white;}
+.topicttgu h1 {text-transform: lowercase;font-size: 26px;color: white;font-family: 'Poppins';}
 .topicttgu h1:nth-child(2){display: none;}
 
 /************CODES DE POST*******************/
