@@ -454,15 +454,15 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
                 align-content: center;font-size: 11px;color: white!important;margin-right: 5px;margin-left: 5px;font-weight: bold;}
 .gupagetopic a img {width: 12px;}
 .gutopicwrapper {width: 942px;display: flex;flex-direction: column;flex-wrap: nowrap;}
-.topicwrapper2 {outline-offset: 6px;margin: 14px 9px;text-align: left;background: #f3f3f380;outline: 1px solid white;width: 924px;border-radius: 5px;display: grid;justify-content: space-between;}
+.topicwrapper2 {outline-offset: 6px;margin: 14px 9px;text-align: left;background: #f3f3f380;outline: 1px solid white;width: 924px;border-radius: 5px;}
 
-.topicwrapper2 .post {width: 924px;}
-.postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 150px;border-radius: 5px 5px 0px 0px;}
-.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;margin-top: -123px;margin-left: 27px;}
+.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 26% 51% 23%;grid-template-rows: 27% 50% 23%;display: grid;}
+.postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100px;border-radius: 5px 5px 0px 0px;grid-area: 1 / 1 / 2 / 4;}
+.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;margin-top: 20px;margin-left: 20px;height: fit-content;grid-area: 1 / 1 / 2 / 4;}
 .posteravawrapper img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
 
-.posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 150px;height: 150px;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
-    margin-top: -347px;margin-left: 774px;display: block;border-radius: 0px 5px 0px 0px;}
+.posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 100%;height: 100%;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
+    display: block;border-radius: 0px 5px 0px 0px;grid-area: 1 / 3 / 2 / 4;}
 .posteravagif2 {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);}
 .posteravagif img {width: 100%;height: 100%;object-fit: cover;opacity: 0.5;filter: grayscale(1);}
 
