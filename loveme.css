@@ -458,6 +458,9 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 
 .topicwrapper2 .post {width: 924px;}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 150px;border-radius: 5px 5px 0px 0px;}
+.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;margin-top: -123px;margin-left: 27px;}
+.posteravawrapper img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
+
 
 /************CODES DE POST*******************/
 
