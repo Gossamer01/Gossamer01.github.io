@@ -456,6 +456,9 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .gutopicwrapper {width: 942px;display: flex;flex-direction: column;flex-wrap: nowrap;}
 .topicwrapper2 {outline-offset: 6px;margin: 14px 9px;text-align: left;background: #f3f3f380;outline: 1px solid white;width: 924px;border-radius: 5px;display: grid;justify-content: space-between;}
 
+.topicwrapper2 .post {width: 924px;}
+.postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 150px;border-radius: 5px 5px 0px 0px;}
+
 /************CODES DE POST*******************/
 
 
