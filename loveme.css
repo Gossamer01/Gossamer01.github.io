@@ -447,6 +447,12 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
             border-radius: 5px;display: block;align-content: center;justify-items: center;backdrop-filter: blur(5px);}
 .topicttgu h1 {text-transform: lowercase;font-size: 26px;color: white;font-family: 'Poppins';}
 
+.gupagetopic b {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, #a09bab38, #a09bab82);width: 11px;display: inline-block;height: 11px;padding: 7px;vertical-align: middle;
+                align-content: center;font-size: 11px;color: white;margin-right: 5px;margin-left: 5px;}
+.gupagetopic a {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, #a09bab94, #a09babbd);width: 11px;display: inline-block;height: 11px;padding: 7px;vertical-align: middle;
+                align-content: center;font-size: 11px;color: white;margin-right: 5px;margin-left: 5px;font-weight: bold;}
+.gupagetopic a img {width: 12px;}
+
 /************CODES DE POST*******************/
 
 
