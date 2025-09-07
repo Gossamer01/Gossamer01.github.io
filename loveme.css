@@ -447,6 +447,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
     align-content: center;justify-items: center;}
 .topicttgu h1 {background: linear-gradient(to bottom right, var(--accent4), var(--accent5));color: transparent;background-clip: text !important;-webkit-background-clip: text !important;
                -moz-background-clip: text!important;-ms-background-clip: text!important;font-family: Elsie;text-transform: lowercase;font-size: 33px;border-bottom: 5px solid white;}
+.topicttgu h1:nth-child(2){display: none;}
 
 /************CODES DE POST*******************/
 
