@@ -456,9 +456,9 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .gutopicwrapper {width: 942px;display: flex;flex-direction: column;flex-wrap: nowrap;}
 .topicwrapper2 {outline-offset: 6px;margin: 14px 9px;text-align: left;background: #f3f3f380;outline: 1px solid white;width: 924px;border-radius: 5px;}
 
-.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 26% 51% 23%;grid-template-rows: 27% 50% 23%;display: grid;}
+.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 26% 51% 23%;grid-template-rows: 150px auto auto;display: grid;}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100px;border-radius: 5px 5px 0px 0px;grid-area: 1 / 1 / 2 / 4;}
-.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;margin-top: 20px;margin-left: 20px;height: fit-content;grid-area: 1 / 1 / 2 / 4;}
+.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;height: fit-content;grid-area: 1 / 1 / 4 / 2;margin: 20px;}
 .posteravawrapper img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
 
 .posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 100%;height: 100%;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
