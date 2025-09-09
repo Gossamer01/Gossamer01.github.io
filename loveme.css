@@ -465,7 +465,12 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
     display: block;border-radius: 0px 5px 0px 0px;grid-area: 1 / 3 / 2 / 4;}
 .posteravagif2 {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);}
 .posteravagif img {width: 100%;height: 100%;object-fit: cover;opacity: 0.5;filter: grayscale(1);}
-
+.posteravawrapper:hover img {filter: grayscale(100%) brightness(100%) blur(1px) contrast(150%);}
+.posteravawrapper::before {content: "";height: 350px;width: 350px;position: absolute;top: -90px;left: 0px;background: rgb(130, 148, 109);
+    background: radial-gradient(circle, rgba(var(--accent), 1) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);z-index: -1;opacity: 0.6;}
+.posteravawrapper::after {content: "";height: 300px;width: 300px;position: absolute;bottom: -160px;left: -40px;background: rgb(130, 148, 109);
+    background: radial-gradient(circle, rgba(var(--accent), 1) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);z-index: -1;opacity: 0.6;}
+.posteravawrapper:hover .posteravainfos {opacity: 1;}
 
 /************CODES DE POST*******************/
 
