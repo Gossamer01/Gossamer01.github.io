@@ -473,6 +473,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .posteravawrapper:hover .posteravainfos {opacity: 1;-webkit-transition: 0.7s 0s;}
 .posteravainfos {position: absolute;background: #a09bab82;top: 20px;left: 20px;border-radius: 5px;z-index: 10;width: 200px;height: 320px;overflow: hidden;transition: 0.7s 0s;
     -webkit-transition: 0.7s 0s;opacity: 0;}
+.posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: flex-start;align-items: center;}
 
 /************CODES DE POST*******************/
 
