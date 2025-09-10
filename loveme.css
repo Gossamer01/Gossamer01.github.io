@@ -33,7 +33,7 @@ a.permalink{background: var(--greybg);border: 1px solid #151515b3;padding: 4px 6
 
 
 /******************SIDEBAR****************************/
-.sidebar {position: fixed;display: flex;left: 0;margin: 10px;z-index: 0;width: 65px;height: auto;justify-content: flex-start;background: #f3f3f380;backdrop-filter: blur(5px);border-radius: 10px;
+.sidebar {position: fixed;display: flex;left: 0;margin: 10px;z-index: 14;width: 65px;height: auto;justify-content: flex-start;background: #f3f3f380;backdrop-filter: blur(5px);border-radius: 10px;
     flex-direction: column;align-content: center;flex-wrap: nowrap;align-items: center;}
 .sidebarlinks {position: sticky;top: 75px;display: flex;flex-direction: column;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 up-b {width: 50%;font-size: 20px;height: 30px;text-align: center;display: inline-block;}
