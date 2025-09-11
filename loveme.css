@@ -479,6 +479,13 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .posterdatehere {color: #757575;font-family: poppins;font-weight: bold;font-size: 10px;height: 40px;letter-spacing: 1px;padding: 0 8px 0 15px;text-align: left;
     text-shadow: -1px -1px 0 #ffffff87, 1px -1px 0 #ffffff87, -1px 1px 0 #ffffff87, 1px 1px 0 #ffffff87;text-transform: uppercase;grid-area: 2 / 2 / 3 / 4;
     border-top: 1px solid white;border-bottom: 1px solid white;display: inline-flex;align-items: center;justify-content: space-between;}
+
+thebuttonsthere a[href$="mode=quote"]:before {content: 'Citer'; padding: 4px 6px;font-weight: bold;}
+thebuttonsthere a[href$="mode=delete"]:before  {content: 'Supprimer'; padding: 4px 6px;font-weight: bold;}
+thebuttonsthere a[href$="mode=editpost"]:before  {content: 'Editer'; padding: 4px 6px;font-weight: bold;}
+thebuttonsthere a[href^="/modcp?mode=ip"]:before {content: 'IP'; padding: 4px 6px;font-weight: bold;}
+thebuttonsthere img{display:none;}
+
 /************CODES DE POST*******************/
 
 
