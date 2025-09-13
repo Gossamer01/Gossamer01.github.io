@@ -491,7 +491,7 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 
 .image-fond {grid-area: 1 / 1 / 2 / 2;border-radius: 5px 0px 0px 0px;background-color: #595461;width: 100%;height: 100%;overflow: hidden;}
 .image-fond span {display: none;}
-.image-fond img {border-radius: 5px 0px 0px 0px;width: 100%;height: 100%;object-fit: cover;filter: contrast(130%) brightness(60%) grayscale(100%) brightness(100%);opacity: 30%;}
+.image-fond img {border-radius: 5px 0px 0px 0px;width: 100%;height: 100%;object-fit: cover;filter: contrast(130%) brightness(60%) grayscale(100%) brightness(100%);opacity: 30%;margin-top: -18px;}
 
 /******************SHOP****************************/
 
