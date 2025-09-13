@@ -494,6 +494,8 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 .image-fond .field_uneditable img {border-radius: 5px 0px 0px 0px;width: 100%;height: 100%;object-fit: cover;filter: contrast(130%) brightness(60%) grayscale(100%) brightness(100%);opacity: 30%;margin-top: -18px;
                                    mix-blend-mode: overlay;}
 .image-fond .ajax-profil_edit {left: 2px;top: 7px;}
+input#profile_field_6_10_alternative, input#profile_field_6_10_content {width: 200px !important;border-radius: 5px;padding: 4px;outline: 1px solid white;outline-offset: 3px;margin-right: 7px;}
+.image-fond .field_editable {width: 245px;padding-left: 25px;}
 
 /******************SHOP****************************/
 
