@@ -489,13 +489,17 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto;grid-template-rows: 100px 201px 100px 80px auto;padding: 0px;width: 930px;row-gap: 0px;}
 
-.image-fond {grid-area: 1 / 1 / 6 / 2;border-radius: 5px 0px 0px 0px;background-color: #595461;width: 100%;height: 100%;overflow: hidden;color: transparent;}
+.image-fond {grid-area: 1 / 1 / 5 / 2;border-radius: 5px 0px 0px 0px;background-color: #595461;width: 100%;height: 100%;overflow: hidden;color: transparent;}
 .image-fond span {display: none;}
 .image-fond .field_uneditable img {border-radius: 5px 0px 0px 0px;width: 100%;height: 100%;object-fit: cover;filter: contrast(130%) brightness(60%) grayscale(100%) brightness(100%);opacity: 30%;margin-top: -18px;
                                    mix-blend-mode: overlay;}
 .image-fond .ajax-profil_edit {left: 2px;top: 7px;}
 input#profile_field_6_10_alternative, input#profile_field_6_10_content {width: 200px !important;border-radius: 5px;padding: 4px;outline: 1px solid white;outline-offset: 3px;margin-right: 7px;}
 .image-fond .field_editable {width: 245px;padding-left: 25px;}
+
+usernameprofile {grid-area: 3 / 1 / 4 / 2;display: flex;z-index: 23;align-items: center;justify-content: flex-end;margin-right: 20px;color: #ffffff !important;font-family: 'Playfair Display';
+    line-height: 100%;font-size: 25px;}
+usernameprofile span {color: inherit !important;}
 
 /******************SHOP****************************/
 
