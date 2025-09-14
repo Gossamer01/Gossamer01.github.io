@@ -515,6 +515,7 @@ contactprofile div#field_id-23 a:before {content: "\ec78";font-family: "Phosphor
 div#field_id {display: none;}
 div#field_id23 .ajax-profil_edit, div#field_id22 .ajax-profil_edit, div#field_id21 .ajax-profil_edit, div#field_id-10 .ajax-profil_edit, div#field_id-23 .ajax-profil_edit {cursor: pointer;position: relative;top: 0;left: 3px;}
 
+leftcolumnprofile {grid-area: 1 / 1 / 5 / 2;}
 leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats {
     display: none;
 }
