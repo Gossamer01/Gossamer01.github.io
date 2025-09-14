@@ -542,6 +542,8 @@ botleftcolumnprofile div#field_id-4 .field_uneditable:before {content: 'inscript
 botleftcolumnprofile div#field_id-4 .field_uneditable {border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;color: #717171;width: 257px;font-size: 12px;text-transform: uppercase;
 font-weight: bold;height: 25px;padding: 3px;display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;margin-top: 10px;margin-left: 3px;margin-bottom: 15px;}
 
+rightcolumnprofile {grid-area: 1 / 2 / 5 / 3;overflow: hidden;}
+
 /******************SHOP****************************/
 
 
