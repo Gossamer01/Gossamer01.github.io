@@ -493,9 +493,9 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 .image-fond span {display: none;}
 .image-fond .field_uneditable img {border-radius: 5px 0px 0px 0px;width: 100%;height: 100%;object-fit: cover;filter: contrast(100%) brightness(110%) grayscale(100%);
     opacity: 50%;margin-top: -18px;mix-blend-mode: overlay;}
-.image-fond .ajax-profil_edit {left: 2px;top: 7px;}
+.image-fond .ajax-profil_edit {left: 24px;top: 475px;}
 input#profile_field_6_10_alternative, input#profile_field_6_10_content {width: 200px !important;border-radius: 5px;padding: 4px;outline: 1px solid white;outline-offset: 3px;margin-right: 7px;}
-.image-fond .field_editable {width: 245px;padding-left: 25px;}
+.image-fond .field_editable {width: 245px;padding-left: 25px;margin-top: 340px;}
 
 usernameprofile {grid-area: 2 / 1 / 3 / 2;display: flex;z-index: 23;align-items: center;color: #ffffff !important;font-family: poppins;line-height: 100%;font-size: 12px;
     text-transform: uppercase;justify-content: center;letter-spacing: 2px;}
