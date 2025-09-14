@@ -516,9 +516,10 @@ div#field_id {display: none;}
 div#field_id23 .ajax-profil_edit, div#field_id22 .ajax-profil_edit, div#field_id21 .ajax-profil_edit, div#field_id-10 .ajax-profil_edit, div#field_id-23 .ajax-profil_edit {cursor: pointer;position: relative;top: 0;left: 3px;}
 
 leftcolumnprofile {grid-area: 1 / 1 / 5 / 2;}
-leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats {
-    display: none;
-}
+leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, 
+leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, 
+leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, 
+leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats {display: none;}
 
 profilsinfoshere {grid-area: 1 / 2 / 5 / 3;}
 
@@ -531,8 +532,11 @@ botleftcolumnprofile div#field_id8, botleftcolumnprofile div#field_id7, botleftc
 botleftcolumnprofile div#field_id6, botleftcolumnprofile div#field_id11, botleftcolumnprofile div#field_id12, botleftcolumnprofile div#field_id13, botleftcolumnprofile div#field_id14, 
 botleftcolumnprofile div#field_id15, botleftcolumnprofile div#field_id16, botleftcolumnprofile div#field_id17, botleftcolumnprofile div#field_id18, botleftcolumnprofile div#field_id19, 
 botleftcolumnprofile div#field_id20 {display: none;}
-botleftcolumnprofile div#field_id-6 {display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: center;}
+botleftcolumnprofile div#field_id-6 {display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;column-gap: 15px;margin-top: 10px;grid-template-columns: 20px;
+    align-content: center;justify-items: center;}
 botleftcolumnprofile div#field_id-6 .field_uneditable:after {content: 'messages';font-family: poppins;}
+botleftcolumnprofile div#field_id-6 a.genmed {font-size: 25px;width: 25px;height: 25px;display: flex;padding: 3px;justify-content: center;align-items: center;border-radius: 5px;background: #f3f3f380;
+    outline: 1px solid white;outline-offset: 3px;color: #717171;}
 
 /******************SHOP****************************/
 
