@@ -507,7 +507,7 @@ avaprofile img {width: 100px;height: 100px;object-fit: cover;margin-bottom: -100
 bckgrndprofile {grid-area: 1 / 1 / 2 / 2;background: linear-gradient(to bottom right, #f3de9582, #8cafcd82);display: block;z-index: 19;border-radius: 5px 5px 0px 0px;}
 
 contactprofile {grid-area: 4 / 1 / 5 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;z-index: 30;}
-contactprofile div#field_id23:before{content: "\ed1b"; font-family: "Phosphor" !important;}
+contactprofile div#field_id23 a:before{content: "\ed1b"; font-family: "Phosphor" !important;}
 
 /******************SHOP****************************/
 
