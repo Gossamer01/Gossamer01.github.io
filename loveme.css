@@ -502,7 +502,7 @@ usernameprofile {grid-area: 3 / 1 / 4 / 2;display: flex;z-index: 23;align-items:
 usernameprofile span {color: inherit !important;}
 
 avaprofile {grid-area: 1 / 1 / 2 / 2;display: flex;z-index: 20;justify-content: center;align-items: center;}
-avaprofile img {width: 70px;height: 70px;object-fit: cover;margin-bottom: -100px;border-radius: 100%;}
+avaprofile img {width: 100px;height: 100px;object-fit: cover;margin-bottom: -100px;border-radius: 100%;outline: 1px solid white;outline-offset: 9px;}
 
 /******************SHOP****************************/
 
