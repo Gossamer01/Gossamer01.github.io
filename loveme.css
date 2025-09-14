@@ -501,6 +501,8 @@ usernameprofile {grid-area: 3 / 1 / 4 / 2;display: flex;z-index: 23;align-items:
     line-height: 100%;font-size: 25px;}
 usernameprofile span {color: inherit !important;}
 
+avaprofile img {width: 70px;height: 70px;object-fit: cover;margin-bottom: -100px;border-radius: 100%;}
+
 /******************SHOP****************************/
 
 
