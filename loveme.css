@@ -487,7 +487,7 @@ thebuttonsthere img{display:none;}
 thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-gap: 15px;}
 
 /************PROFILE*******************/
-.profilgu {grid-template-columns: 270px auto;grid-template-rows: 100px 201px 100px 80px 100px auto;padding: 20px;width: 930px;row-gap: 0px;}
+.profilgu {grid-template-columns: 270px auto;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 930px;row-gap: 0px;}
 
 .image-fond {grid-area: 1 / 1 / 5 / 2;border-radius: 5px;background-color: #c1bec77a;width: 100%;height: 100%;overflow: hidden;color: transparent;}
 .image-fond span {display: none;}
@@ -542,7 +542,12 @@ botleftcolumnprofile div#field_id-4 .field_uneditable:before {content: 'inscript
 botleftcolumnprofile div#field_id-4 .field_uneditable {border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;color: #717171;width: 257px;font-size: 12px;text-transform: uppercase;
 font-weight: bold;height: 25px;padding: 3px;display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;margin-top: 10px;margin-left: 3px;margin-bottom: 15px;}
 
+awardsprofile {grid-area: 5 / 2 / 6 / 3;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;color: #717171;width: auto;padding: 3px;display: flex;
+    flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: flex-start;margin-top: 10px;margin-left: 10px;}
+
 rightcolumnprofile {grid-area: 1 / 2 / 5 / 3;overflow: hidden;}
+
+
 
 /******************SHOP****************************/
 
