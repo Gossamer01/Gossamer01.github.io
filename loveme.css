@@ -527,11 +527,10 @@ adminprofile {grid-area: 1 / 1 / 1 / 1;margin-left: -110px;width: 100px;text-ali
 adminprofile a {background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;backdrop-filter: blur(5px);border-radius: 10px;padding: 16px;font-family: poppins;text-transform: uppercase;font-size: 10px;font-weight: bold;}
 
 botleftcolumnprofile {grid-area: 5 / 1 / 6 / 2;display: block;}
-botleftcolumnprofile div#field_id1, botleftcolumnprofile div#field_id3, botleftcolumnprofile div#field_id10, botleftcolumnprofile div#field_id4, 
-botleftcolumnprofile div#field_id8, botleftcolumnprofile div#field_id7, botleftcolumnprofile div#field_id9, botleftcolumnprofile div#field_id5, botleftcolumnprofile div#field_id-4, 
-botleftcolumnprofile div#field_id6, botleftcolumnprofile div#field_id11, botleftcolumnprofile div#field_id12, botleftcolumnprofile div#field_id13, botleftcolumnprofile div#field_id14, 
-botleftcolumnprofile div#field_id15, botleftcolumnprofile div#field_id16, botleftcolumnprofile div#field_id17, botleftcolumnprofile div#field_id18, botleftcolumnprofile div#field_id19, 
-botleftcolumnprofile div#field_id20 {display: none;}
+botleftcolumnprofile div#field_id1, botleftcolumnprofile div#field_id3, botleftcolumnprofile div#field_id10, botleftcolumnprofile div#field_id8, botleftcolumnprofile div#field_id7, botleftcolumnprofile div#field_id9, 
+botleftcolumnprofile div#field_id5, botleftcolumnprofile div#field_id4, botleftcolumnprofile div#field_id6, botleftcolumnprofile div#field_id11, botleftcolumnprofile div#field_id12, 
+botleftcolumnprofile div#field_id13, botleftcolumnprofile div#field_id14, botleftcolumnprofile div#field_id15, botleftcolumnprofile div#field_id16, botleftcolumnprofile div#field_id17, 
+botleftcolumnprofile div#field_id18, botleftcolumnprofile div#field_id19, botleftcolumnprofile div#field_id20 {display: none;}
 botleftcolumnprofile div#field_id-6 {display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;column-gap: 15px;margin-top: 10px;grid-template-columns: 20px;
     align-content: center;justify-items: center;}
 botleftcolumnprofile div#field_id-6 .field_uneditable:after {content: ' messages';font-family: poppins;}
