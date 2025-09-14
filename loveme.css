@@ -518,6 +518,8 @@ div#field_id23 .ajax-profil_edit, div#field_id22 .ajax-profil_edit, div#field_id
 leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats {
     display: none;
 }
+
+profilsinfoshere {grid-area: 1 / 2 / 5 / 3;}
 /******************SHOP****************************/
 
 
