@@ -549,7 +549,7 @@ awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380
 .tabs button.tab {height: 50%;margin: 10px 8px 10px 8px;background: #f3f3f380;border: 0;border-radius: 5px;outline: 1px solid white;outline-offset: 6px;color: #ffffff;font-size: 27px;}
 .tabs button.is-active {background: linear-gradient(to bottom right, #f3de9582, #8cafcd82)!important;}
 .tablist {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;height: 100%;overflow: hidden;margin-right: -4px;}
-.panels {overflow: hidden;}
+.panels {overflow: hidden;width: 570px;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;margin-left: 10px;margin-top: 4px;margin-bottom: 7px;padding: 10px;}
 
 /******************SHOP****************************/
 
