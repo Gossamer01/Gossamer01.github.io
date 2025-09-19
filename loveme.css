@@ -545,13 +545,6 @@ font-weight: bold;height: 25px;padding: 3px;display: flex;flex-direction: row;fl
 awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;color: #717171;width: auto;padding: 3px;display: flex;
     flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: flex-start;margin-top: 10px;margin-left: 10px;}
 
-rightcolumnprofile {grid-area: 2 / 2 / 5 / 4;overflow: hidden;}
-rightcolumnprofile div#field_id1 {position: absolute;margin-top: -90px;margin-left: 15px;}
-rightcolumnprofile div#field_id1 img {width: 90px;height: 81px;object-fit: cover;outline-offset: 7px;border-radius: 7px;filter: grayscale(1) brightness(1) contrast(0.5);mix-blend-mode: darken;}
-columnprofile {grid-area: 1 / 2 / 2 / 3;margin: 5px 0px 5px 10px;padding: 5px;display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;align-items: center;justify-content: flex-start;
-    border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
-
-
 /******************SHOP****************************/
 
 
