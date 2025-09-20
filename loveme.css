@@ -555,8 +555,6 @@ topcharaprofile {height: 100px;display: grid;border-bottom: 1px solid var(--bg1)
     grid-template-columns: 30% 30% 30%;padding-bottom: 10px;}
 famechartprofile {width: 100%;height: 100%;}
 smallimageguprofile {border-radius: 5px;object-fit: cover;padding: 9px;border: 1px solid white;height: 67px;}
-charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150px;height: 75px;border-radius: 5px;object-fit: cover;margin-top: -103px;margin-left: 372px;padding: 5px;
-    filter: contrast(100%) brightness(120%) grayscale(100%);mix-blend-mode: overlay;}
 charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150px;height: 75px;border-radius: 5px;object-fit: cover;margin-top: -113px;margin-left: 372px;
     padding: 5px;filter: contrast(100%) brightness(120%) grayscale(100%);mix-blend-mode: overlay;}
 charaprofile div#field_id10 {display: none;}
