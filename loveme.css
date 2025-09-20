@@ -620,6 +620,10 @@ charainfoprofile div#field_id6 .field_editable .post, charainfoprofile div#field
 charainfoprofile div#field_id14 .ajax-profil_edit, charainfoprofile div#field_id15 .ajax-profil_edit, charainfoprofile div#field_id16 .ajax-profil_edit, charainfoprofile div#field_id17 .ajax-profil_edit, 
 charainfoprofile div#field_id18 .ajax-profil_edit, charainfoprofile div#field_id19 .ajax-profil_edit, charainfoprofile div#field_id20 .ajax-profil_edit {position: relative;top: 0;left: 0px;}
 
+charainfoprofile div#field_id14 input, charainfoprofile div#field_id15 input, charainfoprofile div#field_id16 input, charainfoprofile div#field_id17 input, charainfoprofile div#field_id18 input, 
+charainfoprofile div#field_id19 input, charainfoprofile div#field_id20 input {width: 50px !important;border-radius: 5px;}
+
+
 /******************SHOP****************************/
 
 
