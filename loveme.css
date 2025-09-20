@@ -574,7 +574,7 @@ charainfoprofile div#field_id9 .field_uneditable:before, charainfoprofile div#fi
 grid-area: 1 / 1 / 2 / 2;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
 charainfoprofile div#field_id4 .field_uneditable:after, charainfoprofile div#field_id8 .field_uneditable:after, charainfoprofile div#field_id7 .field_uneditable:after, 
 charainfoprofile div#field_id9 .field_uneditable:after, charainfoprofile div#field_id6 .field_uneditable:after, charainfoprofile div#field_id5 .field_uneditable:after {font-family: "Phosphor" !important;
-font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;justify-content: center;}
+font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;justify-content: center;margin-bottom: 5px;}
 
 charainfoprofile div#field_id4 .field_uneditable, charainfoprofile div#field_id8 .field_uneditable, charainfoprofile div#field_id7 .field_uneditable, charainfoprofile div#field_id9 .field_uneditable, 
 charainfoprofile div#field_id6 .field_uneditable, charainfoprofile div#field_id5 .field_uneditable {grid-template-columns: 82% auto;grid-template-rows: 36% auto;display: grid;height: 89%;width: 100%;
