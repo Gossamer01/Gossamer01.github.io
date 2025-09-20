@@ -553,6 +553,7 @@ awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380
 
 topcharaprofile {height: 100px;display: grid;border-bottom: 1px solid var(--bg1);margin-bottom: 10px;column-gap: 20px;align-content: center;justify-content: center;align-items: center;
     grid-template-columns: 30% 30% 30%;padding-bottom: 10px;}
+rankguprofile {text-align: center;}
 famechartprofile {width: 100%;height: 100%;}
 smallimageguprofile {border-radius: 5px;object-fit: cover;padding: 9px;border: 1px solid white;height: 67px;}
 charainfoprofile div#field_id1 {position: absolute;top: 0;left: 0;margin-left: 682px;margin-top: 42px;}
@@ -560,8 +561,14 @@ charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150p
     padding: 5px;filter: contrast(100%) brightness(120%) grayscale(100%);mix-blend-mode: overlay;}
 charaprofile div#field_id10 {display: none;}
 
-charainfoprofile {display: grid;column-gap: 20px;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;grid-template-columns: 30% 30% 30%;row-gap: 20px;}
+charainfoprofile {display: grid;column-gap: 20px;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;grid-template-columns: 30% 30% 30%;row-gap: 20px;height: 330px;}
 charainfoprofile div#field_id-4, charainfoprofile div#field_id-6, charainfoprofile div#field_id11, charainfoprofile div#field_id12, charainfoprofile div#field_id13 {display: none;}
+charainfoprofile div#field_id4, charainfoprofile div#field_id8, charainfoprofile div#field_id7, charainfoprofile div#field_id9, charainfoprofile div#field_id6, charainfoprofile div#field_id5 {display: grid;
+    height: 50px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 5px 5px 5px 15px;width: 235px;border-radius: 5px;justify-content: space-between;outline-offset: 5px;
+    outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;font-size: 11px;line-height: 100%;grid-template-columns: 80%;grid-template-rows: 35% auto;}
+charainfoprofile div#field_id14, charainfoprofile div#field_id15, charainfoprofile div#field_id16, charainfoprofile div#field_id17, charainfoprofile div#field_id18, charainfoprofile div#field_id19, 
+charainfoprofile div#field_id20 {display: flex;height: 16px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 8px 8px 8px;width: 70px;border-radius: 5px;justify-content: center;
+    outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;text-align: center;}
 
 /******************SHOP****************************/
 
