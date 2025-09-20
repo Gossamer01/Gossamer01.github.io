@@ -657,6 +657,14 @@ playerprofile div#field_id13 {
     padding: 5px 10px 5px 10px;
 }
 
+playerprofile div#field_id2 {display: inline-block;height: 100%;background: #ffffffdb;border-radius: 5px;outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;
+    font-size: 11px;width: 80%;padding: 5px 10px 5px 10px;grid-area: 2 / 1 / 3 / 2;}
+playerprofile div#field_id2 .field_uneditable {grid-template-columns: 89% auto;grid-template-rows: 36% auto;display: grid;height: 89%;width: 100%;align-items: center;justify-content: center;margin-top: 5px;
+    font-size: 11px;line-height: 13px;}
+playerprofile div#field_id2 .field_uneditable:before {content: 'trigger warnings :';font-family: poppins;grid-area: 1 / 1 / 2 / 2;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+playerprofile div#field_id2 .field_uneditable:after {content: "\ecc6";font-family: "Phosphor" !important;font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;
+justify-content: center;margin-bottom: 5px;}
+
 /******************SHOP****************************/
 
 
