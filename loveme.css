@@ -570,8 +570,8 @@ charainfoprofile div#field_id-4, charainfoprofile div#field_id-6, charainfoprofi
 charainfoprofile div#field_id4, charainfoprofile div#field_id8, charainfoprofile div#field_id7, charainfoprofile div#field_id9, charainfoprofile div#field_id6, charainfoprofile div#field_id5 {display: inline-block;
     height: 50px;background: #ffffffdb;border-radius: 5px;outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;font-size: 11px;width: 235px;padding: 5px 10px 5px 10px;}
 charainfoprofile div#field_id14, charainfoprofile div#field_id15, charainfoprofile div#field_id16, charainfoprofile div#field_id17, charainfoprofile div#field_id18, charainfoprofile div#field_id19, 
-charainfoprofile div#field_id20 {display: flex;height: 16px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 8px 8px 8px;width: 70px;border-radius: 5px;justify-content: center;
-    outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;text-align: center;}
+charainfoprofile div#field_id20 {display: flex;height: 16px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 8px 8px 8px;width: 42px;border-radius: 5px;justify-content: center;
+    outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;text-align: center;font-size: 11px;font-weight: bold;}
 
 charainfoprofile div#field_id4 .field_uneditable:before, charainfoprofile div#field_id8 .field_uneditable:before, charainfoprofile div#field_id7 .field_uneditable:before, 
 charainfoprofile div#field_id9 .field_uneditable:before, charainfoprofile div#field_id6 .field_uneditable:before, charainfoprofile div#field_id5 .field_uneditable:before {font-family: poppins;
@@ -581,8 +581,9 @@ charainfoprofile div#field_id9 .field_uneditable:after, charainfoprofile div#fie
 font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;justify-content: center;margin-bottom: 5px;}
 
 charainfoprofile div#field_id-13 {position: absolute;top: 0;left: 0;width: 162px;height: 46px;margin-left: 500px;margin-top: 90px;display: flex;flex-direction: row;flex-wrap: nowrap;
-    align-content: center;justify-content: center;align-items: center;}
-charainfoprofile div#field_id-13 .field_uneditable:after {content: 'points';}
+    align-content: center;justify-content: center;align-items: center;font-family: 'Poppins';font-size: 12px;}
+charainfoprofile div#field_id-13 .field_uneditable:after {content: 'points';margin-left: 5px;margin-right: -5px;font-weight: normal;}
+charainfoprofile div#field_id-13 .field_uneditable {font-weight: bold;}
 
 charainfoprofile div#field_id4 .field_uneditable, charainfoprofile div#field_id8 .field_uneditable, charainfoprofile div#field_id7 .field_uneditable, charainfoprofile div#field_id9 .field_uneditable, 
 charainfoprofile div#field_id6 .field_uneditable, charainfoprofile div#field_id5 .field_uneditable {grid-template-columns: 89% auto;grid-template-rows: 36% auto;display: grid;height: 89%;width: 100%;
@@ -615,6 +616,9 @@ charainfoprofile div#field_id4 .field_editable, charainfoprofile div#field_id8 .
 charainfoprofile div#field_id6 .field_editable, charainfoprofile div#field_id5 .field_editable{margin-top: -50px;}
 charainfoprofile div#field_id4 .field_editable .post, charainfoprofile div#field_id8 .field_editable .post, charainfoprofile div#field_id7 .field_editable .post, charainfoprofile div#field_id9 .field_editable .post,
 charainfoprofile div#field_id6 .field_editable .post, charainfoprofile div#field_id5 .field_editable .post{width: 218px !important;display: inline-block;border-radius: 5px;height: 50px;}
+
+charainfoprofile div#field_id14 .ajax-profil_edit, charainfoprofile div#field_id15 .ajax-profil_edit, charainfoprofile div#field_id16 .ajax-profil_edit, charainfoprofile div#field_id17 .ajax-profil_edit, 
+charainfoprofile div#field_id18 .ajax-profil_edit, charainfoprofile div#field_id19 .ajax-profil_edit, charainfoprofile div#field_id20 .ajax-profil_edit {position: relative;top: 0;left: 0px;}
 
 /******************SHOP****************************/
 
