@@ -626,8 +626,8 @@ charainfoprofile div#field_id19 input, charainfoprofile div#field_id20 input {wi
 
 famestats {display: flex;justify-content: center;align-items: center;grid-area: 4 / 1 / 5 / 3;column-gap: 21px;justify-items: center;margin-top: -20px;}
 
-somethingiwantgu {display: flex;width: 100%;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;font-family: 'magnaregular';font-size: 53px;}
-totalgu:after {content: 'k';}
+somethingiwantgu {display: flex;width: 100%;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;font-family: Felgine_Regular;font-size: 47px;height: 100%;}
+totalgu:after {content: 'k';margin-left: 10px;margin-right: -10px;}
 
 /******************SHOP****************************/
 
