@@ -598,6 +598,8 @@ charainfoprofile div#field_id6 .field_uneditable:after {content: "\e9dd";}
 charainfoprofile div#field_id5 .field_uneditable:before {content: 'content warnings :';}
 charainfoprofile div#field_id5 .field_uneditable:after {content: "\ecc6";}
 
+div#field_id1 .ajax-profil_edit {left: 5px;top: 8px;}
+
 /******************SHOP****************************/
 
 
