@@ -600,11 +600,13 @@ charainfoprofile div#field_id5 .field_uneditable:after {content: "\ecc6";}
 
 div#field_id1 .ajax-profil_edit {left: 5px;top: 8px;}
 
-div#field_id4 .ajax-profil_edit, div#field_id8 .ajax-profil_edit, div#field_id7 .ajax-profil_edit, div#field_id9 .ajax-profil_edit, div#field_id5 .ajax-profil_edit, 
+div#field_id4 .ajax-profil_edit, div#field_id8 .ajax-profil_edit, div#field_id7 .ajax-profil_edit, div#field_id9 .ajax-profil_edit, div#field_id6 .ajax-profil_edit, 
 div#field_id5 .ajax-profil_edit {position: relative;top: -60px;}
 
-charainfoprofile div#field_id7 .field_editable {margin-top: -50px;}
-charainfoprofile div#field_id7 .field_editable .post {width: 218px !important;display: inline-block;border-radius: 5px;}
+charainfoprofile div#field_id4 .field_editable, charainfoprofile div#field_id8 .field_editable, charainfoprofile div#field_id7 .field_editable, charainfoprofile div#field_id9 .field_editable,
+charainfoprofile div#field_id6 .field_editable, charainfoprofile div#field_id5 .field_editable{margin-top: -50px;}
+charainfoprofile div#field_id4 .field_editable .post, charainfoprofile div#field_id8 .field_editable .post, charainfoprofile div#field_id7 .field_editable .post, charainfoprofile div#field_id9 .field_editable .post,
+charainfoprofile div#field_id6 .field_editable .post, charainfoprofile div#field_id5 .field_editable .post{width: 218px !important;display: inline-block;border-radius: 5px;}
 
 /******************SHOP****************************/
 
