@@ -570,6 +570,9 @@ charainfoprofile div#field_id14, charainfoprofile div#field_id15, charainfoprofi
 charainfoprofile div#field_id20 {display: flex;height: 16px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 8px 8px 8px;width: 70px;border-radius: 5px;justify-content: center;
     outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;text-align: center;}
 
+charainfoprofile div#field_id4 .field_uneditable:before {content: 'messages';font-family: poppins;}
+charainfoprofile div#field_id4 .field_uneditable:after {content: "\ec78";font-family: "Phosphor" !important;font-size: 25px;color: white;}
+
 /******************SHOP****************************/
 
 
