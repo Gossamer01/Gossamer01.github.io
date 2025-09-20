@@ -563,15 +563,25 @@ charaprofile div#field_id10 {display: none;}
 
 charainfoprofile {display: flex;column-gap: 20px;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;row-gap: 20px;height: 330px;}
 charainfoprofile div#field_id-4, charainfoprofile div#field_id-6, charainfoprofile div#field_id11, charainfoprofile div#field_id12, charainfoprofile div#field_id13 {display: none;}
-charainfoprofile div#field_id4, charainfoprofile div#field_id8, charainfoprofile div#field_id7, charainfoprofile div#field_id9, charainfoprofile div#field_id6, charainfoprofile div#field_id5 {display: grid;
-    height: 50px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 5px 5px 5px 15px;width: 235px;border-radius: 5px;justify-content: space-between;outline-offset: 5px;
-    outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;font-size: 11px;line-height: 100%;grid-template-columns: 80%;grid-template-rows: 35% auto;}
+charainfoprofile div#field_id4, charainfoprofile div#field_id8, charainfoprofile div#field_id7, charainfoprofile div#field_id9, charainfoprofile div#field_id6, charainfoprofile div#field_id5 {display: inline-block;
+    height: 50px;background: #ffffffdb;border-radius: 5px;outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;font-size: 11px;width: 235px;padding: 5px 10px 5px 10px;}
 charainfoprofile div#field_id14, charainfoprofile div#field_id15, charainfoprofile div#field_id16, charainfoprofile div#field_id17, charainfoprofile div#field_id18, charainfoprofile div#field_id19, 
 charainfoprofile div#field_id20 {display: flex;height: 16px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 8px 8px 8px;width: 70px;border-radius: 5px;justify-content: center;
     outline-offset: 5px;outline: 1px solid white;font-family: 'Poppins';text-transform: lowercase;text-align: center;}
 
-charainfoprofile div#field_id4 .field_uneditable:before {content: 'messages';font-family: poppins;}
-charainfoprofile div#field_id4 .field_uneditable:after {content: "\ec78";font-family: "Phosphor" !important;font-size: 25px;color: white;}
+charainfoprofile div#field_id4 .field_uneditable:before, charainfoprofile div#field_id8 .field_uneditable:before, charainfoprofile div#field_id7 .field_uneditable:before, 
+charainfoprofile div#field_id9 .field_uneditable:before, charainfoprofile div#field_id6 .field_uneditable:before, charainfoprofile div#field_id5 .field_uneditable:before {font-family: poppins;
+grid-area: 1 / 1 / 2 / 2;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+charainfoprofile div#field_id4 .field_uneditable:after, charainfoprofile div#field_id8 .field_uneditable:after, charainfoprofile div#field_id7 .field_uneditable:after, 
+charainfoprofile div#field_id9 .field_uneditable:after, charainfoprofile div#field_id6 .field_uneditable:after, charainfoprofile div#field_id5 .field_uneditable:after {font-family: "Phosphor" !important;
+font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;justify-content: center;}
+
+charainfoprofile div#field_id4 .field_uneditable, charainfoprofile div#field_id8 .field_uneditable, charainfoprofile div#field_id7 .field_uneditable, charainfoprofile div#field_id9 .field_uneditable, 
+charainfoprofile div#field_id6 .field_uneditable, charainfoprofile div#field_id5 .field_uneditable {grid-template-columns: 82% auto;grid-template-rows: 36% auto;display: grid;height: 89%;width: 100%;
+    align-items: center;justify-content: center;margin-top: 5px;font-size: 11px;line-height: 13px;}
+
+charainfoprofile div#field_id4 .field_uneditable:before {content: 'faceclaim :';}
+charainfoprofile div#field_id4 .field_uneditable:after {content: "\ed0a";}
 
 /******************SHOP****************************/
 
