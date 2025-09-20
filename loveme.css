@@ -630,7 +630,7 @@ playerprofile div#field_id1, playerprofile div#field_id10, playerprofile div#fie
 playerprofile div#field_id-13, playerprofile div#field_id5, playerprofile div#field_id-4, playerprofile div#field_id-6, playerprofile div#field_id14, playerprofile div#field_id15, 
 playerprofile div#field_id16, playerprofile div#field_id17, playerprofile div#field_id18, playerprofile div#field_id19, playerprofile div#field_id20 {display: none;}
 
-playerprofile {display: grid;align-content: center;align-items: center;justify-content: center;justify-items: center;grid-template-rows: 200px 50px 100px auto;grid-template-columns: 100%;height: 100%;width: 100%;}
+playerprofile {display: grid;align-content: center;align-items: center;justify-content: center;justify-items: center;grid-template-rows: 240px 100px 100px;grid-template-columns: 100%;height: 100%;width: 100%;}
 playerprofile div#field_id11 {grid-area: 1 / 1 / 1 / 1;width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;font-family: 'Felgine_Regular';font-size: 60px;}
 playerprofile div#field_id11:before {content: 'joué.e par';position: absolute;font-family: 'Poppins';font-size: 12px;text-transform: uppercase;font-weight: bold;margin-top: -100px;}
 playerprofile div#field_id11:after {content: '';background: linear-gradient(to bottom right, #f3de95, #8cafcd) !important;width: 300px;height: 300px;z-index: -1;position: absolute;
