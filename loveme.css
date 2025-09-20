@@ -522,7 +522,7 @@ leftcolumnprofile {grid-area: 1 / 1 / 5 / 2;}
 leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, 
 leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, 
 leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, 
-leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats {display: none;}
+leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats, leftcolumnprofile .points {display: none;}
 
 profilsinfoshere {grid-area: 1 / 2 / 5 / 3;}
 
@@ -533,7 +533,7 @@ botleftcolumnprofile {grid-area: 5 / 1 / 6 / 2;display: block;}
 botleftcolumnprofile div#field_id1, botleftcolumnprofile div#field_id3, botleftcolumnprofile div#field_id10, botleftcolumnprofile div#field_id8, botleftcolumnprofile div#field_id7, botleftcolumnprofile div#field_id9, 
 botleftcolumnprofile div#field_id5, botleftcolumnprofile div#field_id4, botleftcolumnprofile div#field_id6, botleftcolumnprofile div#field_id11, botleftcolumnprofile div#field_id12, 
 botleftcolumnprofile div#field_id13, botleftcolumnprofile div#field_id14, botleftcolumnprofile div#field_id15, botleftcolumnprofile div#field_id16, botleftcolumnprofile div#field_id17, 
-botleftcolumnprofile div#field_id18, botleftcolumnprofile div#field_id19, botleftcolumnprofile div#field_id20 {display: none;}
+botleftcolumnprofile div#field_id18, botleftcolumnprofile div#field_id19, botleftcolumnprofile div#field_id20, botleftcolumnprofile div#field_id-13 {display: none;}
 botleftcolumnprofile div#field_id-6 {display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;column-gap: 15px;margin-top: 10px;grid-template-columns: 20px;
     align-content: center;justify-items: center;}
 botleftcolumnprofile div#field_id-6 .field_uneditable:after {content: 'messages';font-family: poppins;margin-left: 5px;margin-right: -5px;}
@@ -556,7 +556,8 @@ awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380
 
 topcharaprofile {height: 100px;display: grid;border-bottom: 1px solid var(--bg1);margin-bottom: 10px;column-gap: 20px;align-content: center;justify-content: center;align-items: center;
     grid-template-columns: 30% 30% 30%;padding-bottom: 10px;}
-rankguprofile {text-align: center;}
+rankguprofile {text-align: center;width: 100%;height: 40px;display: flex;justify-content: center;align-items: center;margin-top: -40px;font-family: 'Poppins';text-transform: uppercase;
+    font-weight: bold;font-size: 11px;padding-bottom: 5px;border-bottom: 1px solid white;}
 famechartprofile {width: 100%;height: 100%;}
 smallimageguprofile {border-radius: 5px;object-fit: cover;padding: 9px;border: 1px solid white;height: 67px;}
 charainfoprofile div#field_id1 {position: absolute;top: 0;left: 0;margin-left: 682px;margin-top: 42px;}
@@ -578,6 +579,10 @@ grid-area: 1 / 1 / 2 / 2;text-transform: uppercase;font-weight: bold;font-size: 
 charainfoprofile div#field_id4 .field_uneditable:after, charainfoprofile div#field_id8 .field_uneditable:after, charainfoprofile div#field_id7 .field_uneditable:after, 
 charainfoprofile div#field_id9 .field_uneditable:after, charainfoprofile div#field_id6 .field_uneditable:after, charainfoprofile div#field_id5 .field_uneditable:after {font-family: "Phosphor" !important;
 font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;justify-content: center;margin-bottom: 5px;}
+
+charainfoprofile div#field_id-13 {position: absolute;top: 0;left: 0;width: 162px;height: 46px;margin-left: 500px;margin-top: 90px;display: flex;flex-direction: row;flex-wrap: nowrap;
+    align-content: center;justify-content: center;align-items: center;}
+charainfoprofile div#field_id-13 .field_uneditable:after {content: 'points';}
 
 charainfoprofile div#field_id4 .field_uneditable, charainfoprofile div#field_id8 .field_uneditable, charainfoprofile div#field_id7 .field_uneditable, charainfoprofile div#field_id9 .field_uneditable, 
 charainfoprofile div#field_id6 .field_uneditable, charainfoprofile div#field_id5 .field_uneditable {grid-template-columns: 89% auto;grid-template-rows: 36% auto;display: grid;height: 89%;width: 100%;
