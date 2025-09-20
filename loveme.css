@@ -561,7 +561,7 @@ charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150p
                                                   mix-blend-mode: overlay;}
 charaprofile div#field_id10 {display: none;}
 
-charainfoprofile {display: grid;column-gap: 20px;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;grid-template-columns: 30% 30% 30%;row-gap: 20px;height: 330px;}
+charainfoprofile {display: flex;column-gap: 20px;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;row-gap: 20px;height: 330px;}
 charainfoprofile div#field_id-4, charainfoprofile div#field_id-6, charainfoprofile div#field_id11, charainfoprofile div#field_id12, charainfoprofile div#field_id13 {display: none;}
 charainfoprofile div#field_id4, charainfoprofile div#field_id8, charainfoprofile div#field_id7, charainfoprofile div#field_id9, charainfoprofile div#field_id6, charainfoprofile div#field_id5 {display: grid;
     height: 50px;align-items: center;flex-direction: row;background: #ffffffdb;padding: 5px 5px 5px 15px;width: 235px;border-radius: 5px;justify-content: space-between;outline-offset: 5px;
