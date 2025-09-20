@@ -600,6 +600,9 @@ charainfoprofile div#field_id5 .field_uneditable:after {content: "\ecc6";}
 
 div#field_id1 .ajax-profil_edit {left: 5px;top: 8px;}
 
+div#field_id4 .ajax-profil_edit, div#field_id8 .ajax-profil_edit, div#field_id7 .ajax-profil_edit, div#field_id9 .ajax-profil_edit, div#field_id5 .ajax-profil_edit, 
+div#field_id5 .ajax-profil_edit {position: relative;top: -60px;}
+
 /******************SHOP****************************/
 
 
