@@ -583,6 +583,21 @@ charainfoprofile div#field_id6 .field_uneditable, charainfoprofile div#field_id5
 charainfoprofile div#field_id4 .field_uneditable:before {content: 'faceclaim :';}
 charainfoprofile div#field_id4 .field_uneditable:after {content: "\ed0a";}
 
+charainfoprofile div#field_id8 .field_uneditable:before {content: 'crédits :';}
+charainfoprofile div#field_id8 .field_uneditable:after {content: "\ea6d";}
+
+charainfoprofile div#field_id7 .field_uneditable:before {content: 'âge :';}
+charainfoprofile div#field_id7 .field_uneditable:after {content: "\e9e1";}
+
+charainfoprofile div#field_id9 .field_uneditable:before {content: 'stagename :';}
+charainfoprofile div#field_id9 .field_uneditable:after {content: "\ed28";}
+
+charainfoprofile div#field_id6 .field_uneditable:before {content: 'occupation :';}
+charainfoprofile div#field_id6 .field_uneditable:after {content: "\e9dd";}
+
+charainfoprofile div#field_id5 .field_uneditable:before {content: 'content warnings :';}
+charainfoprofile div#field_id5 .field_uneditable:after {content: "\ecc6";}
+
 /******************SHOP****************************/
 
 
