@@ -551,6 +551,15 @@ awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380
 .tablist {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;height: 100%;overflow: hidden;margin-right: -4px;}
 .panels {overflow: hidden;width: 540px;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;margin-left: 10px;margin-top: 4px;margin-bottom: 7px;padding: 10px;}
 
+topcharaprofile {height: 100px;display: grid;border-bottom: 1px solid var(--bg1);margin-bottom: 10px;column-gap: 20px;align-content: center;justify-content: center;align-items: center;
+    grid-template-columns: 30% 30% 30%;padding-bottom: 10px;}
+famechartprofile {width: 100%;height: 100%;}
+smallimageguprofile {border-radius: 5px;object-fit: cover;padding: 9px;border: 1px solid white;height: 67px;}
+charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150px;height: 75px;border-radius: 5px;object-fit: cover;margin-top: -103px;margin-left: 372px;padding: 5px;
+    filter: contrast(100%) brightness(120%) grayscale(100%);mix-blend-mode: overlay;}
+charaprofile div#field_id1 .field_uneditable img {position: absolute;width: 150px;height: 75px;border-radius: 5px;object-fit: cover;margin-top: -113px;margin-left: 372px;
+    padding: 5px;filter: contrast(100%) brightness(120%) grayscale(100%);mix-blend-mode: overlay;}
+
 /******************SHOP****************************/
 
 
