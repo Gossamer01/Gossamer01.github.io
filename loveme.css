@@ -606,7 +606,7 @@ div#field_id5 .ajax-profil_edit {position: relative;top: -60px;}
 charainfoprofile div#field_id4 .field_editable, charainfoprofile div#field_id8 .field_editable, charainfoprofile div#field_id7 .field_editable, charainfoprofile div#field_id9 .field_editable,
 charainfoprofile div#field_id6 .field_editable, charainfoprofile div#field_id5 .field_editable{margin-top: -50px;}
 charainfoprofile div#field_id4 .field_editable .post, charainfoprofile div#field_id8 .field_editable .post, charainfoprofile div#field_id7 .field_editable .post, charainfoprofile div#field_id9 .field_editable .post,
-charainfoprofile div#field_id6 .field_editable .post, charainfoprofile div#field_id5 .field_editable .post{width: 218px !important;display: inline-block;border-radius: 5px;}
+charainfoprofile div#field_id6 .field_editable .post, charainfoprofile div#field_id5 .field_editable .post{width: 218px !important;display: inline-block;border-radius: 5px;height: 50px;}
 
 /******************SHOP****************************/
 
