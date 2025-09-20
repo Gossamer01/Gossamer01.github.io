@@ -656,6 +656,9 @@ playerprofile div#field_id2 .field_uneditable:before {content: 'trigger warnings
 playerprofile div#field_id2 .field_uneditable:after {content: "\ecc6";font-family: "Phosphor" !important;font-size: 25px;grid-area: 1 / 2 / 3 / 3;display: flex;align-items: center;
 justify-content: center;margin-bottom: 5px;}
 
+datelastco {font-family: 'Poppins';text-transform: uppercase;grid-area: 3 / 1 / 4 / 2;font-weight: bold;font-size: 11px;}
+datelastco:before {content: 'dernière connexion';margin-right:5px;margin-left:-5px;font-family: 'Poppins';text-transform: uppercase;font-size: 11px;font-weight:normal;}
+
 /******************SHOP****************************/
 
 
