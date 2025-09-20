@@ -624,6 +624,7 @@ charainfoprofile div#field_id18 .ajax-profil_edit, charainfoprofile div#field_id
 charainfoprofile div#field_id14 input, charainfoprofile div#field_id15 input, charainfoprofile div#field_id16 input, charainfoprofile div#field_id17 input, charainfoprofile div#field_id18 input, 
 charainfoprofile div#field_id19 input, charainfoprofile div#field_id20 input {width: 50px !important;border-radius: 5px;}
 
+famestats {display: flex;justify-content: center;align-items: center;grid-area: 4 / 1 / 5 / 3;column-gap: 21px;justify-items: center;margin-top: -20px;}
 
 /******************SHOP****************************/
 
