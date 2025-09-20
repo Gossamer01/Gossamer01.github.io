@@ -21,7 +21,7 @@ a.gen, a.genmed, a.gensmall {color: inherit;text-decoration: none;}
 a.gen:hover, a.genmed:hover, a.gensmall:hover {color: none; text-decoration: underline;}
 .section h1 b {font-weight: inherit;}
 
-.blur {filter: blur(3px);text-shadow: none;color: inherit;transition: all 0.3s ease-in-out;}
+.blur {filter: blur(3px);text-shadow: none !important;color: inherit !important;transition: all 0.3s ease-in-out;}
 .blur:hover {filter: blur(0px);transition: all 0.3s ease-in-out;}
 
 /**************CATEGORIES**********/
