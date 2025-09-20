@@ -543,13 +543,13 @@ botleftcolumnprofile div#field_id-4 .field_uneditable {border-radius: 5px;backgr
 font-weight: bold;height: 25px;padding: 3px;display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;margin-top: 10px;margin-left: 3px;margin-bottom: 15px;}
 
 awardsprofile {grid-area: 5 / 2 / 6 / 4;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;color: #717171;width: auto;padding: 3px;display: flex;
-    flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: flex-start;margin-top: 10px;margin-left: 10px;margin-right: 20px;}
+    flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: flex-start;margin-top: 10px;margin-left: 10px;}
 
 .tabs {grid-area: 1 / 2 / 5 / 4;grid-template-columns: 580px 50px;display: grid;}
-.tabs button.tab {height: 50%;margin: 10px 8px 10px 8px;background: #f3f3f380;border: 0;border-radius: 5px;outline: 1px solid white;outline-offset: 6px;color: #ffffff;font-size: 27px;}
+.tabs button.tab {height: 50%;margin: 10px 8px 10px 8px;background: #f3f3f380;border: 0;border-radius: 5px;outline: 1px solid white;outline-offset: 6px;color: #ffffff;font-size: 27px;width: 70%;}
 .tabs button.is-active {background: linear-gradient(to bottom right, #f3de9582, #8cafcd82)!important;}
 .tablist {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;height: 100%;overflow: hidden;margin-right: -4px;}
-.panels {overflow: hidden;width: 570px;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;margin-left: 10px;margin-top: 4px;margin-bottom: 7px;padding: 10px;}
+.panels {overflow: hidden;width: 540px;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;margin-left: 10px;margin-top: 4px;margin-bottom: 7px;padding: 10px;}
 
 /******************SHOP****************************/
 
