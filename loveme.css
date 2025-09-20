@@ -657,7 +657,7 @@ playerprofile div#field_id2 .field_uneditable:after {content: "\ecc6";font-famil
 justify-content: center;margin-bottom: 5px;}
 
 datelastco {font-family: 'Poppins';text-transform: uppercase;grid-area: 3 / 1 / 4 / 2;font-weight: bold;font-size: 11px;}
-datelastco:before {content: 'dernière connexion';margin-right:5px;margin-left:-5px;font-family: 'Poppins';text-transform: uppercase;font-size: 11px;font-weight:normal;}
+datelastco:before {content: 'dernière connexion :';margin-right:5px;margin-left:-5px;font-family: 'Poppins';text-transform: uppercase;font-size: 11px;font-weight:normal;}
 
 /******************SHOP****************************/
 
