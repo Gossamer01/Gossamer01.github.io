@@ -643,6 +643,19 @@ playerprofile div#field_id12 {grid-area: 1 / 1 / 1 / 1;margin-top: 120px;backgro
     font-family: poppins;font-weight: bold;text-transform: lowercase;}
 
 playerprofile div#field_id11 .ajax-profil_edit, playerprofile div#field_id12 .ajax-profil_edit, playerprofile div#field_id13 .ajax-profil_edit {position: relative;left: 5;}
+playerprofile div#field_id13 {
+    grid-area: 2 / 1 / 3 / 2;
+    height: auto;
+    background: #ffffffdb;
+    border-radius: 5px;
+    outline-offset: 5px;
+    outline: 1px solid white;
+    font-family: 'Poppins';
+    text-transform: lowercase;
+    font-size: 11px;
+    width: 235px;
+    padding: 5px 10px 5px 10px;
+}
 
 /******************SHOP****************************/
 
