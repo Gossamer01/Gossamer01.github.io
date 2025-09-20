@@ -629,6 +629,8 @@ famestats {display: flex;justify-content: center;align-items: center;grid-area: 
 somethingiwantgu {display: flex;width: 100%;flex-direction: row;flex-wrap: nowrap;justify-content: center;align-items: center;font-family: Felgine_Regular;font-size: 47px;height: 100%;}
 totalgu:after {content: 'k';margin-left: 10px;margin-right: -10px;}
 
+playerprofile div#field_id1, playerprofile div#field_id10, playerprofile div#field_id4, playerprofile div#field_id8, playerprofile div#field_id7, playerprofile div#field_id9 {display: none;}
+
 /******************SHOP****************************/
 
 
