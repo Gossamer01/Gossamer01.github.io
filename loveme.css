@@ -513,6 +513,8 @@ smallinfospacegu profilpostgu.pronoms, smallinfospacegu profilpostgu.trigger-war
 smallinfospacegu profilpostgu.fanshypers, smallinfospacegu profilpostgu.stanssupporters, smallinfospacegu profilpostgu.globals, 
 smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasaengscopycats {display: none;}
 
+smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin-left:3px}
+
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
 
