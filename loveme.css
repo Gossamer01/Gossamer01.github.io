@@ -473,8 +473,9 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .posteravainfos::after {content: "";height: 300px;width: 300px;position: absolute;bottom: -160px;left: -40px;
     background: radial-gradient(circle, #fdfdfd 0%, #00000000 70%, #00000000 100%);z-index: -1;opacity: 0.6;}
 .posteravawrapper:hover .posteravainfos {opacity: 1;-webkit-transition: 0.7s 0s;}
-.posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;
-    height: 280px;overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;}
+.posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;height: 280px;
+    overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;display: flex;
+    flex-direction: column;flex-wrap: nowrap;justify-content: flex-start;}
 .posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: flex-start;align-items: center;font-size: 24px;font-family: 'Felgine_Regular';
     text-shadow: #ffffff9c 5px 0px 13px; margin-left: 20px;letter-spacing: 1px;text-transform: lowercase;font-size: 30px;}
 
