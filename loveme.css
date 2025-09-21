@@ -458,7 +458,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .gutopicwrapper {width: 942px;display: flex;flex-direction: column;flex-wrap: nowrap;}
 .topicwrapper2 {outline-offset: 6px;margin: 14px 9px;text-align: left;background: #f3f3f380;outline: 1px solid white;width: 924px;border-radius: 5px;}
 
-.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 227px 547px 150px;grid-template-rows: 150px 36px auto auto;display: grid;backdrop-filter: blur(5px);}
+.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 227px 547px 150px;grid-template-rows: 150px 42px auto auto auto;display: grid;backdrop-filter: blur(5px);}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;border-radius: 5px 5px 0px 0px;grid-area: 1 / 1 / 2 / 4;}
 .posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;height: fit-content;grid-area: 1 / 1 / 4 / 2;margin: 20px;}
 .posteravawrapper img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
