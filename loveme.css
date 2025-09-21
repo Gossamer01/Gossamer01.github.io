@@ -475,7 +475,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .posteravawrapper:hover .posteravainfos {opacity: 1;-webkit-transition: 0.7s 0s;}
 .posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;height: 280px;
     overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;display: flex;
-    flex-direction: column;flex-wrap: nowrap;justify-content: flex-start;}
+    flex-direction: column;flex-wrap: nowrap;justify-content: flex-start;row-gap: 10px;}
 .posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: flex-start;align-items: center;font-size: 24px;font-family: 'Felgine_Regular';
     text-shadow: #ffffff9c 5px 0px 13px; margin-left: 20px;letter-spacing: 1px;text-transform: lowercase;font-size: 30px;}
 
