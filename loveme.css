@@ -517,7 +517,7 @@ smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin
 
 smallinfospacegu profilpostgu.icone {position: absolute;right: 0;top: 0;width: 150px;height: 150px;padding: 0;outline: none;
     -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);display: block;border-radius: 0px 5px 0px 0px;background: none;}
-profilpostgu.icone contentprogu {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);
+smallinfospacegu profilpostgu.icone contentprogu {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);
     width: 100%;height: 100%;display: block;}
 smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 0px 5px 0px 0px;opacity: 0.5;filter: grayscale(100%) contrast(150%) saturate(150%);}
 
