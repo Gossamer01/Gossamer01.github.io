@@ -460,21 +460,21 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 
 .topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 227px 547px 150px;grid-template-rows: 70px 20px 60px 42px 170px auto 50px auto;display: grid;backdrop-filter: blur(5px);}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;border-radius: 5px 5px 0px 0px;grid-area: 1 / 1 / 4 / 4;}
-.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;height: fit-content;grid-area: 1 / 1 / 6 / 2;margin: 20px;}
+.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;height: fit-content;grid-area: 1 / 1 / 6 / 2;margin: 20px;overflow: hidden;}
 .posteravawrapper avatarprofilegu img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
 
 .posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 100%;height: 100%;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
     display: block;border-radius: 0px 5px 0px 0px;grid-area: 1 / 3 / 4 / 4;}
 .posteravagif2 {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);}
 .posteravagif img {width: 100%;height: 100%;object-fit: cover;opacity: 0.5;filter: grayscale(1);}
-.posteravawrapper:hover avatarprofilegu img {filter: grayscale(100%) brightness(100%) contrast(150%);}
+.posteravawrapper:hover avatarprofilegu img {filter: grayscale(100%) brightness(100%) contrast(50%) blur(1px)}
 .posteravainfos::before {content: "";height: 200px;width: 200px;position: absolute;top: -5px;left: 100px;background: radial-gradient(circle, #fdfdfd 0%, #00000000 70%, #00000000 100%);
     z-index: -1;opacity: 0.6;}
 .posteravainfos::after {content: "";height: 300px;width: 300px;position: absolute;bottom: -160px;left: -40px;
     background: radial-gradient(circle, #fdfdfd 0%, #00000000 70%, #00000000 100%);z-index: -1;opacity: 0.6;}
 .posteravawrapper:hover .posteravainfos {opacity: 1;-webkit-transition: 0.7s 0s;}
-.posteravainfos {position: absolute;background: #a09bab82;top: 20px;left: 20px;border-radius: 5px;z-index: 10;width: 200px;height: 320px;overflow: hidden;transition: 0.7s 0s;
-    -webkit-transition: 0.7s 0s;opacity: 0;}
+.posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;
+    height: 280px;overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;}
 .posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: flex-start;align-items: center;font-size: 24px;font-family: 'Felgine_Regular';
     text-shadow: #ffffff9c 5px 0px 13px; margin-left: 20px;letter-spacing: 1px;text-transform: lowercase;font-size: 30px;}
 
@@ -520,6 +520,9 @@ smallinfospacegu profilpostgu.icone {position: absolute;right: 0;top: 0;width: 1
 smallinfospacegu profilpostgu.icone contentprogu {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);
     width: 100%;height: 100%;display: block;}
 smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 0px 5px 0px 0px;opacity: 0.5;filter: grayscale(100%) contrast(150%) saturate(150%);}
+
+.posteravainfos profilpostgu.icone {display: none;}
+.posteravainfos profilpostgu {display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: flex-start;align-content: center;}
 
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
