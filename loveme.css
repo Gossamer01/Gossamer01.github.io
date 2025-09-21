@@ -489,6 +489,8 @@ thebuttonsthere a[href^="/modcp?mode=ip"]:before {content: 'IP'; padding: 4px 6p
 thebuttonsthere img{display:none;}
 thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-gap: 15px;}
 
+awardtopicgu {grid-area: 4 / 1 / 5 / 2;}
+
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
 
@@ -659,7 +661,11 @@ justify-content: center;margin-bottom: 5px;}
 datelastco {font-family: 'Poppins';text-transform: uppercase;grid-area: 3 / 1 / 4 / 2;font-weight: bold;font-size: 11px;}
 datelastco:before {content: 'dernière connexion :';margin-right:5px;margin-left:-5px;font-family: 'Poppins';text-transform: uppercase;font-size: 11px;font-weight:normal;}
 
-awardtopicgu {grid-area: 4 / 1 / 5 / 2;}
+contactprofile div#field_id23 .field_uneditable img, contactprofile div#field_id22 .field_uneditable img, contactprofile div#field_id21 .field_uneditable img, 
+contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_id-23 .field_uneditable img {display: none;}
+
+
+
 
 /******************SHOP****************************/
 
