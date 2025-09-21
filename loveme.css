@@ -495,6 +495,8 @@ contactfieldgu {grid-area: 5 / 1 / 6 / 2;display: flex;flex-direction: row;flex-
                 margin-bottom: 10px;margin-top: 5px;}
 contactfieldgu a{padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
 
+contentmessagehere {grid-area: 3 / 2 / 6 / 4;padding: 15px;font-size: 14px;color: var(--body);}
+
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
 
