@@ -491,6 +491,8 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 
 awardtopicgu {grid-area: 4 / 1 / 5 / 2;}
 
+contactfieldgu {grid-area: 5 / 1 / 6 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;justify-content: center;filter: brightness(0%) saturate(0%) invert(100%) contrast();}
+
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
 
