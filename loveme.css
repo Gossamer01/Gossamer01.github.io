@@ -492,8 +492,8 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 awardtopicgu {grid-area: 4 / 1 / 5 / 2;}
 
 contactfieldgu {grid-area: 5 / 1 / 6 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;justify-content: center;column-gap: 12.7px;margin-left: 20px;width: 200px;
-                margin-bottom: 10px;}margin-top: 5px;
-contactfieldgu a {padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
+                margin-bottom: 10px;margin-top: 5px;}
+contactfieldgu a{padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
 
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
