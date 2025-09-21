@@ -507,13 +507,19 @@ smallinfospacegu {grid-area: 3 / 2 / 4 / 3;display: flex;column-gap: 15px;row-ga
 smallinfospacegu profilpostgu {border-radius: 5px;background: #f3f3f380;outline: 1px solid #fff;outline-offset: 3px;
     padding: 0px 10px 0px 10px;font-size: 9px;font-weight: bold;text-transform: uppercase;font-family: poppins;}
 smallinfospacegu profilpostgu labelgu {display: none;}
-smallinfospacegu profilpostgu.icone, smallinfospacegu profilpostgu.image-fond, smallinfospacegu profilpostgu.faceclaim, smallinfospacegu profilpostgu.credits, 
+smallinfospacegu profilpostgu.image-fond, smallinfospacegu profilpostgu.faceclaim, smallinfospacegu profilpostgu.credits, 
 smallinfospacegu profilpostgu.content-warning, smallinfospacegu profilpostgu.date-dinscription, smallinfospacegu profilpostgu.messages, smallinfospacegu profilpostgu.pseudo, 
 smallinfospacegu profilpostgu.pronoms, smallinfospacegu profilpostgu.trigger-warnings, smallinfospacegu profilpostgu.casualsobservers, smallinfospacegu profilpostgu.trendbees, 
 smallinfospacegu profilpostgu.fanshypers, smallinfospacegu profilpostgu.stanssupporters, smallinfospacegu profilpostgu.globals, 
 smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasaengscopycats {display: none;}
 
 smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin-left:3px}
+
+smallinfospacegu profilpostgu.icone {position: absolute;right: 0;top: 0;width: 150px;height: 150px;padding: 0;outline: none;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);display: block;border-radius: 0px 5px 0px 0px;background: none;}
+profilpostgu.icone contentprogu {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);
+    width: 100%;height: 100%;display: block;}
+smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 0px 5px 0px 0px;opacity: 0.5;filter: grayscale(100%) contrast(150%) saturate(150%);}
 
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
