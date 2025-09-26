@@ -714,6 +714,10 @@ contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_i
 .posteravawrapper .posteravainfos profilpostgu.stanssupporters, .posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haterscritics, 
 .posteravawrapper .posteravainfos profilpostgu.sasaengscopycats {display: none;}
 
+.posteravainfos labelgu {font-family: 'Poppins';font-size: 10px;font-weight: bold;text-transform: uppercase;letter-spacing: 1px;color: #ffffff8a;}
+.posteravainfos contentprogu {font-family: 'Felgine_Regular';font-size: 12px;color: #ffffffb3;}
+.posteravainfos labelgu span {color: inherit !important;}
+
 
 /******************SHOP****************************/
 
