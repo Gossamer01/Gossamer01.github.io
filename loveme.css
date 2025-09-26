@@ -523,8 +523,8 @@ smallinfospacegu profilpostgu.icone contentprogu {-webkit-mask-image: linear-gra
 smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 0px 5px 0px 0px;opacity: 0.5;filter: grayscale(100%) contrast(150%) saturate(150%);}
 
 .posteravainfos profilpostgu.icone {display: none;}
-.posteravainfos profilpostgu {display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: flex-start;align-content: center;}
-.posteravainfos profilpostgu.image-fond {justify-content: center;}
+.posteravainfos profilpostgu {display: flex;flex-direction: column;flex-wrap: nowrap;}
+.posteravainfos profilpostgu.image-fond {align-items: center;}
 .posteravainfos profilpostgu.image-fond img {width: 100px;height: 100px;object-fit: cover;border-radius: 100%;filter: grayscale(1) brightness(1) contrast(0.5);mix-blend-mode: darken;}
 
 .posteravainfos profilpostgu.image-fond labelgu {display: none;}
@@ -708,7 +708,11 @@ datelastco:before {content: 'dernière connexion :';margin-right:5px;margin-left
 contactprofile div#field_id23 .field_uneditable img, contactprofile div#field_id22 .field_uneditable img, contactprofile div#field_id21 .field_uneditable img, 
 contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_id-23 .field_uneditable img {display: none;}
 
-
+.posteravawrapper .posteravainfos profilpostgu.credits, .posteravawrapper .posteravainfos profilpostgu.age, .posteravawrapper .posteravainfos profilpostgu.stage-name, .posteravawrapper .posteravainfos profilpostgu.occupation, 
+.posteravawrapper .posteravainfos profilpostgu.points, .posteravawrapper .posteravainfos profilpostgu.content-warning, .posteravawrapper .posteravainfos profilpostgu.trigger-warnings, 
+.posteravawrapper .posteravainfos profilpostgu.casualsobservers, .posteravawrapper .posteravainfos profilpostgu.trendbees, .posteravawrapper .posteravainfos profilpostgu.fanshypers, 
+.posteravawrapper .posteravainfos profilpostgu.stanssupporters, .posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haterscritics, 
+.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats {display: none;}
 
 
 /******************SHOP****************************/
