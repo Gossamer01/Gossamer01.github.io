@@ -719,6 +719,22 @@ contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_i
 modauthlist {outline-offset: 6px;margin: 8px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;border-radius: 5px;
 display: block;width: 911px;font-size: 10px;margin-left: 8px;}
 
+quickreplygu {
+    width: 924px;
+    display: block;
+    outline-offset: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    outline: 1px solid white;
+    border-radius: 5px;
+    align-content: center;
+    justify-items: center;
+    backdrop-filter: blur(5px);
+    margin-left: 9px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
 /******************SHOP****************************/
 
