@@ -74,9 +74,6 @@ table.wiccaquickreply{margin-left: 65px; width: 1026px; border-top: 10px solid #
   border-bottom: 5px solid var(--greybg);display: block;}
 .wiccaquickreply td.row2{width: 975px;}
 .sceditor-container {background-color: #ffffff00!important; border: 1px solid #ffffff00!important; border-bottom: 1px solid var(--greybg)!important;}
-div.sceditor-toolbar{background: var(--greybg)!important; border-bottom-color: var(--greybg)!important;
-    border-radius: 0!important; margin-top: -1px!important; padding: 0!important;
-    width: 100%!important; display: block!important;}
 input.liteoption {background-color: var(--greybg); padding: 5px; border-radius: 5px; border-width: 0;
     text-transform: uppercase; font-weight: bold;margin-top: 8px;font-family: poppins, sans-serif; margin-bottom: 8px; color: #606060b3; letter-spacing: 1px;}
 input.mainoption {background-color: var(--greybg); padding: 5px; border-radius: 5px; border-width: 0;
@@ -722,6 +719,18 @@ quickreplygu {width: 924px;display: block;outline-offset: 6px;text-transform: up
     backdrop-filter: blur(5px);margin-left: 9px;margin-top: 25px;margin-bottom: 25px;}
 
 quickreplygu .sceditor-container.ltr.sourceMode {width: 922px !important;}
+div.sceditor-toolbar {
+    border-radius: 0 !important;
+    margin-top: -1px !important;
+    padding: 0 !important;
+    width: 100% !important;
+    display: block !important;
+    backdrop-filter: blur(5px);
+    background: #f3f3f300;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-bottom: 1px solid #bdbdbd4d !important;
+}
 
 /******************SHOP****************************/
 
