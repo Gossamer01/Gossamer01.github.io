@@ -22,6 +22,7 @@ a.gen:hover, a.genmed:hover, a.gensmall:hover {color: none; text-decoration: und
 .section h1 b {font-weight: inherit;}
 
 td.row2, td.row1.over:hover {background-color: inherit;}
+td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {background-image: url(https://2img.net/i/fa/empty.gif);background-color: inherit;border: 0 !important;border-style: solid;}
 
 .blur {filter: blur(3px);text-shadow: none !important;color: inherit !important;transition: all 0.3s ease-in-out;}
 .blur:hover {filter: blur(0px);transition: all 0.3s ease-in-out;}
