@@ -742,6 +742,9 @@ a.btn.btn-flat[href^="/merge?"]:after{content: 'fusionner des sujets';font-famil
 a.btn.btn-flat[href*="modcp"][href*="mode=trash"]:before{content:"\e920";font-family: "Phosphor" !important;width: 40px;margin-right: 10px;margin-left: 10px;height: auto;display: flex;
     justify-content: center;align-items: center;font-size: 25px;}
 a.btn.btn-flat[href*="modcp"][href*="mode=trash"]:after{content: 'archiver le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=unlock"]:before{content:"\ebd4";font-family: "Phosphor" !important;width: 40px;margin-right: 10px;margin-left: 10px;height: auto;display: flex;
+    justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=unlock"]:after{content: 'déverrouiller le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
 a.btn.btn-flat img {display: none;}
 modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 
