@@ -723,16 +723,18 @@ input.liteoption, input.mainoption {border-width: 0;text-transform: uppercase;fo
 a.btn.btn-flat[href*="modcp"][href*="mode=delete"], a.btn.btn-flat[href*="modcp"][href*="mode=move"], a.btn.btn-flat[href*="modcp"][href*="mode=lock"], 
 a.btn.btn-flat[href*="modcp"][href*="mode=split"], a.btn.btn-flat[href^="/merge?"] {display: inline-flex;height: 50px;background: #f3f3f380;border-radius: 5px;outline-offset: 5px;outline: 1px solid white;
     font-family: 'Poppins';text-transform: lowercase;font-size: 11px;width: 100%;padding: 5px 10px 5px 10px;margin: 10px;}
-a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:before{content:"\e9b2"}
-a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:after{content: 'supprimer le sujet';}
-a.btn.btn-flat[href*="modcp"][href*="mode=move"]:before{content:"\e969"}
-a.btn.btn-flat[href*="modcp"][href*="mode=move"]:after{content: 'déplacer le sujet';}
-a.btn.btn-flat[href*="modcp"][href*="mode=lock"]:before{content:"\ebd1"}
-a.btn.btn-flat[href*="modcp"][href*="mode=lock"]:after{content: 'verrouiller le sujet';}
-a.btn.btn-flat[href*="modcp"][href*="mode=split"]:before{content:"\ed19"}
-a.btn.btn-flat[href*="modcp"][href*="mode=split"]:after{content: 'diviser le sujet';}
-a.btn.btn-flat[href^="/merge?"]:before{content:"\e967"}
-a.btn.btn-flat[href^="/merge?"]:after{content: 'fusionner des sujets';}
+a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:before{content:"\e9b2";font-family: "Phosphor" !important;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:after{content: 'supprimer le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=move"]:before{content:"\e969";font-family: "Phosphor" !important;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=move"]:after{content: 'déplacer le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=lock"]:before{content:"\ebd1";font-family: "Phosphor" !important;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=lock"]:after{content: 'verrouiller le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=split"]:before{content:"\ed19";font-family: "Phosphor" !important;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=split"]:after{content: 'diviser le sujet';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat[href^="/merge?"]:before{content:"\e967";font-family: "Phosphor" !important;width: 55px;height: 55px;display: flex;justify-content: center;align-items: center;font-size: 25px;}
+a.btn.btn-flat[href^="/merge?"]:after{content: 'fusionner des sujets';font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 10px;letter-spacing: 2px;}
+a.btn.btn-flat img {display: none;}
+modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 
 /******************SHOP****************************/
 
