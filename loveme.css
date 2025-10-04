@@ -720,6 +720,12 @@ div.sceditor-toolbar {border-radius: 0 !important;margin-top: -1px !important;pa
 input.liteoption, input.mainoption {border-width: 0;text-transform: uppercase;font-family: 'Poppins';letter-spacing: 1px;display: inline-block;vertical-align: middle;background: var(--bg2) !important;
     border-radius: 9px;margin: 15px 10px;padding: 5px 8px;font-weight: bold !important;}
 
+a.btn.btn-flat[href*="modcp"][href*="mode=delete"], a.btn.btn-flat[href*="modcp"][href*="mode=move"], a.btn.btn-flat[href*="modcp"][href*="mode=lock"], 
+a.btn.btn-flat[href*="modcp"][href*="mode=split"], a.btn.btn-flat[href^="/merge?"] {display: inline-flex;height: 50px;background: #f3f3f380;border-radius: 5px;outline-offset: 5px;outline: 1px solid white;
+    font-family: 'Poppins';text-transform: lowercase;font-size: 11px;width: 100%;padding: 5px 10px 5px 10px;margin: 10px;}
+a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:before{content:"\e9b2"}
+a.btn.btn-flat[href*="modcp"][href*="mode=delete"]:after{content: 'supprimer le sujet';}
+
 /******************SHOP****************************/
 
 
