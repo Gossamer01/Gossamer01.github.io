@@ -22,6 +22,7 @@ a.gen:hover, a.genmed:hover, a.gensmall:hover {color: none; text-decoration: und
 .section h1 b {font-weight: inherit;}
 
 td.row2, td.row1.over:hover {background-color: #f3f3f380!important;}
+td.row1, td.row3.over:hover {background-color: #f3f3f380!important;}
 td.cat, td.catHead, td.catSides, td.catLeft, td.catRight, td.catBottom {background-image: url(https://2img.net/i/fa/empty.gif);background-color: inherit!important;border: 0 !important;border-style: solid;}
 th {color: inherit!important;font-size: 11px;font-weight: 700;background-color: inherit!important;height: 25px;background-image: url(https://2img.net/i/fa/empty.gif);padding: 2px 3px;}
 
