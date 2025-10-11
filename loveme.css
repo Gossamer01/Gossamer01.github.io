@@ -757,6 +757,8 @@ modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: ce
 .topicwrapper2.dayrec .postertopwrapper {background: linear-gradient(to bottom right, #7295a145, #54757f6b);}
 .topicwrapper2.dayrec .posteravainfos {background: #6e8ba582;}
 
+.topicwrapper2.staff .postertopwrapper {background: linear-gradient(to bottom right, #a18d7245, #7f68546b);}
+.topicwrapper2.staff .posteravainfos {background: #a5856e82;}
 .topicwrapper2.citiz .postertopwrapper {background: linear-gradient(to bottom right, #72a17545, #5b7f546b);}
 .topicwrapper2.citiz .posteravainfos {background: #5b836282;}
 
