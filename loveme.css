@@ -754,6 +754,8 @@ modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: ce
 .topicwrapper2.ksyent .posteravainfos {background: #675b8382;}
 .topicwrapper2.burfla .postertopwrapper {background: linear-gradient(to bottom right, #7286a145, #54577f6b);}
 .topicwrapper2.ksyent .posteravainfos {background: #5b618382;}
+.topicwrapper2.dayrec .postertopwrapper {background: linear-gradient(to bottom right, #7295a145, #54757f6b);}
+.topicwrapper2.dayrec .posteravainfos {background: #6e8ba582;}
 
 /******************SHOP****************************/
 
