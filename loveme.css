@@ -41,7 +41,7 @@ th {color: inherit!important;font-size: 11px;font-weight: 700;background-color: 
 
 
 /******************SIDEBAR****************************/
-.sidebar {position: fixed;display: flex;left: 0;margin: 10px;z-index: 14;width: 65px;height: auto;justify-content: flex-start;background: #f3f3f380;backdrop-filter: blur(5px);border-radius: 10px;
+.sidebar {position: fixed;display: flex;left: 0;margin: 10px;z-index: 14;width: 65px;height: auto;justify-content: flex-start;background: #ffffff99;backdrop-filter: blur(5px);border-radius: 10px;
     flex-direction: column;align-content: center;flex-wrap: nowrap;align-items: center;}
 .sidebarlinks {position: sticky;top: 75px;display: flex;flex-direction: column;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 up-b {width: 50%;font-size: 20px;height: 30px;text-align: center;display: inline-block;}
