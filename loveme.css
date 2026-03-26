@@ -176,8 +176,30 @@ input:checked + .slider:before {
 
 /**************CATEGORIES**********/
 
+.section {
+    display: grid;
+    height: 100%;
+    width: 890px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 25px;
+}
 
-.section {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;
+.category-001 .section-s:nth-child(1) {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+.category-001 .section-s {
+    border-radius: 25px;
+    background: #ffffff80;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    outline: 1px solid white;
+    corner-shape: scoop;
+    outline-offset: 5px;
+}
+
+.sectionbefore {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;
     backdrop-filter: blur(5px);border-radius: 10px;padding: 25px;}
 
 .section-ss {height: 180px;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);display: grid;background-color: #d3d3d33b;position: relative;margin-left: 2px;outline-offset: -6px;
@@ -223,7 +245,7 @@ section-last-com strong {display: inline-block; vertical-align: middle;opacity: 
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
-.category-001 .section{grid-template-columns: 60% 40%; grid-template-rows: 33% 33% 33%;}
+.category-001 .section{grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 18px;}
 .category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
 .category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 288px;}
 .category-001 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
