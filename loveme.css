@@ -194,8 +194,9 @@ input:checked + .slider:before {
 .sectionbefore {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;
     backdrop-filter: blur(5px);border-radius: 10px;padding: 25px;}
 
-.section-ss {height: 180px;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);display: grid;background-color: #d3d3d33b;position: relative;margin-left: 2px;outline-offset: -6px;
-            outline: 1px solid #ffffff85;overflow: hidden;grid-template-columns: 25% 45% 30%;grid-template-rows: 72% 28%;width: 841px;border-radius: 5px;}
+.section-ss {display: grid;
+    position: relative;
+    border-radius: 5px;}
 .section-s section-icon {width: 33px; height: 33px; display: grid; place-items: center; margin-top: 15px;  margin-left: 15px; font-size: 23px;  color: white;  z-index: 21;
     background: linear-gradient(to bottom right,#ffffff1f,#ffffff78); border: 1px solid #ffffffab;  grid-area: 1 / 1 / 2 / 2; backdrop-filter: blur(5px);}
 .section-s h1 {grid-area: 1 / 1 / 2 / 2; display: grid; font-family: 'Poppins';text-transform: uppercase;  font-size: 23px; text-align: left; position: relative; z-index: 25; color: white;
@@ -224,7 +225,7 @@ section-last-com span a { font-size: 18px; font-family:'Playfair Display'; font-
     max-width: 100%; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; text-align: right; margin-top: -5px;
     line-height: 21px; margin-bottom: -20px;}
 section-last-com span a.gensmall {}
-.section-stats {grid-area: 1 / 1 / 2 / 2; left: 0; position: absolute;width: 42px; padding: 9px; margin-top: 51px; z-index: 50;margin-left: 4px;}
+
 a.last-post-icon {margin-top: -15px; position: relative;}
 section-last-com span {text-transform: uppercase;
     display: flex;
@@ -243,16 +244,30 @@ section-last-com strong {display: inline-grid;
 .section-stats topics, .section-stats mess {text-align: center;}
 .section-stats topics b, .section-stats mess b {margin-right: 3px;}
 .section-stats topics i, .section-stats mess i {vertical-align: middle;}
-.section-stats mess{margin-top: 3px;}
+
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
 .category-001 .section {grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 15px;row-gap: 15px;}
 .category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
-.category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {font-size: 35px;font-style: italic;font-weight: 900;
-    text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;text-transform: uppercase;line-height: 100%;grid-area: 1 / 2 / 2 / 3;}
-.category-001 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
-    line-height: 29px; margin-left: -14px; margin-top: 17px;  padding-left: 0px; font-style: initial;  grid-area: 1 / 2 / 2 / 3;}
+.category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
+    overflow: hidden;
+    grid-template-columns: 8% auto 18%;
+    grid-template-rows: 43px 35px 53px 43px;
+    width: 100%;}
+.category-001 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1{font-size: 35px;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;
+    text-transform: uppercase;
+    line-height: 100%;
+    grid-area: 1 / 2 / 2 / 3;
+    font-family: 'Poppins';
+    z-index: 25;
+    color: white;}
+.category-001 .section-pic {
+    display: none;
+}
 .category-001 .section-desc, .category-003 .section-desc, .category-005 .section-desc{grid-area: 1 / 1 / 5 / 4;overflow: hidden;}
 .category-001 .section-desc catpic {width: 100%;height: 100%;}
 .category-001 descplace {
@@ -314,7 +329,8 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     font-weight: 100;
     font-size: 13px;
     color: #919191;
-    justify-content: center;}
+    justify-content: center;
+    z-index: 50;}
 .category-001 .section-desc catpic img{opacity: 30%;}
 .category-001 .section-subfo a {
     font-size: 9px;
