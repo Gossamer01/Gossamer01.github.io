@@ -88,7 +88,6 @@ div.sceditor-group{background: #4343435c!important;border-bottom:none!important;
   
 .topbar user-pic img {width: 50px;height: 50px; border-radius: 50%; margin-left: 10px;object-fit: cover;}
 .topbar .username {font: 700 28px var(--header); text-transform: lowercase;  letter-spacing: 0;display: flex;line-height: 100%;}
-  user-grad {background-size: 100% 35%!important;background: linear-gradient(97deg, var(--accent6) 5%, var(--accent7) 95%) left bottom no-repeat;}
 .topbar .links {display: flex;grid-area: links;}
 span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 10px; justify-content: flex-end;}
 .topbar .links a {display: flex;align-items: center;height: 38px;background: var(--bg2);border-radius: 5px;color: var(--body); font-family:'Poppins'; text-transform: uppercase;
@@ -185,19 +184,12 @@ input:checked + .slider:before {
     padding: 25px;
 }
 
-.category-001 .section-s:nth-child(1) {
-    grid-area: 1 / 1 / 4 / 2;
-}
+.category-001 .section-s:nth-child(1) {grid-area: 1 / 1 / 4 / 2;}
+.category-001 .section-s:nth-child(1) .sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(to bottom, #d9bbd0a6, #ad81a93b, #ffffff00);}
 
-.category-001 .section-s {
-    border-radius: 25px;
-    background: #ffffff80;
-    overflow: hidden;
-    backdrop-filter: blur(5px);
-    outline: 1px solid white;
-    corner-shape: scoop;
-    outline-offset: 5px;
-}
+
+.category-001 .section-s {backdrop-filter: blur(1px);height: auto;
+    background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;border: 1px solid #ffffff;box-shadow: 0 0 .75rem #adadad38;}
 
 .sectionbefore {display: grid;height: 100%;row-gap: 20px;width: 890px;margin: 0 auto;margin-bottom: 25px;background: #f3f3f380;outline: 1px solid white;outline-offset: -7px;
     backdrop-filter: blur(5px);border-radius: 10px;padding: 25px;}
@@ -208,14 +200,12 @@ input:checked + .slider:before {
     background: linear-gradient(to bottom right,#ffffff1f,#ffffff78); border: 1px solid #ffffffab;  grid-area: 1 / 1 / 2 / 2; backdrop-filter: blur(5px);}
 .section-s h1 {grid-area: 1 / 1 / 2 / 2; display: grid; font-family: 'Poppins';text-transform: uppercase;  font-size: 23px; text-align: left; position: relative; z-index: 25; color: white;
     height: 49px; padding-left: 63px;font-weight: 700; font-style: italic; line-height: 36px; place-items: baseline; width: 524px;  margin-top: 12px;}
-.section-desc {grid-area: 1 / 1 / 3 / 4; text-align: justify; color: #2e2e2e;  display: grid;  line-height: 15px; font-size: 9px;  height: 100%;
-    z-index: 15;  width: 100%; text-transform: uppercase;font-family: 'Hind';}
+.section-desc {text-align: justify;color: #2e2e2e;display: grid;line-height: 15px;font-size: 9px;height: 100%;z-index: 15;width: 100%;text-transform: uppercase;font-family: 'Hind';}
 .section-desc catpic {position: absolute; right: 0px;  z-index: -1; top: -15px; height: 109%; width: 109%;
   -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(#ffffff00), to(#000000)); right: 0;}
-.section-desc catpic:before {content: ""; position: absolute;  width: 105%;  background: #c1bec77a; height: 100%; z-index: 12;}
+.section-desc catpic:before {content: "";position: absolute;width: 100%;background: #ffffff7a;height: 100%;z-index: 12;}
 .section-desc catpic img {width: 100%; height: 100%; object-fit: cover; mix-blend-mode: overlay; filter: contrast(40%) brightness(110%) grayscale(100%); position: absolute;  z-index: 11; opacity: .5;}
-descplace {position: absolute; width: 514px;top: 60px; left: 60px; padding: 7px; background: #00000024; height: 41px; overflow: auto; font-size: 8px;
-    line-height: 10px; color: white;font-weight: 600;}
+
 .section-subfo { display: inline-block; height: auto; width: auto; grid-area: 2 / 1 / 3 / 4; position: relative; text-align: left; padding: 9px 6px 0;
     background: #7171711f; z-index: 24;}
 .section-subfo a {margin: 6px; outline-offset: 4px; outline: 1px solid #ffffff; padding: 5px; border-radius: 2px; display: inline-block; font-size: 8px;
@@ -225,7 +215,8 @@ descplace {position: absolute; width: 514px;top: 60px; left: 60px; padding: 7px;
 .section-pic user-pic {background: #fff; border-radius: 100%;  padding: 5px;}
 .section-pic user-pic img {display: block; width: 80px; height: 80px; background-size: cover !important; border-radius: 100%;  filter: grayscale(1) brightness(1) contrast(0.5);
     object-fit: cover;  mix-blend-mode: darken;}
-.section-desc descicon {position: absolute; font-size: 82px; z-index: 3; color: white; opacity: 0.3;  mix-blend-mode: overlay;  width: 96%;  text-align: right;  padding: 5px;}
+.section-desc descicon {font-size: 60;z-index: 3;color: white;opacity: 50%;mix-blend-mode: overlay;text-align: center;padding: 5px;
+    text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;right: 15px;position: absolute;}
 
 section-last-com {grid-area: 1 / 3 / 2 / 4; position: relative; z-index: 30; width: 150px; font-weight: 600; color: #fff; text-align: right; padding: 23px 20px 0 10px; display: grid;
     height: 100%; line-height: 22px; font-size: 10px; margin-left: -19px; font-family: 'Hind';}
@@ -235,24 +226,50 @@ section-last-com span a { font-size: 18px; font-family:'Playfair Display'; font-
 section-last-com span a.gensmall {}
 .section-stats {grid-area: 1 / 1 / 2 / 2; left: 0; position: absolute;width: 42px; padding: 9px; margin-top: 51px; z-index: 50;margin-left: 4px;}
 a.last-post-icon {margin-top: -15px; position: relative;}
-section-last-com span {text-transform: uppercase;display: inline-block; vertical-align: middle;}
-section-last-com strong {display: inline-block; vertical-align: middle;opacity: 80%;}
+section-last-com span {text-transform: uppercase;
+    display: flex;
+    color: #717171;
+    font-size: 10px;
+    align-items: center;
+    flex-direction: row;}
+section-last-com strong {display: inline-grid;
+    flex-direction: row;
+    grid-auto-flow: column;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 6px;
+    margin-top: 1.5px;}
 
-.section-stats topics, .section-stats mess {text-align: center;width: 34px; display: grid; height: 30px; place-content: center; margin-left: 3px; margin-top: -2px;}
-.section-stats topics b, .section-stats mess b {color: #ffffff; width: 35px; font-size: 13px; position: absolute; z-index: 12; height: 35px; padding-top: 6px;}
-.section-stats topics i, .section-stats mess i {position: relative;font-size: 34px;color: #ffffff52;}
+.section-stats topics, .section-stats mess {text-align: center;}
+.section-stats topics b, .section-stats mess b {margin-right: 3px;}
+.section-stats topics i, .section-stats mess i {vertical-align: middle;}
 .section-stats mess{margin-top: 3px;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
-.category-001 .section{grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 18px;}
+.category-001 .section {grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 15px;row-gap: 15px;}
 .category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
-.category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 215px; overflow: hidden; grid-template-columns: 30% 51% 19%; grid-template-rows: 23% 6% 28% 43%;  width: 288px;}
+.category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {font-size: 35px;font-style: italic;font-weight: 900;
+    text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;text-transform: uppercase;line-height: 100%;grid-area: 1 / 2 / 2 / 3;}
 .category-001 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1{width: 182px; margin: 20px; text-shadow: none; height: auto; letter-spacing: -1px;
     line-height: 29px; margin-left: -14px; margin-top: 17px;  padding-left: 0px; font-style: initial;  grid-area: 1 / 2 / 2 / 3;}
-.category-001 .section-desc, .category-003 .section-desc, .category-005 .section-desc{color: #fff; font-size: 10px; padding: 8px; overflow: auto; grid-area: 1 / 1 / 5 / 4;}
-.category-001 .section-desc catpic{grid-area: 1 / 1 / 5 / 4;}
-.category-001 descplace{grid-area: 2 / 1 / 3 / 4;width: 210px; top: 0; left: 0; margin: 14px 22px;max-height: 56px; height: auto; font-size: 9px;font-weight: 500;}
+.category-001 .section-desc, .category-003 .section-desc, .category-005 .section-desc{grid-area: 1 / 1 / 5 / 4;overflow: hidden;}
+.category-001 .section-desc catpic {width: 100%;height: 100%;}
+.category-001 descplace {
+    grid-area: 3 / 2 / 4 / 2;
+    width: auto;
+    text-align: justify;
+    margin: 5px 15px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    height: fit-content;
+    padding-bottom: 10px;
+    text-shadow: -1px 0 #e9e9e9, 0 1px #e9e9e9, 1px 0 #e9e9e9, 0 -1px #e9e9e9;
+    border-bottom: 1px solid #ffffffbf;
+    color: #494949;
+    font-family: 'Poppins';
+}
 .category-001 .section-subfo{grid-area: 3 / 1 / 4 / 4; width: auto; height: auto;padding: 4px 21px; background: none; text-align: center;}
 .category-001 .section-pic, .category-003 .section-pic, .category-005 .section-pic {background: #a9a7ad; width: 50px; height: 50px; grid-area: 4 / 1 /5 / 2; right: -15px;
     top: 25px; padding: 0; position: relative; opacity: 1;}
@@ -261,16 +278,57 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-001 user-pic, .category-003 user-pic, .category-005 user-pic {padding: 0; background: none; width: 50px; height: 50px;}
 .category-001 user-pic img, .category-003 user-pic img, .category-005 user-pic img{width: 50px; height: 50px; mix-blend-mode: overlay;}
 
-.category-001 section-last-com, .category-003 section-last-com, .category-005 section-last-com {grid-area: 4 / 2 / 5 / 3; width: 100%; text-align: center; text-transform: uppercase; margin-left: 0; color: #fff; font-weight: 700;
-    line-height: 14px; margin-top: 26px; padding: 0;}
-.category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {border-bottom: 1px solid #fff; font-size: 16px; -webkit-line-clamp: 1;margin-bottom: -9px; padding-bottom: 3px; text-align: center;}
+.category-001 section-last-com, .category-003 section-last-com, .category-005 section-last-com {grid-area: 2 / 2 / 3 / 4;
+    width: auto;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Hind';}
+.category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {text-align: left;
+    color: #373737;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    max-width: 235px;
+    margin-right: 10px;}
 .category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {border-bottom: none; display: inline-block; font-size: 10px; 
   font-family: 'Hind'; text-transform: uppercase; font-style: inherit; vertical-align: middle;}
-.category-001 section-last-com a.last-post-icon, .category-003 section-last-com a.last-post-icon, .category-005 section-last-com a.last-post-icon {display: inline-block; border-bottom: none; vertical-align: middle; margin-top: -7px;}
+.category-001 section-last-com a.last-post-icon, .category-003 section-last-com a.last-post-icon, .category-005 section-last-com a.last-post-icon {display: inline-grid;
+    border-bottom: none;
+    vertical-align: middle;
+    margin-top: -7px;}
 
-.category-001 .section-stats, .category-003 .section-stats, .category-005 .section-stats{grid-area: 4 / 3 / 5 / 4; margin-top: 13px; margin-left: -3px;z-index: 30;}
-.category-001 .section-desc catpic img{opacity: 0.3;}
-.category-001 .section-subfo a {font-size: 10px;}
+.category-001 .section-stats, .category-003 .section-stats, .category-005 .section-stats{grid-area: 4 / 3 / 5 / 4;
+    display: inline-grid;
+    grid-auto-flow: column;
+    column-gap: 15px;
+    width: auto;
+    height: fit-content;
+    padding: 10px 5px;
+    font-family: 'Hind';
+    font-weight: 100;
+    font-size: 13px;
+    color: #919191;
+    justify-content: center;}
+.category-001 .section-desc catpic img{opacity: 30%;}
+.category-001 .section-subfo a {
+    font-size: 9px;
+    font-weight: 500;
+    padding: 4px 8px 5px;
+    background: linear-gradient(to bottom right, #d9bbd0, #ad81a9);
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin: 5px 0px 0px 5px;
+    color: white;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    height: 10px;
+}
 
 .category-002 .section, .category-004 .section {align-items: center; grid-template: "section1 section2";row-gap: 10px;column-gap: 10px;}
 .category-002 .section-s, .category-004 .section-s {height: 230px; width: 438px; grid-template-columns: 16% 64% 20%; grid-template-rows: 21% 31% 14% 35%; margin-top: auto; margin-bottom: auto;}
@@ -338,8 +396,12 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-003 .section-s:nth-child(4) {width: 555px; grid-area: 2 / 1 / 3 / 3; height: auto;}
 .category-003 .section-desc {display: none;}
 
-.category-001 .section-subfo, .category-003 .section-subfo, .category-005 .section-subfo {background: none; grid-area: 3 / 1 / 4 / 4; padding: 0px 17px; display: flex;  text-align: center;  place-content: center; width: 233px;}
-.category-003 .section-subfo a, .category-005 .section-subfo a { margin: 8px; font-size: 11px;}
+.category-001 .section-subfo, .category-003 .section-subfo, .category-005 .section-subfo {grid-area: 4 / 1 / 5 / 3;
+    display: flex;
+    text-align: left;
+    place-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;}
 
 .category-004 .section-subfo a {font-size: 8px;color: white;}
 .category-004 .section-s:nth-child(2) .section-subfo a:nth-child(1) {background: linear-gradient(to bottom right,#4d39ba8a,#3418508a);}
