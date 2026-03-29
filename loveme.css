@@ -247,18 +247,6 @@ input:checked + .slider:before {
     position: absolute;
     right: 0px;}
 
-section-last-com {grid-area: 1 / 3 / 2 / 4;
-    position: relative;
-    z-index: 30;
-    font-weight: 600;
-    color: #fff;
-    text-align: right;
-    padding: 23px 20px 0 10px;
-    display: grid;
-    height: 100%;
-    line-height: 22px;
-    font-size: 10px;
-    font-family: 'Hind';}
 section-last-com span a {white-space: pre-wrap;
     display: -webkit-box;
     -webkit-line-clamp: 1;
@@ -352,9 +340,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     font-size: 10px;
     font-family: poppins;
     margin-left: 15px;
-    margin-top: 10px;
-    position: relative;
-    z-index: 50;}
+    z-index: 50;
+    margin-top: 7px;
+    position: relative;}
 .category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {color: #373737;
     max-width: 275px;}
 .category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {margin-right: -20px;}
