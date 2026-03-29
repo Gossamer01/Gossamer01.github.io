@@ -200,6 +200,7 @@ input:checked + .slider:before {
 .section-ss {display: grid;
     position: relative;}
 .section-s section-icon {background: linear-gradient(to bottom right, #b1b1b1, #454545);
+                         animation: glowupulse 2s infinite;
     margin: 25px;
     left: 110px;
     width: 12px;
