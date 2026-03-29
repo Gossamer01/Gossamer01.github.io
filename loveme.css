@@ -229,7 +229,7 @@ input:checked + .slider:before {
 .section-desc descicon {font-size: 60;
     z-index: 3;
     color: white;
-    opacity: 50%;
+    opacity: 75%;
     mix-blend-mode: overlay;
     text-align: center;
     padding: 10px;
