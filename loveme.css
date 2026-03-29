@@ -199,8 +199,14 @@ input:checked + .slider:before {
 
 .section-ss {display: grid;
     position: relative;}
-.section-s section-icon {width: 33px; height: 33px; display: grid; place-items: center; margin-top: 15px;  margin-left: 15px; font-size: 23px;  color: white;  z-index: 21;
-    background: linear-gradient(to bottom right,#ffffff1f,#ffffff78); border: 1px solid #ffffffab;  grid-area: 1 / 1 / 2 / 2; backdrop-filter: blur(5px);}
+.section-s section-icon {background: linear-gradient(to bottom right, #b1b1b1, #454545);
+    margin: 25px;
+    left: 110px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    z-index: 50;
+    grid-area: 1 / 1 / 2 / 2;}
 
 .section-desc {text-align: justify;color: #2e2e2e;display: grid;line-height: 15px;font-size: 9px;height: 100%;z-index: 15;width: 100%;text-transform: uppercase;font-family: 'Hind';}
 .section-desc catpic {position: absolute;
