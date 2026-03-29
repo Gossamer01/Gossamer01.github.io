@@ -187,7 +187,7 @@ input:checked + .slider:before {
 .category-001 .section-s:nth-child(1) .sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(to bottom, #d9bbd0a6, #ad81a93b, #ffffff00);}
 
 
-.category-001 .section-s {backdrop-filter: blur(1px);
+.category-001 .section-s, .category-002 .section-s {backdrop-filter: blur(1px);
     height: 100%;
     background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;
     border: 1px solid #ffffff;
