@@ -209,17 +209,26 @@ input:checked + .slider:before {
     z-index: 50;
     grid-area: 1 / 1 / 2 / 2;}
 
-.section-desc {text-align: justify;color: #2e2e2e;display: grid;line-height: 15px;font-size: 9px;height: 100%;z-index: 15;width: 100%;text-transform: uppercase;font-family: 'Hind';}
-.section-desc catpic {position: absolute;
-    right: 0px;
-    z-index: -1;
+.section-desc {    text-align: justify;
+    color: #2e2e2e;
+    display: grid;
+    line-height: 15px;
+    font-size: 9px;
+    height: 100%;
+    z-index: 15;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Hind';}
+.section-desc catpic {
+    position: absolute;
+    z-index: 2;
     -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(#ffffff00), to(#000000));
-    right: 0;}
+    right: 0;
+}
 .section-desc catpic:before {content: "";position: absolute;width: 100%;background: #ffffff7a;height: 100%;z-index: 12;}
 .section-desc catpic img {width: 100%; height: 100%; object-fit: cover; mix-blend-mode: overlay; filter: contrast(40%) brightness(110%) grayscale(100%); position: absolute;  z-index: 11; opacity: .5;}
 
-.section-subfo { display: inline-block; height: auto; width: auto; grid-area: 2 / 1 / 3 / 4; position: relative; text-align: left; padding: 9px 6px 0;
-    background: #7171711f; z-index: 24;}
+.section-subfo {position: relative;}
 .section-subfo a {margin: 6px; outline-offset: 4px; outline: 1px solid #ffffff; padding: 5px; border-radius: 2px; display: inline-block; font-size: 8px;
     width: auto; background: #ffffff; text-transform: uppercase; font-weight: 600;}
 .section-pic {right: -25px; top: -25px; display: grid; border-radius: 100%; grid-area: 1 / 3 / 2 / 4;  padding: 33px;  background: linear-gradient(to bottom right,var(--accent4),var(--accent5));
@@ -228,7 +237,7 @@ input:checked + .slider:before {
 .section-pic user-pic img {display: block; width: 80px; height: 80px; background-size: cover !important; border-radius: 100%;  filter: grayscale(1) brightness(1) contrast(0.5);
     object-fit: cover;  mix-blend-mode: darken;}
 .section-desc descicon {font-size: 60;
-    z-index: 3;
+    z-index: 20;
     color: white;
     opacity: 75%;
     mix-blend-mode: overlay;
@@ -250,29 +259,23 @@ section-last-com {grid-area: 1 / 3 / 2 / 4;
     line-height: 22px;
     font-size: 10px;
     font-family: 'Hind';}
-section-last-com span a { font-size: 18px; font-family:'Playfair Display'; font-style: italic; text-transform: lowercase;  white-space: pre-wrap;  display: -webkit-box;
-    max-width: 100%; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis; text-align: right; margin-top: -5px;
-    line-height: 21px; margin-bottom: -20px;}
-section-last-com span a.gensmall {}
+section-last-com span a {white-space: pre-wrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;}
 
 a.last-post-icon {margin-top: -15px; position: relative;}
-section-last-com span {text-transform: uppercase;
-    display: flex;
-    color: #717171;
-    font-size: 10px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    font-family: poppins;
-    line-height: 15px;}
-section-last-com strong {display: inline-grid;
-    flex-direction: row;
-    grid-auto-flow: column;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 10px;
-    margin-top: 15px;}
+section-last-com span {display: grid;
+    line-height: 100%;
+    align-items: baseline;
+    column-gap: 12px;
+    justify-content: start;
+    grid-auto-flow: column;}
+
+section-last-com span br {
+    display: none;
+}
 
 .section-stats topics, .section-stats mess {text-align: center;}
 .section-stats topics b, .section-stats mess b {margin-right: 3px;}
@@ -286,7 +289,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
     overflow: hidden;
     grid-template-columns: 50px 430px 95px;
-    grid-template-rows: 43px 35px 53px 43px;
+    grid-template-rows: 51px 25px auto auto;
     width: 100%;}
 .category-001 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1 {
     font-size: 35px;
@@ -321,6 +324,11 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     border-bottom: 1px solid #ffffffbf;
     color: #494949;
     font-family: 'Poppins';
+    z-index: 10;
+}
+
+.category-001 .section-s:nth-child(2) descplace {
+    display: none;
 }
 
 .category-001 .section-pic, .category-003 .section-pic, .category-005 .section-pic {background: #a9a7ad;
@@ -339,30 +347,17 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 
 .category-001 section-last-com, .category-003 section-last-com, .category-005 section-last-com {grid-area: 2 / 1 / 3 / 4;
     width: auto;
-    text-align: left;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 100%;
-    padding: 0;
-    font-size: 12px;
-    font-family: 'Hind';
-    margin-left: 15px;}
-.category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {text-align: left;
-    color: #373737;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
     font-size: 10px;
-    max-width: 235px;
-    margin-right: 10px;}
-.category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {border-bottom: none; display: inline-block; font-size: 10px; 
-  font-family: 'Hind'; text-transform: uppercase; font-style: inherit; vertical-align: middle;}
-.category-001 section-last-com a.last-post-icon, .category-003 section-last-com a.last-post-icon, .category-005 section-last-com a.last-post-icon {display: inline-grid;
-    border-bottom: none;
-    vertical-align: middle;
-    margin-top: -6px;
-    margin-left: 3px;}
+    font-family: poppins;
+    margin-left: 15px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 50;}
+.category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {color: #373737;
+    max-width: 275px;}
+.category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {margin-right: -20px;}
 
 .category-001 .section-stats, .category-003 .section-stats, .category-005 .section-stats{grid-area: 4 / 3 / 5 / 4;
     display: inline-grid;
@@ -370,7 +365,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     column-gap: 15px;
     width: auto;
     height: fit-content;
-    padding: 15px 5px;
+    margin-bottom: 5px;
     font-family: 'Poppins';
     font-weight: 100;
     font-size: 13px;
@@ -385,7 +380,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     background: linear-gradient(to bottom right, #d9bbd0, #ad81a9);
     text-transform: uppercase;
     border-radius: 20px;
-    margin: 5px 0px 0px 10px;
+    margin: 5px 0px 12px 10px;
     color: white;
     font-family: 'Poppins';
     letter-spacing: 1px;
@@ -464,7 +459,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     place-content: center;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100%;
     background: none;
     z-index: 24;
     margin-left: 7px;}
@@ -488,7 +483,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-seoul .section-subfo {grid-area: 3 / 1 / 4 / 4;line-height: 0%;padding: 5px 10px 5px 10px;}
 .category-seoul .section-subfo span {display: flex;flex-direction: row;flex-wrap: wrap;align-content: center;justify-content: center;align-items: center;height: 100%;line-height: 50%;}
 .category-seoul section-last-com {grid-area: 2 / 2 / 3 / 4;margin-right: 0px;padding: 0px 15px 0px 0px;line-height: 20px;width: -webkit-fill-available;}
-.category-001 section-last-com a.gensmall {font-family: 'Hind';font-style: inherit;}
+
 .category-seoul a.last-post-icon {display: inline-block;vertical-align: middle;margin-top: -25px;}
 .category-seoul strong {margin-top: -5px;}
 .category-seoul .section-desc catpic img {filter: contrast(100%) brightness(110%) grayscale(100%);}
