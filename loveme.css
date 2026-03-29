@@ -444,7 +444,8 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-002 .section-s:nth-child(1) user-pic {background: #ad81a980;
     border-radius: 100%;
     display: inline-block;
-    animation: glowupulsebig 2s infinite;}
+    animation: glowupulsebig 5s infinite;
+    margin: auto;}
 .category-002 .section-s:nth-child(1) user-pic img {width: 60px;
     height: 60px;
     border-radius: 100%;}
