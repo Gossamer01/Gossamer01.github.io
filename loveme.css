@@ -180,8 +180,7 @@ input:checked + .slider:before {
     height: 100%;
     width: 890px;
     margin: 0 auto;
-    margin-bottom: 25px;
-    padding: 25px;
+    margin-bottom: 75px;
 }
 
 .category-001 .section-s:nth-child(1) {grid-area: 1 / 1 / 4 / 2;}
