@@ -486,8 +486,10 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     margin-top: 20px;
 }
 .category-002 .section-s:nth-child(1) section-last-com strong strong {background: none; padding: 0;  margin-top: 0; margin-right: 0;}
-.category-002 .section-s:nth-child(1) section-last-com strong a.gensmall {border-bottom: none; font-size: 12px; font-family: 'Hind'; text-transform: uppercase; font-style: initial; display: inline-block;
-    margin-top: -10px; vertical-align: middle;}
+.category-002 .section-s:nth-child(1) section-last-com span strong a.gensmall {font-size: 12px;
+    font-family: 'Hind';
+    text-transform: uppercase;
+    text-shadow: none;}
 .category-002 .section-s:nth-child(1) section-last-com a.last-post-icon {display: inline-block; border-bottom: none; vertical-align: middle; margin-top: 0px; margin-left: 2px;margin-bottom: 0; padding-bottom: 0;}
 .category-002 .section-s:nth-child(1) .section-stats{ width: auto;
     height: auto;
