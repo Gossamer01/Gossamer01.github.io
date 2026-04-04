@@ -299,7 +299,10 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 }
 .category-001 .section-desc, .category-002 .section-desc, .category-003 .section-desc, .category-005 .section-desc {
     grid-area: 1 / 1 / 5 / 4;
-    overflow: hidden;}
+    overflow: hidden;
+    position: relative;
+    z-index: 40;
+}
 .category-001 .section-desc catpic {width: 100%;height: 100%;}
 .category-001 descplace {
     grid-area: 3 / 2 / 4 / 2;
@@ -542,8 +545,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     width: 100%;
     height: 100%;
     background: none;
-    z-index: 24;
+    z-index: 60;
     margin-left: 7px;
+    position: relative;
 }
 
 .category-004 .section-subfo a {font-size: 8px;color: white;}
