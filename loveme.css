@@ -297,7 +297,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-001 .section-pic {
     display: none;
 }
-.category-001 .section-desc, .category-003 .section-desc, .category-005 .section-desc{grid-area: 1 / 1 / 5 / 4;overflow: hidden;}
+.category-001 .section-desc, .category-002 .section-desc, .category-003 .section-desc, .category-005 .section-desc {
+    grid-area: 1 / 1 / 5 / 4;
+    overflow: hidden;}
 .category-001 .section-desc catpic {width: 100%;height: 100%;}
 .category-001 descplace {
     grid-area: 3 / 2 / 4 / 2;
