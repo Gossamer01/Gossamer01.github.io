@@ -367,7 +367,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     justify-content: center;
     z-index: 50;}
 .category-001 .section-desc catpic img{opacity: 30%;}
-.category-001 .section-subfo a {
+.category-001 .section-subfo a, .category-002 .section-subfo a {
     font-size: 9px;
     font-weight: 500;
     padding: 4px 8px 5px;
