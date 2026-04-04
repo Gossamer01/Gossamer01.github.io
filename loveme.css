@@ -277,8 +277,8 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
 .category-001 .section-ss, .category-002 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
     overflow: hidden;
-    grid-template-columns: 50px 430px 95px;
-    grid-template-rows: 51px 25px auto auto;
+    grid-template-columns: 50px auto 16%;
+    grid-template-rows: 40% 17% auto auto;
     width: 100%;}
 .category-001 .section-s h1, .category-002 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1 {
     font-size: 35px;
