@@ -435,13 +435,13 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     color: white;
     font-size: 8px;
     display: flex;
-    justify-content: flex-start;
     text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px #4949498f;
     outline: 1px solid #ffffff;
     margin: 10px;
     font-family: 'Poppins';
     line-height: 100%;
-    align-items: center;}
+    align-items: center;
+    letter-spacing: 0px;}
 .category-002 .section-s:nth-child(1) .section-subfo a:nth-child(1) {background: linear-gradient(-135deg, #ffffff00 0%, #826aa9);}
 .category-002 .section-s:nth-child(1) .section-subfo a:nth-child(2) {background: linear-gradient(-135deg, #ffffff00 0%, #6a6ca9);}
 .category-002 .section-s:nth-child(1) .section-subfo a:nth-child(3) {background: linear-gradient(-135deg, #ffffff00 0%, #6aa7a6);}
