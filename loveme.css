@@ -275,7 +275,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 
 .category-001 .section {grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 15px;row-gap: 15px;}
 .category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
-.category-001 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
+.category-001 .section-ss, .category-002 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
     overflow: hidden;
     grid-template-columns: 50px 430px 95px;
     grid-template-rows: 51px 25px auto auto;
@@ -403,13 +403,14 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     margin-top: -50px;
 }
 
-.category-002 .section-ss {
-  height: auto;
+.category-002 .section-s:nth-child(1) .section-ss {
+    height: auto;
     overflow: hidden;
     width: 100%;
     grid-template-columns: 12% 68% 20%;
     grid-template-rows: 65px 90px 140px;
 }
+
 
 .category-002 .section-s:nth-child(1) .section-desc { grid-area: 1 / 1 / 4 / 4;}
 .category-002 .section-s:nth-child(1) descplace { grid-area: 1 / 4 / 2 / 5; top: 0; left: 0; color: #fff;  background: none; width: 88%; height: 91%; font-size: 12px;  line-height: 12px; padding: 14px;margin: 12px;}
