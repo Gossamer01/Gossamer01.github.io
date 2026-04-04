@@ -496,7 +496,8 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-002 .section-s:nth-child(1) section-last-com span strong a.gensmall {font-size: 12px;
     font-family: 'Hind';
     text-transform: uppercase;
-    text-shadow: none;}
+    text-shadow: none;
+    margin-top: -10px;}
 .category-002 .section-s:nth-child(1) section-last-com a.last-post-icon {display: inline-block; border-bottom: none; vertical-align: middle; margin-top: 0px; margin-left: 2px;margin-bottom: 0; padding-bottom: 0;}
 .category-002 .section-s:nth-child(1) .section-stats{ width: auto;
     height: auto;
@@ -515,7 +516,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
 .category-002 .section-pic, .category-004 .section-pic {background: #7a7a7a; width: 40px;  height: 40px;  margin-left: 26px;  margin-top: 21px;border-radius: initial;  padding: initial;  opacity: 1; 
     right: auto;  top: auto; grid-area: 4 / 1 / 5 / 2; z-index: 10}
 
-.category-002 section-last-com {
+.category-002 .section-s:nth-child(1) section-last-com {
     grid-area: 2 / 2 / 3 / 3;
     margin-left: 47px;
     padding: 10px;
@@ -524,8 +525,6 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     width: auto;
 }
 
-.category-002 section-last-com span a {font-weight: 700; color: inherit; font-family: 'Hind'; font-style: normal; text-transform: uppercase; font-size: 11px; -webkit-line-clamp: 1; margin-top: 0px; margin-bottom: -16px;  text-align: center;}
-.category-002 section-last-com strong a.gensmall {border-bottom: none; display: inline-block; font-size: 10px; text-transform: uppercase; margin-top: -10px; vertical-align: middle;}
 .category-002 section-last-com a.last-post-icon {display: inline-block;border-bottom: none; vertical-align: middle;margin-bottom: 0;}
 
 
