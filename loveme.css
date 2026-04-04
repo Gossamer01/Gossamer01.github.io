@@ -353,7 +353,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     max-width: 275px;}
 .category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {margin-right: -20px;}
 
-.category-001 .section-stats, .category-002 .section-stats, .category-003 .section-stats, .category-005 .section-stats{grid-area: 4 / 3 / 5 / 4;
+.category-001 .section-stats, .category-002 .section-stats, .category-003 .section-stats, .category-005 .section-stats{grid-area: 3 / 3 / 5 / 4;
     display: inline-grid;
     grid-auto-flow: column;
     column-gap: 15px;
