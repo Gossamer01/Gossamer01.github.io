@@ -283,7 +283,14 @@ section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 
 .category-001 .section {grid-template-columns: 35% 65%;grid-template-rows: 33% 33% 33%;column-gap: 15px;row-gap: 15px;}
-.category-003 .section, .category-005 .section {grid-template: "section1 section2 section3"; column-gap: 10px;row-gap: 10px;}
+
+.category-003 .section, .category-005 .section {
+       align-items: center;
+    grid-template-columns: 50% 50%;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
 .category-001 .section-ss, .category-002 .section-ss, .category-003 .section-ss, .category-005 .section-ss {height: 100%;
     overflow: hidden;
     grid-template-columns: 50px auto 16%;
@@ -304,6 +311,20 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     margin-top: 15px;
     position: relative;
 }
+
+.category-003 .section-ss {
+    height: 100%;
+    overflow: hidden;
+    grid-template-columns: 50px auto 80px;
+    grid-template-rows: 50px auto auto;
+    width: 100%;
+}
+
+
+.category-003 .section-s h1 {
+    font-size: 30px;
+}
+
 .category-001 .section-pic {
     display: none;
 }
@@ -344,9 +365,36 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     padding: 0;
     position: relative;
     opacity: 1;}
-.category-001 user-pic-gradient, .category-003 user-pic-gradient, .category-005 user-pic-gradient {background: linear-gradient(to bottom right,var(--accent4),var(--accent5));
-  mix-blend-mode: darken; opacity: 0.8;  width: 110px; height: 110px; position: absolute; border-radius: 100%; padding: 10px; margin-left: -46px; margin-top: -29px;}
-.category-001 user-pic, .category-003 user-pic, .category-005 user-pic {padding: 0; background: none; width: 50px; height: 50px;}
+.category-003 .section-pic {
+    grid-area: 1 / 3 / 4 / 4;
+    width: 100%;
+    height: 100%;
+    right: auto;
+    top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: none;
+}
+.category-001 user-pic-gradient, .category-003 user-pic-gradient, .category-005 user-pic-gradient {width: 110px;
+    height: 110px;
+    opacity: 100%;
+    background: linear-gradient(to bottom, #d9bbd0, #ad81a9, #ffffff);
+    position: absolute;
+    border-radius: 100%;
+    filter: blur(50px);}
+.category-001 user-pic, .category-003 user-pic, .category-005 user-pic {padding: 0;
+    background: none;
+    display: flex;
+    z-index: 50;
+    border-radius: 100%;}
+.category-003 user-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
 .category-001 user-pic img, .category-003 user-pic img, .category-005 user-pic img{width: 50px; height: 50px; mix-blend-mode: overlay;}
 
 .category-001 section-last-com, .category-002 section-last-com, .category-003 section-last-com, .category-005 section-last-com {
@@ -366,6 +414,10 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     justify-content: start;
     column-gap: 10px;
 }
+.category-003 section-last-com {
+    grid-area: 2 / 1 / 3 / 3;
+    margin-bottom: 5px;
+}
 .category-001 section-last-com a, .category-003 section-last-com a, .category-005 section-last-com a {color: #373737;
     max-width: 275px;}
 .category-001 section-last-com strong a.gensmall, .category-003 section-last-com strong a.gensmall, .category-005 section-last-com strong a.gensmall {margin-right: -20px;}
@@ -383,8 +435,14 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     color: #919191;
     justify-content: center;
     z-index: 50;}
+.category-003 .section-stats {
+    display: none;
+}
+.category-003 .section-subfo a {
+    margin-bottom: 20px;
+}
 .category-001 .section-desc catpic img{opacity: 30%;}
-.category-001 .section-subfo a, .category-002 .section-subfo a {
+.category-001 .section-subfo a, .category-002 .section-subfo a, .category-003 .section-subfo a {
     font-size: 9px;
     font-weight: 500;
     padding: 4px 8px 5px;
@@ -580,10 +638,12 @@ user-pic {
     display: block;
 }
 
-.category-003 .section-s {grid-template-rows: 26% 3% 22% 49%; height: 190px;}
-
-.category-003 .section-s:nth-child(4) {width: 555px; grid-area: 2 / 1 / 3 / 3; height: auto;}
 .category-003 .section-desc {display: none;}
+
+.category-003 .section-subfo {
+    grid-area: 3 / 1 / 4 / 4;
+}
+
 
 .category-001 .section-subfo, .category-002 .section-subfo, .category-003 .section-subfo, .category-005 .section-subfo {
     grid-area: 4 / 1 / 5 / 3;
