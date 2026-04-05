@@ -441,7 +441,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     display: none;
 }
 .category-003 .section-subfo a {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
 }
 .category-001 .section-desc catpic img{opacity: 30%;}
 .category-001 .section-subfo a, .category-002 .section-subfo a, .category-003 .section-subfo a {
