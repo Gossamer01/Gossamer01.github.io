@@ -366,7 +366,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     position: relative;
     opacity: 1;}
 .category-003 .section-pic {
-    grid-area: 1 / 3 / 4 / 4;
+    grid-area: 1 / 3 / 5 / 4;
     width: 100%;
     height: 100%;
     right: auto;
