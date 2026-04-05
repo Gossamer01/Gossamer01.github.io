@@ -638,6 +638,8 @@ user-pic {
     outline: 1px solid white;
     outline-offset: 3px;
     display: block;
+    z-index: 50;
+    position: relative;
 }
 
 .category-003 .section-desc {display: none;}
