@@ -298,7 +298,8 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     grid-template-columns: 50px auto 16%;
     grid-template-rows: 40% 17% auto auto;
     width: 100%;}
-.category-001 .section-s h1, .category-002 .section-s h1, .category-003 .section-s h1, .category-005 .section-s h1 {
+
+.section-s h1 {
     font-size: 35px;
     font-style: italic;
     font-weight: 900;
@@ -314,7 +315,7 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     position: relative;
 }
 
-.category-003 .section-ss {
+.category-003 .section-ss, .category-004 .section-ss {
     height: 100%;
     overflow: hidden;
     grid-template-columns: 50px auto 80px;
@@ -650,8 +651,7 @@ user-pic {
     grid-area: 3 / 1 / 4 / 4;
 }
 
-
-.category-001 .section-subfo, .category-002 .section-subfo, .category-003 .section-subfo, .category-005 .section-subfo {
+.section-subfo {
     grid-area: 4 / 1 / 5 / 3;
     display: flex;
     text-align: left;
@@ -663,6 +663,21 @@ user-pic {
     z-index: 60;
     margin-left: 7px;
     position: relative;
+}
+
+
+.section-subfo a {
+    font-size: 9px;
+    font-weight: 500;
+    padding: 4px 8px 5px;
+    background: linear-gradient(to bottom right, #d9bbd0, #ad81a9);
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin: 5px 0px 12px 10px;
+    color: white !important;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    height: 10px;
 }
 
 .category-004 .section-subfo a {font-size: 8px;color: white;}
