@@ -263,7 +263,7 @@ text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px 
 .category-002 .section-s:nth-child(1) .section-subfo span {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
 .category-002 user-pic {margin-top: -25px;}
 
-
+.category-003 section-last-com {grid-area: 2 / 1 / 3 / 3;margin-bottom: 10px;}
 
 
 .category-003 .section, .category-005 .section, .category-seoul .section {align-items: center;grid-template-columns: 50% 50%;column-gap: 15px;row-gap: 15px;}
@@ -324,10 +324,7 @@ text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px 
 }
 
 
-.category-003 section-last-com {
-    grid-area: 2 / 1 / 3 / 3;
-    margin-bottom: 5px;
-}
+
 
 .category-003 .section-stats {
     display: none;
