@@ -378,13 +378,15 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     align-items: center;
     background: none;
 }
-.category-001 user-pic-gradient, .category-003 user-pic-gradient, .category-005 user-pic-gradient {width: 110px;
+.category-001 user-pic-gradient, .category-002 user-pic-gradient, .category-003 user-pic-gradient, .category-005 user-pic-gradient {
+    width: 110px;
     height: 110px;
     opacity: 100%;
     background: linear-gradient(to bottom, #d9bbd0, #ad81a9, #ffffff);
     position: absolute;
     border-radius: 100%;
-    filter: blur(50px);}
+    filter: blur(50px);
+}
 .category-001 user-pic, .category-003 user-pic, .category-005 user-pic {padding: 0;
     background: none;
     display: flex;
