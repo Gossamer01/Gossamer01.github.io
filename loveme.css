@@ -331,6 +331,9 @@ section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; positi
     width: 100%;
 }
 
+.category-005 section-last-com {
+    margin-left: 20px;
+}
 
 .category-003 .section-s h1 {
     font-size: 30px;
