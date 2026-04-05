@@ -184,6 +184,14 @@ input:checked + .slider:before {
     margin-bottom: 75px;
 }
 
+.lastsub {
+    -webkit-line-clamp: 1;
+    white-space: pre-wrap;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
 .category-001 .section-s:nth-child(1) {grid-area: 1 / 1 / 4 / 2;}
 .category-001 .section-s:nth-child(1) .sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(to bottom, #d9bbd0a6, #ad81a93b, #ffffff00);}
 
