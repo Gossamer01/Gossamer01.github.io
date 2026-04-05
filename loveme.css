@@ -236,7 +236,7 @@ section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-b
 .category-002 .section-s:nth-child(1) user-pic img {width: 60px;height: 60px;border-radius: 100%;}
 .category-002 .section-s:nth-child(1) section-last-com, .category-005 section-last-com {grid-area: 2 / 2 / 3 / 3;margin-left: 47px;padding: 10px;font-size: 12px;margin-top: 0px;width: auto;display: grid;
     grid-auto-flow: row;grid-template-columns: min-content;grid-template-rows: auto auto auto;}
-.category-002 .section-s:nth-child(1) section-last-com .lastsub, .category-005 .lastsub {grid-area: 1 / 1 / 2 / 3;}
+.category-002 .section-s:nth-child(1) section-last-com .lastsub, .category-005 .lastsub {grid-area: 1 / 1 / 2 / 3;text-decoration: none;}
 .category-002 .section-s:nth-child(1) section-last-com .lastsub a {-webkit-line-clamp: 1;margin-bottom: 0px;color: white;text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;
     font-family: magnaregular;text-transform: lowercase;font-size: 22px;font-weight: bold;white-space: pre-wrap;-webkit-box-orient: vertical;overflow: hidden;display: -webkit-box;text-align: left;}
 .category-002 .section-s:nth-child(1) section-last-com .lasttime, .category-005 .lasttime {grid-area: 2 / 1 / 3 / 3;}
