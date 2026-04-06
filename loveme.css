@@ -176,10 +176,10 @@ input:checked + .slider:before {
 
 /**************CATEGORIES**********/
 
-.section {display: grid;height: 100%;width: 890px;margin: 0 auto;margin-bottom: 75px;}
+.section {display: grid;height: 100%;width: 890px;margin: 0 auto;margin-bottom: 75px;row-gap: 15px;grid-template-columns: 50% 50%;column-gap: 15px;}
 .section-s {backdrop-filter: blur(1px);height: 100%;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;
     border: 1px solid #ffffff;box-shadow: 0 0 .75rem #adadad38;}
-.section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;}
+.section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;grid-template-rows: 60px auto auto auto;grid-template-columns: 50px auto 80px;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
 .section-s section-icon {background: linear-gradient(to bottom right, #b1b1b1, #454545);animation: glowupulse 2s infinite;margin: 25px;left: 110px;width: 12px;height: 12px;border-radius: 100%;
