@@ -280,6 +280,7 @@ catpic2 img {width: 600px;position: absolute;right: -120px;top: -125px;z-index: 
 .category-event section-last-com .lastsub {grid-area: 1 / 1 / 2 / 4;width: fit-content;font-size: 22px;text-shadow: -0.5px 0 #ffffff, 0 0.5px #ffffff, 0.5px 0 #ffffff, 0 -0.5px #ffffff;}
 .category-event section-last-com .lasttime, .category-event section-last-com .lastposter {font-size: 12px !important;}
 .category-event .section-stats {position: absolute;right: 15px;}
+.category-event .section-pic user-pic {width: 70px;height: 70px;background: #ffffff00;}
 
 
 .category-003 .section, .category-005 .section, .category-seoul .section {align-items: center;grid-template-columns: 50% 50%;column-gap: 15px;row-gap: 15px;}
