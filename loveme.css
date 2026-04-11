@@ -178,7 +178,7 @@ input:checked + .slider:before {
 
 .section {display: grid;height: 100%;width: 890px;margin: 0 auto;margin-bottom: 75px;row-gap: 15px;grid-template-columns: 50% 50%;column-gap: 15px;}
 .section-s {backdrop-filter: blur(1px);height: 100%;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;border: 1px solid #ffffff;
-    box-shadow: 0 0 .75rem #adadad38;height: 275px;}
+    box-shadow: 0 0 .75rem #adadad38;}
 .section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
@@ -210,8 +210,8 @@ section-last-com {text-transform: uppercase;font-weight: 700;font-size: 10px;fon
     column-gap: 10px; grid-area: 2 / 2 / 4 / 3;display: flex;width: auto;height: 68px;flex-wrap: wrap;margin-left: 55px;align-content: center;flex-direction: row;}
 section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-box-orient: vertical;overflow: hidden;display: -webkit-box;text-decoration-line: underline;
     text-decoration-style: wavy;text-decoration-color: #d9bbd0;}
-.section-stats {column-gap: 15px;width: auto;font-family: 'Poppins';font-weight: 100;font-size: 13px;color: #717171;justify-content: center;z-index: 50;display: flex;flex-direction: row;height: 100%;
-    margin: -5px;text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;grid-area: 1 / 3 / 2 / 4;align-items: flex-start;margin-top: 10px;margin-right: 5px;}
+.section-stats {column-gap: 15px;width: auto;font-family: 'Poppins';font-weight: 100;font-size: 13px;color: #717171;justify-content: center;z-index: 50;display: flex;flex-direction: row;height: 100%;margin: -5px;
+    text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;grid-area: 4 / 3 / 5 / 4;align-items: flex-end;margin-right: 5px;}
 .section-stats topics, .section-stats mess {text-align: center;}
 .section-stats topics b, .section-stats mess b {margin-right: 3px;}
 .section-stats topics i, .section-stats mess i {vertical-align: middle;}
