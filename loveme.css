@@ -116,7 +116,9 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
     border-radius: 9px;  margin: 0px 3px;}
   
-.navbar h1 {display: inline-block;vertical-align: middle;  font-size: 10px; background: var(--bg2);  border-radius: 9px;  margin: 0px 3px;padding: 5px 8px;}
+.navbar h1 {display: inline-block;vertical-align: middle;font-size: 10px;background: var(--bg2);border-radius: 9px;margin: 0px 3px;padding: 5px 8px;
+ text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;}
+
 .navbar ht {display: none;}
 
 .navbar2 h1{display: inline-block;vertical-align: middle; font-size: 10px; background: var(--bg2); border-radius: 9px; margin: 0px 3px;padding: 5px 8px;}
