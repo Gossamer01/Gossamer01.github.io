@@ -262,7 +262,7 @@ text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px 
 .category-002 user-pic {margin-top: -25px;width: 50px;height: 50px;}
 .category-002 .section-pic, .category-004 .section-pic {grid-area: 1 / 3 / 2 / 4;margin: 12px;position: absolute;right: 0;top: 15px;}
 
-.category-003 section-last-com {grid-area: 2 / 1 / 3 / 3;margin-bottom: 10px;}
+.category-003 .section-pic {grid-area: 1 / 3 / 5 / 4;height: auto;right: 0px;flex-direction: column;flex-wrap: nowrap;}
 .category-003 user-pic, .category-005 user-pic {padding: 0;background: none;display: flex;z-index: 50;border-radius: 100%;width: 40px;height: 40px;}
 
 .category-event .section-s {height: 350px;}
