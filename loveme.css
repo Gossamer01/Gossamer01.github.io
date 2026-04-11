@@ -179,7 +179,6 @@ input:checked + .slider:before {
 .section {display: grid;height: 100%;width: 890px;margin: 0 auto;margin-bottom: 75px;row-gap: 15px;grid-template-columns: 50% 50%;column-gap: 15px;}
 .section-s {backdrop-filter: blur(1px);height: 100%;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;border: 1px solid #ffffff;
     box-shadow: 0 0 .75rem #adadad38;height: 275px;}
-.sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(0deg, #9b9b9b4d 0%, #ffffff00 50%, #ffffff00 100%);right: 0;}
 .section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;grid-template-rows: 47px auto auto;grid-template-columns: 50px auto 16%;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
