@@ -229,7 +229,7 @@ section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-b
 
 .category-002 .section-s:nth-child(1) {height: 100%;display: grid;grid-area: 1 / 1 / 3 / 2;position: relative;overflow: hidden;}
 .category-002 .section-s:nth-child(1) section-notif {width: 60px; height: 60px; margin-top: 21px; margin-left: 21px;}
-.category-002 .section-s:nth-child(1) .section-pic {grid-area: 2 / 1 / 3 / 2;background: none;position: relative;height: 100%;margin-left: 25px;margin-top: -25px;display: grid;}
+.category-002 .section-s:nth-child(1) .section-pic {grid-area: 2 / 1 / 3 / 2;background: none;position: relative;height: 100%;margin-left: 30px;display: grid;margin-top: 0px;}
 .category-002 .section-s:nth-child(1) user-pic {background: #ad81a980;border-radius: 100%;display: inline-block;animation: glowupulsebig 5s infinite;margin: auto;width: auto;height: auto;outline: none;}
 .category-002 .section-s:nth-child(1) user-pic img {width: 60px;height: 60px;border-radius: 100%;}
 .category-002 .section-s:nth-child(1) section-last-com, .category-005 section-last-com {grid-area: 2 / 2 / 3 / 3;margin-left: 47px;padding: 10px;font-size: 12px;margin-top: 0px;width: auto;display: grid;
