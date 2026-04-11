@@ -109,8 +109,9 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 .mainmenu img {display: none;}
 
 /******************NAVIGATION TREE****************************/
-.navbar {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;display: grid;
-         justify-content: space-between;grid-template: "navbar pagination";}
+.navbar, .navbar2 {outline-offset: 5px;margin-left: 5px;text-transform: uppercase;text-align: left;padding: 7px;outline: 1px solid white;width: 100%;display: grid;justify-content: space-between;
+    grid-template: "navbar pagination";background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
+    text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;font-family: 'Poppins';font-weight: 100;font-size: 13px;color: #717171;}
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
     border-radius: 9px;  margin: 0px 3px;}
@@ -119,8 +120,6 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 .navbar ht {display: none;}
 
 .navbar2 h1{display: inline-block;vertical-align: middle; font-size: 10px; background: var(--bg2); border-radius: 9px; margin: 0px 3px;padding: 5px 8px;}
-.navbar2 {outline-offset: 6px;margin: 14px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;width: 100%;border-radius: 5px;display: grid;
-         justify-content: space-between;grid-template: "navbar pagination";}
 
 .navbar2 ht {display: none;}
   
@@ -421,9 +420,9 @@ user-pic {
 
 
 /***************LISTE DES SUJETS**************/
-.gunavforums {display: flex;align-items: center;justify-content: flex-start;justify-items: start;flex-direction: row;flex-wrap: nowrap;width: 890px;margin: 0 auto;}
+.gunavforums {display: flex;align-items: center;justify-content: flex-start;justify-items: start;flex-direction: row;flex-wrap: nowrap;width: 908px;margin: 15px auto;}
 a.gunewtop {outline-offset: 5px;text-transform: uppercase;padding: 7px;outline: 1px solid white;text-align: center;margin-right: 13px;font-family: Poppins;color: white !important;height: 25px;width: 185px;
-    margin-left: 6px;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
+    margin-left: 15px;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
     text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;font-style: italic;font-weight: 900;}
 
 .gunavforums span.gensmall a {border-radius: 5px;text-align: center;background: linear-gradient(to bottom right, var(--accent4), var(--accent5));display: inline-block;height: 11px;padding: 7px;
