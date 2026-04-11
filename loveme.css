@@ -225,7 +225,7 @@ section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-b
 .category-001 .section-s:nth-child(1) .sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(to bottom, #d9bbd0a6, #ad81a93b, #ffffff00);}
 .category-001 .section-ss, .category-002 .section-ss, .category-003 .section-ss, .category-001 .section-desc, .category-002 .section-desc, .category-003 .section-desc {grid-template-columns: 50px auto 60px;}
 .category-001 .section-pic {display: none;}
-.category-001 section-last-com {grid-area: 2 / 1 / 4 / 3;height: auto;margin: 10px 30px;}
+.category-001 section-last-com {grid-area: 2 / 1 / 4 / 3;height: auto;margin: 10px 30px;flex-wrap: nowrap;}
 
 .category-002 .section-s:nth-child(1) {height: 100%;display: grid;grid-area: 1 / 1 / 3 / 2;position: relative;overflow: hidden;}
 .category-002 .section-s:nth-child(1) section-notif {width: 60px; height: 60px; margin-top: 21px; margin-left: 21px;}
@@ -243,7 +243,7 @@ section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-b
 .category-002 .section, .category-004 .section {align-items: center;grid-template-columns: 50% 50%;column-gap: 15px;row-gap: 15px;}
 .category-002 .section-s:nth-child(1) .sectcorn1 {mix-blend-mode: darken;opacity: 25%;width: 500px;height: 500px;background: linear-gradient(to bottom, #d9bbd0, #ad81a9, #ffffff);position: absolute;
     top: 0px;margin-left: 0px;border-radius: 100%;z-index: 3;filter: blur(38px);margin-left: -150px;margin-top: -50px;}
-.category-002 .section-s:nth-child(1) .section-ss {height: auto;overflow: hidden;width: 100%;grid-template-columns: 12% 68% 20%;grid-template-rows: 65px 90px 140px;}
+.category-002 .section-s:nth-child(1) .section-ss, .category-002 .section-s:nth-child(1) .section-desc {height: auto;overflow: hidden;width: 100%;grid-template-columns: 12% 68% 20%;grid-template-rows: 65px 90px 140px;}
 .category-002 .section-s:nth-child(1) .section-desc { grid-area: 1 / 1 / 4 / 4;}
 .category-002 .section-s:nth-child(1) descplace { grid-area: 1 / 4 / 2 / 5; top: 0; left: 0; color: #fff;  background: none; width: 88%; height: 91%; font-size: 12px;  line-height: 12px; padding: 14px;margin: 12px;}
 .category-002 .section-s:nth-child(1) .section-subfo {grid-area: 3 / 1 / 4 / 4;height: 100%;margin-left: auto;padding: 0;display: flex;align-content: center;justify-content: center;align-items: center;
