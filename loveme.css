@@ -282,7 +282,7 @@ catpic2 img {width: 600px;position: absolute;right: -120px;top: -125px;z-index: 
 .category-event section-last-com .lasttime, .category-event section-last-com .lastposter {font-size: 12px !important;}
 .category-event .section-stats {position: absolute;right: 15px;}
 .category-event .section-pic user-pic {width: 70px;height: 70px;}
-.category-event .section {grid-template-columns: auto;}
+.category-event .section {grid-template-columns: auto;width: 905px;margin-left: 26px;}
 
 .category-seoul .section-s {height: 275px;}
 .category-seoul .section-ss {grid-template-rows: 60px auto auto;grid-template-columns: 50px auto 16%;height: 100%;overflow: hidden;width: 100%;}
