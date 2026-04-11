@@ -111,7 +111,7 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 /******************NAVIGATION TREE****************************/
 .navbar, .navbar2, .navbar3, .navbar4 {outline-offset: 5px;margin-left: 5px;text-transform: uppercase;text-align: left;padding: 7px;outline: 1px solid white;width: 100%;display: grid;justify-content: space-between;
     grid-template: "navbar pagination";background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
-    text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;font-family: 'Poppins';font-weight: 100;font-size: 13px;color: #717171;}
+    text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;font-family: 'Poppins';font-weight: 100;font-size: 13px;color: #575757;}
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
     border-radius: 9px;  margin: 0px 3px;}
