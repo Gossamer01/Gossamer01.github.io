@@ -183,7 +183,7 @@ input:checked + .slider:before {
 .section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;grid-template-rows: auto auto auto auto;grid-template-columns: 50px auto 90px;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
-.section-s section-icon {background: linear-gradient(to bottom right, #b1b1b1, #454545);animation: glowupulse 2s infinite;margin: 25px;left: 110px;width: 12px;height: 12px;border-radius: 100%;
+.section-s section-icon {background: linear-gradient(to bottom right, #b1b1b1, #454545);animation: glowupulse 2s infinite;margin: 25px;width: 12px;height: 12px;border-radius: 100%;
     z-index: 50;grid-area: 1 / 1 / 2 / 2;}
 .section-s h1 {font-size: 35px;font-style: italic;font-weight: 900;text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;text-transform: uppercase;line-height: 100%;
     grid-area: 1 / 2 / 2 / 3;font-family: 'Poppins';z-index: 50;color: white;width: auto;position: relative;align-content: center;margin-block-start: 0px;margin-block-end: 0px;}
@@ -302,7 +302,7 @@ catpic2 img {width: 600px;position: absolute;right: -120px;top: -125px;z-index: 
 .category-seoul .section-subfo a.gensmall {color: white;text-shadow: -0.7px -0.7px 2px var(--accent350), 0.7px -0.7px 2px var(--accent350), -0.7px 0.7px 2px var(--accent350), 0.7px 0.7px 2px var(--accent350);
     font-size: 11px;margin: 0px 3px 0px 3px;background: none;outline: none;}
 .category-seoul .lastsub {font-size: 13px;text-shadow: -0.5px 0 #ffffff, 0 0.5px #ffffff, 0.5px 0 #ffffff, 0 -0.5px #ffffff;width: 100%;}
-
+.category-seoul .section-ss {min-height: 275px;}
 
 
 .category-003 .section, .category-005 .section, .category-seoul .section, .category-seoul .section {align-items: center;grid-template-columns: 50% 50%;column-gap: 15px;row-gap: 15px;}
