@@ -297,7 +297,7 @@ catpic2 img {width: 600px;position: absolute;right: -120px;top: -125px;z-index: 
 .category-event section-last-com .lasttime, .category-event section-last-com .lastposter {font-size: 12px !important;}
 .category-event .section-stats {position: absolute;right: 5px;bottom: 5px;grid-area: 4 / 3 / 5 / 4;align-items: flex-end;}
 .category-event .section-pic user-pic {width: 70px;height: 70px;}
-.category-event .section {grid-template-columns: auto;width: 905px;margin-left: 26px;}
+.category-event .section {grid-template-columns: auto;}
 
 
 .category-seoul .section-desc2 catpic img {filter: contrast(100%) brightness(100%) grayscale(100%);}
