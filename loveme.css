@@ -178,7 +178,7 @@ input:checked + .slider:before {
 
 .section {display: grid;height: 100%;width: 100%;margin: 0;margin-bottom: 75px;row-gap: 15px;grid-template-columns: 50% 50%;column-gap: 15px;justify-content: space-around;justify-items: center;align-items: center;}
 .section-s {backdrop-filter: blur(1px);height: 100%;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;border: 1px solid #ffffff;
-    box-shadow: 0 0 .75rem #adadad38;}
+    box-shadow: 0 0 .75rem #adadad38; width: 100%;}
 .section-ss {display: grid;position: relative;overflow: hidden;width: 100%;height: 100%;grid-template-rows: auto auto auto auto;grid-template-columns: 50px auto 90px;}
 section-notif {grid-area: 1 / 1 / 2 / 2;}
 section-notif img {width: 33px;height: 33px;object-fit: cover; top: 16px; position: relative; left: 16px;}
