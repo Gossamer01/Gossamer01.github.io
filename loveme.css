@@ -30,6 +30,8 @@ th {color: inherit!important;font-size: 11px;font-weight: 700;background-color: 
 .blur {filter: blur(3px);text-shadow: none !important;color: inherit !important;transition: all 0.3s ease-in-out;}
 .blur:hover {filter: blur(0px);transition: all 0.3s ease-in-out;}
 
+form {width: 100%;padding-left: 5px;}
+.forumline {height: 100%;background: #f3f3f380;outline: 1px solid #fff;outline-offset: 5px;backdrop-filter: blur(5px);padding: 25px;border: 0;width: 100%;font-family: Poppins;}
 
 /**************CATEGORIES**********/
 .maintitle {padding: 20px 0px 20px 20px;height: 40px;color: #eeeeee;text-transform: uppercase;position: relative;overflow: hidden;width: 945px;margin-left: 2px;}
