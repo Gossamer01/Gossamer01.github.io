@@ -229,7 +229,8 @@ section-last-com .lastsub {-webkit-line-clamp: 1;white-space: pre-wrap;-webkit-b
 .category-001 .section-s:nth-child(1) .sectcorn1 {position: absolute;width: 100%;height: 100%;background: linear-gradient(to bottom, #d9bbd0a6, #ad81a93b, #ffffff00);}
 .category-001 .section-pic, .category-001 .section-desc {display: none;}
 .category-001 section-last-com, .category-002 section-last-com {grid-area: 2 / 1 / 3 / 4;height: auto;margin: 10px 30px;}
-.category-001 .section-stats, .category-002 .section-stats {grid-area: 3 / 3 / 4 / 4;display: flex;align-items: flex-end;justify-content: flex-end;margin-right: 5px;margin-top: -5px;}
+.category-001 .section-stats, .category-002 .section-stats, .category-004 .section-stats, .category-005 .section-stats {grid-area: 3 / 3 / 4 / 4;display: flex;align-items: flex-end;justify-content: flex-end;
+    margin-right: 5px;margin-top: -5px;}
 .category-001 .section-subfo {grid-area: 3 / 1 / 4 / 3;}
 
 .category-002 .section-s:nth-child(1) {height: 100%;display: grid;grid-area: 1 / 1 / 3 / 2;position: relative;overflow: hidden;}
