@@ -112,13 +112,12 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 /******************NAVIGATION TREE****************************/
 .navbar, .navbar2, .navbar3, .navbar4 {
     outline-offset: 5px;
-    margin: 5px;
     text-transform: uppercase;
     text-align: left;
     padding: 6px;
     outline: 1px solid white;
-    width: -webkit-fill-available;
-    display: grid;
+    width: stretch;
+    display: flex;
     justify-content: space-between;
     grid-template: "navbar pagination";
     background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;
@@ -128,6 +127,9 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
     font-weight: 100;
     font-size: 13px;
     color: #575757;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
@@ -327,11 +329,10 @@ catpic2 img {width: 600px;position: absolute;right: -120px;top: -125px;z-index: 
 .category-seoul .lastsub {font-size: 13px;text-shadow: -0.5px 0 #ffffff, 0 0.5px #ffffff, 0.5px 0 #ffffff, 0 -0.5px #ffffff;width: 100%;}
 .category-seoul .section-ss {min-height: 275px;}
 
-
-
 .category-003 .section, .category-005 .section, .category-seoul .section, .category-seoul .section {align-items: center;grid-template-columns: 50% 50%;column-gap: 15px;row-gap: 15px;}
 
-.category-001, .category-002, .category-003, .category-004, .category-005, .category-event, .category-seoul {width: 100%;display: flex;flex-direction: column;flex-wrap: nowrap;align-items: flex-start;height: 100%;}
+.category-001, .category-002, .category-003, .category-004, .category-005, .category-event, .category-seoul, .category- {width: 100%;display: flex;flex-direction: column;flex-wrap: nowrap;
+align-items: flex-start;height: 100%;}
 
 
 
@@ -414,9 +415,9 @@ user-pic {
 
 
 /***************LISTE DES SUJETS**************/
-.gunavforums {display: flex;align-items: center;justify-content: flex-start;justify-items: start;flex-direction: row;flex-wrap: nowrap;width: -webkit-fill-available;padding-left: 15px;}
-a.gunewtop {outline-offset: 5px;text-transform: uppercase;padding: 7px;outline: 1px solid white;text-align: center;margin-right: 13px;font-family: Poppins;color: white !important;height: 25px;width: 185px;
-    margin-left: 15px;background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
+.gunavforums {justify-items: start;width: 960px;display: flex;flex-direction: row;flex-wrap: nowrap;height: 100%;column-gap: 20px;align-items: center;}
+a.gunewtop {outline-offset: 5px;text-transform: uppercase;padding: 7px;outline: 1px solid white;text-align: center;font-family: Poppins;color: white !important;height: 25px;width: 185px;margin-left: 5px;
+    background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
     text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;font-style: italic;font-weight: 900;}
 .topicsguwow {margin-bottom: 0px;width: 905px;margin-left: 26px;display: grid;row-gap: 10px;grid-auto-flow: row;}
 .topiclistgu {height: 105px;overflow: hidden;grid-template-columns: 8% 62% 19% 11%;grid-template-rows: 21% 18% 33% 28%;display: grid;outline: 1px solid #ffffff;
