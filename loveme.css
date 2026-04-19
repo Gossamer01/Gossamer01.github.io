@@ -115,7 +115,7 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
     margin: 5px;
     text-transform: uppercase;
     text-align: left;
-    padding: 7px;
+    padding: 6px;
     outline: 1px solid white;
     width: -webkit-fill-available;
     display: grid;
