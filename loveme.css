@@ -605,21 +605,41 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 .topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 228px auto 150px;grid-template-rows: 70px 70px 42px auto auto 50px auto;display: grid;backdrop-filter: blur(5px);}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;grid-area: 1 / 1 / 3 / 4;}
 .posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;height: fit-content;grid-area: 3 / 1 / 5 / 2;margin: 20px;overflow: hidden;}
-.posteravawrapper avatarprofilegu img {width: 200px;height: 320px;object-fit: cover;}
+.posteravawrapper avatarprofilegu img {width: 200px;height: 320px;object-fit: cover;filter: grayscale(0%) brightness(80%) contrast(100%) !important;}
+
+avatarprofilegu {
+    z-index: 1;
+    display: block;
+    width: 200px;
+    position: sticky;
+    height: 320px;
+    box-shadow: 0px 0px 126px #9e8463;
+}
 
 .posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 100%;height: 100%;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
     display: block;border-radius: 0px 5px 0px 0px;grid-area: 1 / 3 / 4 / 4;}
 .posteravagif2 {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);}
 .posteravagif img {width: 100%;height: 100%;object-fit: cover;opacity: 0.5;filter: grayscale(1);}
-.posteravawrapper:hover avatarprofilegu img {filter: grayscale(100%) brightness(100%) contrast(50%) blur(1px)}
-.posteravainfos::before {content: "";height: 200px;width: 200px;position: absolute;top: -5px;left: 100px;background: radial-gradient(circle, #fdfdfd 0%, #00000000 70%, #00000000 100%);
-    z-index: -1;opacity: 0.6;}
-.posteravainfos::after {content: "";height: 300px;width: 300px;position: absolute;bottom: -160px;left: -40px;
-    background: radial-gradient(circle, #fdfdfd 0%, #00000000 70%, #00000000 100%);z-index: -1;opacity: 0.6;}
-.posteravawrapper:hover .posteravainfos {opacity: 1;-webkit-transition: 0.7s 0s;}
-.posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;height: 280px;
-    overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;display: flex;
-    flex-direction: column;flex-wrap: nowrap;justify-content: flex-start;row-gap: 7px;}
+
+.posteravainfos {
+    background: #7979790f;
+    opacity: 0;
+    display: flex;
+    width: 140px;
+    height: 260px;
+    backdrop-filter: blur(5px);
+    transition: .9s;
+    color: #c9c9c9;
+    margin-top: -320px;
+    z-index: 10;
+    position: relative;
+    padding: 30px;
+    row-gap: 25px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 .posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: center;align-items: center;font-size: 45px;text-transform: lowercase;
     text-shadow: 0px 0px 10px #ffffff;font-family: magnaregular;}
 
@@ -665,7 +685,7 @@ smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: co
 
 .posteravainfos profilpostgu.icone {display: none;}
 .posteravainfos profilpostgu {display: flex;flex-direction: column;flex-wrap: nowrap;}
-.posteravainfos profilpostgu.image-fond {align-items: center;}
+
 .posteravainfos profilpostgu.image-fond img {width: 100px;height: 100px;object-fit: cover;border-radius: 100%;filter: grayscale(1) brightness(1) contrast(0.5);mix-blend-mode: darken;}
 
 .posteravainfos profilpostgu.image-fond labelgu {display: none;}
@@ -853,11 +873,31 @@ contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_i
 .posteravawrapper .posteravainfos profilpostgu.points, .posteravawrapper .posteravainfos profilpostgu.content-warning, .posteravawrapper .posteravainfos profilpostgu.trigger-warnings, 
 .posteravawrapper .posteravainfos profilpostgu.casualsobservers, .posteravawrapper .posteravainfos profilpostgu.trendbees, .posteravawrapper .posteravainfos profilpostgu.fanshypers, 
 .posteravawrapper .posteravainfos profilpostgu.stanssupporters, .posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haterscritics, 
-.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats {display: none;}
+.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats, .posteravainfos profilpostgu.image-fond {display: none;}
 
-.posteravainfos labelgu {font-family: 'Poppins';font-size: 10px;font-weight: bold;text-transform: uppercase;letter-spacing: 1px;color: #ffffff8a;}
-.posteravainfos contentprogu {font-family: 'Felgine_Regular';font-size: 12px;color: #ffffffb3;}
+.posteravainfos labelgu {
+    font-family: 'Poppins';
+    font-size: 8.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e9e9e9;
+    border-bottom: 1px solid #afafaf;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 5px;
+}
 .posteravainfos labelgu span {color: inherit !important;}
+
+.posteravainfos contentprogu {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-weight: normal;
+    line-height: 15px;
+    font-style: italic;
+}
 
 modauthlist {outline-offset: 6px;margin: 8px 9px;text-transform: uppercase;text-align: left;padding: 7px;background: #f3f3f380;outline: 1px solid white;border-radius: 5px;
 display: block;width: 911px;font-size: 10px;margin-left: 8px;}
@@ -901,21 +941,13 @@ a.btn.btn-flat img {display: none;}
 modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 
 .topicwrapper2.ksyent .postertopwrapper {background: linear-gradient(to left, #cbbbd975, #cbbbd938, #cbbbd961);}
-.topicwrapper2.ksyent .posteravainfos {background: #675b8382;}
 .topicwrapper2.burfla .postertopwrapper {background: linear-gradient(to bottom right, #7286a145, #54577f6b);}
-.topicwrapper2.burfla .posteravainfos {background: #5b618382;}
 .topicwrapper2.dayrec .postertopwrapper {background: linear-gradient(to bottom right, #7295a145, #54757f6b);}
-.topicwrapper2.dayrec .posteravainfos {background: #5b7d8382;}
 .topicwrapper2.midmu .postertopwrapper {background: linear-gradient(to bottom right, #72a18a45, #547f656b);}
-.topicwrapper2.midmu .posteravainfos {background: #5b837a82;}
 .topicwrapper2.insom .postertopwrapper {background: linear-gradient(to bottom right, #a172a045, #7c547f6b);}
-.topicwrapper2.insom .posteravainfos {background: #7f5b8382;}
 .topicwrapper2.indies .postertopwrapper {background: linear-gradient(to bottom right, #a1727c45, #7f54566b);}
-.topicwrapper2.indies .posteravainfos {background: #a56e7a82;}
 .topicwrapper2.staff .postertopwrapper {background: linear-gradient(to bottom right, #a18d7245, #7f68546b);}
-.topicwrapper2.staff .posteravainfos {background: #a5856e82;}
 .topicwrapper2.citiz .postertopwrapper {background: linear-gradient(to bottom right, #72a17545, #5b7f546b);}
-.topicwrapper2.citiz .posteravainfos {background: #5b836282;}
 
 /******************SHOP****************************/
 
