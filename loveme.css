@@ -147,10 +147,11 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 
 .gutopicread i, .guwatched i {font-size: 20px;}
 .gutopicread b, .guwatched b {text-align: justify;line-height: 100%;}
+.guwatched {width: 225px;}
 .gutopicread, .guwatched, .guuserlist {outline-offset: 5px;text-transform: uppercase;padding: 6px;outline: 1px solid white;width: 100%;
 background: linear-gradient(#e5e5e533, #e1e1e133), radial-gradient(circle at 75% -75%, #ffffff7d, #00000000), #ffffff29;box-shadow: 0 0 .75rem #adadad38;
 text-shadow: -0.5px 0px #ffffff8f, 0px 0.5px #ffffff8f, 0.5px 0px #ffffff8f, 0px -0.5px #ffffff8f;font-family: 'Poppins';color: #575757;font-size: 10px;}
-.guwatched, .gutopicread {width: 160px;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;text-align: center;line-height: 100%;font-weight: 700;height: -webkit-fill-available;}
+.guwatched, .gutopicread {width: 160px;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;text-align: center;line-height: 100%;font-weight: 700;height: -webkit-fill-available;column-gap: 10px;}
 .guuserlist {font-weight: 700;line-height: 130%;height: -webkit-fill-available;align-content: center;text-align: justify;}
   
  a.navlink { font-size: 11px; display: inline-block;  vertical-align: middle;  font-weight: bold;  background: var(--bg2);  padding: 5px 8px;
