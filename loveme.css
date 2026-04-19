@@ -596,6 +596,7 @@ a.gutopicrepnew {outline-offset: 6px;text-transform: uppercase;padding: 7px;outl
 .gupagetopic b, .gupagetopic2 b, .gupagetopic a, .gupagetopic2 a {border-radius: 5px;background: linear-gradient(to bottom right, #d9bbd0, #ad81a9);width: 9px;display: flex;height: 7px;padding: 9px 7px 7px 7px;
     font-size: 10px;color: white !important;text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px #4949498f;font-family: 'Poppins';justify-content: center;
     align-items: center;font-weight: 900;}
+.gupagetopic, .gupagetopic2 {margin-top: -15px;padding-bottom: 15px;display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;align-items: center;justify-content: center;column-gap: 5px;}
 
 .gupagetopic a img, .gupagetopic2 a img {width: 10px;}
 
