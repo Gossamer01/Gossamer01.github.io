@@ -602,10 +602,10 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 .gutopicwrapper {width: 953px;display: flex;flex-direction: column;flex-wrap: nowrap;row-gap: 20px;margin-left: 6px;}
 .topicwrapper2 {outline-offset: 6px;text-align: left;background: #f3f3f380;outline: 1px solid white;}
 
-.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 227px auto 150px;grid-template-rows: 70px 20px 60px 42px 170px auto 50px auto;display: grid;backdrop-filter: blur(5px);}
-.postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;border-radius: 5px 5px 0px 0px;grid-area: 1 / 1 / 4 / 4;}
-.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;border-radius: 5px;height: fit-content;grid-area: 1 / 1 / 6 / 2;margin: 20px;overflow: hidden;}
-.posteravawrapper avatarprofilegu img {width: 200px;height: 320px;object-fit: cover;border-radius: 5px;}
+.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 228px auto 150px;grid-template-rows: 70px 70px 42px auto auto 50px auto;display: grid;backdrop-filter: blur(5px);}
+.postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;grid-area: 1 / 1 / 3 / 4;}
+.posteravawrapper {outline: 1px solid white;width: fit-content;outline-offset: 6px;height: fit-content;grid-area: 3 / 1 / 5 / 2;margin: 20px;overflow: hidden;}
+.posteravawrapper avatarprofilegu img {width: 200px;height: 320px;object-fit: cover;}
 
 .posteravagif {background: linear-gradient(315deg, var(--fondco2), var(--fondco1));width: 100%;height: 100%;-webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);
     display: block;border-radius: 0px 5px 0px 0px;grid-area: 1 / 3 / 4 / 4;}
@@ -620,12 +620,12 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 .posteravainfos {position: absolute;background: #a09bab82;top: 0;left: 0;border-radius: 5px;z-index: 10;width: 160px;height: 280px;
     overflow: hidden;transition: 0.7s 0s;-webkit-transition: 0.7s 0s;opacity: 0;padding: 20px;margin: 20px;display: flex;
     flex-direction: column;flex-wrap: nowrap;justify-content: flex-start;row-gap: 7px;}
-.posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: flex-start;align-items: center;font-size: 24px;font-family: 'Felgine_Regular';
-    text-shadow: #ffffff9c 5px 0px 13px; margin-left: 20px;letter-spacing: 1px;text-transform: lowercase;font-size: 30px;}
+.posternamewrapper {grid-area: 1 / 2 / 2 / 3;display: flex;flex-direction: row;flex-wrap: wrap;align-content: flex-end;justify-content: center;align-items: center;font-size: 45px;text-transform: lowercase;
+    text-shadow: 0px 0px 10px #ffffff;font-family: magnaregular;}
 
 .posterdatehere {color: #757575;font-family: poppins;font-weight: bold;font-size: 10px;height: 40px;letter-spacing: 1px;padding: 0 8px 0 15px;text-align: left;
-    text-shadow: -1px -1px 0 #ffffff87, 1px -1px 0 #ffffff87, -1px 1px 0 #ffffff87, 1px 1px 0 #ffffff87;text-transform: uppercase;grid-area: 4 / 2 / 5 / 4;
-    border-top: 1px solid white;border-bottom: 1px solid white;display: inline-flex;align-items: center;justify-content: space-between;}
+    text-shadow: -1px -1px 0 #ffffff87, 1px -1px 0 #ffffff87, -1px 1px 0 #ffffff87, 1px 1px 0 #ffffff87;text-transform: uppercase;grid-area: 3 / 2 / 4 / 4;border-bottom: 1px solid white;
+    display: inline-flex;align-items: center;justify-content: space-between;}
 
 thebuttonsthere a[href$="mode=quote"]:before {content: 'Citer'; padding: 4px 6px;font-weight: bold;}
 thebuttonsthere a[href$="mode=delete"]:before  {content: 'Supprimer'; padding: 4px 6px;font-weight: bold;}
@@ -634,21 +634,21 @@ thebuttonsthere a[href^="/modcp?mode=ip"]:before {content: 'IP'; padding: 4px 6p
 thebuttonsthere img{display:none;}
 thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-gap: 15px;}
 
-awardtopicgu {grid-area: 6 / 1 / 7 / 2;height: 100%;padding-bottom: 10px;}
+awardtopicgu {grid-area: 5 / 1 / 6 / 2;height: 100%;padding-bottom: 10px;}
 
-contactfieldgu {grid-area: 7 / 1 / 8 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: flex-start;column-gap: 12.7px;margin-left: 20px;width: 200px;margin-top: 5px;justify-content: center;}
+contactfieldgu {grid-area: 6 / 1 / 7 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: flex-start;column-gap: 12.7px;margin-left: 20px;width: 200px;margin-top: 5px;justify-content: center;}
 contactfieldgu a{padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
 contactfieldgu a img {filter: invert(40%);}
 
-contentmessagehere {grid-area: 5 / 2 / 10 / 4;padding: 15px;font-size: 14px;color: var(--body);width: 667px !important;overflow: hidden;}
+contentmessagehere {grid-area: 4 / 2 / 8 / 4;padding: 15px;font-size: 14px;color: var(--body);overflow: hidden;font-family: 'Poppins';}
 
-rankuserprofiltop {grid-area: 2 / 2 / 3 / 3;display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: flex-start;align-items: center;margin-left: 20px;font-size: 16px;color: white;
-    font-family: 'Poppins';font-weight: 300;}
-rankuserprofiltop img {height: 15px;filter: invert(100%);margin-right: 6px;}
+rankuserprofiltop {grid-area: 1 / 1 / 3 / 2;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;font-size: 16px;color: white;font-family: 'Poppins';font-weight: 300;
+    align-content: flex-end;align-items: center;margin-left: 20px;}
+rankuserprofiltop img {mix-blend-mode: screen;width: 90%;}
 rankuserprofiltop br {display: none;}
 
-smallinfospacegu {grid-area: 3 / 2 / 4 / 3;display: flex;column-gap: 15px;row-gap: 13px;margin-left: 20px;flex-direction: row;
-    flex-wrap: wrap;align-content: flex-start;justify-content: flex-start;align-items: center;margin-top: 10px;}
+smallinfospacegu {grid-area: 2 / 2 / 3 / 3;display: flex;column-gap: 15px;row-gap: 13px;margin-left: 20px;flex-direction: row;flex-wrap: wrap;align-content: flex-start;
+    justify-content: center;align-items: center;margin: 15px 0px;}
 smallinfospacegu profilpostgu {border-radius: 5px;background: #f3f3f380;outline: 1px solid #fff;outline-offset: 3px;
     padding: 0px 10px 0px 10px;font-size: 9px;font-weight: bold;text-transform: uppercase;font-family: poppins;}
 smallinfospacegu profilpostgu labelgu {display: none;}
@@ -660,11 +660,8 @@ smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasae
 
 smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin-left:3px}
 
-smallinfospacegu profilpostgu.icone {position: absolute;right: 0;top: 0;width: 150px;height: 150px;padding: 0;outline: none;
-    -webkit-mask-image: linear-gradient(to bottom, #000 0, #000 0%, transparent 100%);display: block;border-radius: 0px 5px 0px 0px;background: none;}
-smallinfospacegu profilpostgu.icone contentprogu {-webkit-mask-image: linear-gradient(to left, #000 0, #000 0%, transparent 100%);
-    width: 100%;height: 100%;display: block;}
-smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 0px 5px 0px 0px;opacity: 0.5;filter: grayscale(100%) contrast(150%) saturate(150%);}
+smallinfospacegu profilpostgu.icone {position: absolute;right: 20px;top: 25px;width: 90px;height: 90px;padding: 0;display: block;border-radius: 100%;outline: 1px solid #ffffff;outline-offset: 6px;}
+smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: cover;border-radius: 100%;opacity: 0.5;filter: grayscale(100%) contrast(120%);}
 
 .posteravainfos profilpostgu.icone {display: none;}
 .posteravainfos profilpostgu {display: flex;flex-direction: column;flex-wrap: nowrap;}
