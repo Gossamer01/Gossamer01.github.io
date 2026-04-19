@@ -446,7 +446,7 @@ text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498
 
 
 
-.navbar span.gensmall {
+.navbar span.gensmall, .navbar2 span.gensmall, .navbar3 span.gensmall, .navbar4 span.gensmall {
     display: grid;
     grid-auto-flow: column;
     align-content: center;
