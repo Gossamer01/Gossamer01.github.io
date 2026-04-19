@@ -43,6 +43,7 @@ form {width: 100%;padding-left: 5px;}
     width: 955px;
     font-family: Poppins;
 }
+div#info_open {display: flex;row-gap: 20px;flex-wrap: wrap;}
 
 /**************CATEGORIES**********/
 .maintitle {padding: 20px 0px 20px 20px;height: 40px;color: #eeeeee;text-transform: uppercase;position: relative;overflow: hidden;width: 945px;margin-left: 2px;}
