@@ -903,7 +903,7 @@ a.btn.btn-flat[href*="modcp"][href*="mode=unlock"]:after{content: 'unlocker le s
 a.btn.btn-flat img {display: none;}
 modkitool {display: flex;flex-direction: row;flex-wrap: nowrap;align-content: center;justify-content: center;align-items: center;}
 
-.topicwrapper2.ksyent .postertopwrapper {background: linear-gradient(to bottom right, #7a72a145, #5b547f6b);}
+.topicwrapper2.ksyent .postertopwrapper {background: linear-gradient(to left, #cbbbd975, #cbbbd938, #cbbbd961);}
 .topicwrapper2.ksyent .posteravainfos {background: #675b8382;}
 .topicwrapper2.burfla .postertopwrapper {background: linear-gradient(to bottom right, #7286a145, #54577f6b);}
 .topicwrapper2.burfla .posteravainfos {background: #5b618382;}
