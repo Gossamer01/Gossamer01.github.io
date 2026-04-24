@@ -602,7 +602,14 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 .gutopicwrapper {width: 953px;display: flex;flex-direction: column;flex-wrap: nowrap;row-gap: 20px;margin-left: 6px;}
 .topicwrapper2 {outline-offset: 6px;text-align: left;background: #f3f3f380;outline: 1px solid white;}
 
-.topicwrapper2 .post {width: 100%;height: fit-content;grid-template-columns: 228px auto 150px;grid-template-rows: 70px 70px 42px auto auto 50px auto;display: grid;backdrop-filter: blur(5px);}
+.topicwrapper2 .post {
+    width: 100%;
+    height: fit-content;
+    grid-template-columns: 228px auto 150px;
+    grid-template-rows: 70px 70px 42px 320px 50px auto 100px;
+    display: grid;
+    backdrop-filter: blur(5px);
+}
 .postertopwrapper {width: 100%;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: 100%;grid-area: 1 / 1 / 3 / 4;}
 .posteravawrapper {
     outline: 1px solid white;
@@ -666,7 +673,22 @@ contactfieldgu {grid-area: 6 / 1 / 7 / 2;display: flex;flex-direction: row;flex-
 contactfieldgu a{padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
 contactfieldgu a img {filter: invert(40%);}
 
-contentmessagehere {grid-area: 4 / 2 / 8 / 4;padding: 15px;font-size: 14px;color: var(--body);overflow: hidden;font-family: 'Poppins';}
+contentmessagehere {
+    grid-area: 4 / 2 / 7 / 4;
+    padding: 15px;
+    font-size: 14px;
+    color: var(--body);
+    overflow: hidden;
+    font-family: 'Poppins';
+}
+
+.endwrapper {
+    width: auto;
+    background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
+    height: auto;
+    grid-area: 7 / 1 / 8 / 4;
+    border-top: 1px solid white;
+}
 
 rankuserprofiltop {grid-area: 1 / 1 / 3 / 2;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;font-size: 16px;color: white;font-family: 'Poppins';font-weight: 300;
     align-content: flex-end;align-items: center;margin-left: 20px;}
