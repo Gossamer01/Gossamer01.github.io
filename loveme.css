@@ -606,7 +606,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     width: 100%;
     height: fit-content;
     grid-template-columns: 228px auto 150px;
-    grid-template-rows: 70px 70px 42px 320px 50px auto 100px;
+    grid-template-rows: 70px 70px 42px 320px auto 100px;
     display: grid;
     backdrop-filter: blur(5px);
 }
@@ -669,9 +669,33 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 
 awardtopicgu {grid-area: 5 / 1 / 6 / 2;height: 100%;padding-bottom: 10px;}
 
-contactfieldgu {grid-area: 6 / 1 / 7 / 2;display: flex;flex-direction: row;flex-wrap: nowrap;align-items: flex-start;column-gap: 12.7px;margin-left: 20px;width: 200px;margin-top: 5px;justify-content: center;}
-contactfieldgu a{padding: 3px;font-size: 25px;width: 25px;height: 25px;display: flex;justify-content: center;border-radius: 5px;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;}
-contactfieldgu a img {filter: invert(40%);}
+contactfieldgu {
+    grid-area: 6 / 1 / 7 / 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+contactfieldgu a {
+    padding: 3px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    background: #f3f3f380;
+    outline: 1px solid white;
+    outline-offset: 3px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+contactfieldgu a img {
+    filter: invert(40%);
+    width: 18px;
+}
 
 contentmessagehere {
     grid-area: 4 / 2 / 7 / 4;
@@ -686,7 +710,7 @@ contentmessagehere {
     width: auto;
     background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
     height: auto;
-    grid-area: 7 / 1 / 8 / 4;
+    grid-area: 6 / 1 / 7 / 4;
     border-top: 1px solid white;
 }
 
