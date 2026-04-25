@@ -691,7 +691,8 @@ smallinfospacegu profilpostgu.image-fond, smallinfospacegu profilpostgu.faceclai
 smallinfospacegu profilpostgu.content-warning, smallinfospacegu profilpostgu.date-dinscription, smallinfospacegu profilpostgu.messages, smallinfospacegu profilpostgu.pseudo, 
 smallinfospacegu profilpostgu.pronoms, smallinfospacegu profilpostgu.trigger-warnings, smallinfospacegu profilpostgu.casualsobservers, smallinfospacegu profilpostgu.trendbees, 
 smallinfospacegu profilpostgu.fanshypers, smallinfospacegu profilpostgu.stanssupporters, smallinfospacegu profilpostgu.globals, 
-smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasaengscopycats {display: none;}
+smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasaengscopycats, smallinfospacegu profilpostgu.force, smallinfospacegu profilpostgu.dexterite, 
+smallinfospacegu profilpostgu.constitution, smallinfospacegu profilpostgu.intelligence, smallinfospacegu profilpostgu.sagesse, smallinfospacegu profilpostgu.charisme {display: none;}
 
 smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin-left:3px}
 
