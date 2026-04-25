@@ -882,7 +882,8 @@ contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_i
 .posteravawrapper .posteravainfos profilpostgu.points, .posteravawrapper .posteravainfos profilpostgu.content-warning, .posteravawrapper .posteravainfos profilpostgu.trigger-warnings, 
 .posteravawrapper .posteravainfos profilpostgu.casualsobservers, .posteravawrapper .posteravainfos profilpostgu.trendbees, .posteravawrapper .posteravainfos profilpostgu.fanshypers, 
 .posteravawrapper .posteravainfos profilpostgu.stanssupporters, .posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haterscritics, 
-.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats, .posteravainfos profilpostgu.image-fond {display: none;}
+.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats, .posteravainfos profilpostgu.image-fond, .posteravainfos profilpostgu.force, .posteravainfos profilpostgu.dexterite,
+.posteravainfos profilpostgu.constitution, .posteravainfos profilpostgu.intelligence, .posteravainfos profilpostgu.sagesse, .posteravainfos profilpostgu.charisme {display: none;}
 
 .posteravainfos labelgu {
     font-family: 'Poppins';
