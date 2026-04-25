@@ -669,50 +669,13 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 
 awardtopicgu {grid-area: 5 / 1 / 6 / 2;height: 100%;padding-bottom: 10px;}
 
-contactfieldgu {
-    grid-area: 6 / 1 / 7 / 2;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    column-gap: 15px;
-    row-gap: 15px;
-    justify-content: center;
-    align-content: center;
-}
-contactfieldgu a {
-    padding: 3px;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    background: #f3f3f380;
-    outline: 1px solid white;
-    outline-offset: 3px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-contactfieldgu a img {
-    filter: invert(40%);
-    width: 18px;
-}
+contactfieldgu {grid-area: 6 / 1 / 7 / 2;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;column-gap: 15px;row-gap: 15px;justify-content: center;align-content: center;}
+contactfieldgu a {padding: 3px;width: 15px;height: 15px;display: flex;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;justify-content: center;align-content: center;align-items: center;}
+contactfieldgu a img {filter: invert(40%);width: 18px;}
 
-contentmessagehere {
-    grid-area: 4 / 2 / 7 / 4;
-    padding: 15px;
-    font-size: 14px;
-    color: var(--body);
-    overflow: hidden;
-    font-family: 'Poppins';
-}
+contentmessagehere {grid-area: 4 / 2 / 7 / 4;padding: 15px;font-size: 14px;color: var(--body);overflow: hidden;font-family: 'Poppins';}
 
-.endwrapper {
-    width: auto;
-    background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
-    height: auto;
-    grid-area: 6 / 1 / 7 / 4;
-    border-top: 1px solid white;
-}
+.endwrapper {width: auto;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: auto;grid-area: 6 / 1 / 7 / 4;border-top: 1px solid white;}
 
 rankuserprofiltop {grid-area: 1 / 1 / 3 / 2;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;font-size: 16px;color: white;font-family: 'Poppins';font-weight: 300;
     align-content: flex-end;align-items: center;margin-left: 20px;}
@@ -739,8 +702,6 @@ smallinfospacegu profilpostgu.icone img {width: 100%;height: 100%;object-fit: co
 .posteravainfos profilpostgu {display: flex;flex-direction: column;flex-wrap: nowrap;}
 
 .posteravainfos profilpostgu.image-fond img {width: 100px;height: 100px;object-fit: cover;border-radius: 100%;filter: grayscale(1) brightness(1) contrast(0.5);mix-blend-mode: darken;}
-
-.posteravainfos profilpostgu.faceclaim contentprogu:before{content: 'feat';margin-right:3px}
 
 /************PROFILE*******************/
 .profilgu {grid-template-columns: 270px auto 50px;grid-template-rows: 100px 201px 100px 80px 90px auto;padding: 20px;width: 900px;row-gap: 0px;}
