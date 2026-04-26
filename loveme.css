@@ -819,7 +819,7 @@ skillsgu {
     grid-area: 1 / 2 / 2 / 6;
 }
 
-.endwrapper famestatsgu totalgu:after {content: 'k';}
+.endwrapper famestatsgu totalgu:after {content: 'k';margin-left: 3px;margin-right: 0px;}
 .endwrapper famestatsgu labelgu {display: none;}
 .endwrapper famestatsgu contentprogu {display: none;}
 
