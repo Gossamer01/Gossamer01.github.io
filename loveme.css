@@ -1027,10 +1027,26 @@ font-family: poppins;
     letter-spacing: 2px;
 }
 
+charainfoprofile div#field_id14 .field_uneditable:after, charainfoprofile div#field_id16 .field_uneditable:after, 
+charainfoprofile div#field_id18 .field_uneditable:after, charainfoprofile div#field_id19 .field_uneditable:after {
+font-family: "Phosphor" !important;
+    font-size: 25px;
+    grid-area: 1 / 2 / 3 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
 charainfoprofile div#field_id14 .field_uneditable:before {content: 'casuals :';}
 charainfoprofile div#field_id16 .field_uneditable:before {content: 'fans :';}
 charainfoprofile div#field_id18 .field_uneditable:before {content: 'globals :';}
 charainfoprofile div#field_id19 .field_uneditable:before {content: 'haters :';}
+
+charainfoprofile div#field_id14 .field_uneditable:after {content: "\edae";}
+charainfoprofile div#field_id16 .field_uneditable:after {content: "\eb8a";}
+charainfoprofile div#field_id18 .field_uneditable:after {content: "\eb59";}
+charainfoprofile div#field_id19 .field_uneditable:after {content: "\eb8b";}
 
 famestats {display: flex;justify-content: center;align-items: center;grid-area: 4 / 1 / 5 / 3;column-gap: 21px;justify-items: center;margin-top: -20px;}
 
