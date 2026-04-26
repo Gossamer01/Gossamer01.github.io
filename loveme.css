@@ -716,9 +716,8 @@ skillsgu {
 .endwrapper skillsgu profilpostgu.icone, .endwrapper skillsgu profilpostgu.image-fond, .endwrapper skillsgu profilpostgu.faceclaim, .endwrapper skillsgu profilpostgu.credits, 
 .endwrapper skillsgu profilpostgu.age, .endwrapper skillsgu profilpostgu.stage-name, .endwrapper skillsgu profilpostgu.occupation, .endwrapper skillsgu profilpostgu.points, 
 .endwrapper skillsgu profilpostgu.content-warning, .endwrapper skillsgu profilpostgu.date-dinscription, .endwrapper skillsgu profilpostgu.messages, .endwrapper skillsgu profilpostgu.pseudo, 
-.endwrapper skillsgu profilpostgu.pronoms, .endwrapper skillsgu profilpostgu.trigger.warnings, .endwrapper skillsgu profilpostgu.casualsobservers, .endwrapper skillsgu profilpostgu.trendbees, 
-.endwrapper skillsgu profilpostgu.fanshypers, .endwrapper skillsgu profilpostgu.stanssupporters, .endwrapper skillsgu profilpostgu.globals, .endwrapper skillsgu profilpostgu.haterscritics, 
-.endwrapper skillsgu profilpostgu.sasaengscopycats, .endwrapper skillsgu profilpostgu.trigger-warnings {display: none;}
+.endwrapper skillsgu profilpostgu.pronoms, .endwrapper skillsgu profilpostgu.trigger.warnings, .endwrapper skillsgu profilpostgu.casuals, .endwrapper skillsgu profilpostgu.fans, 
+.endwrapper skillsgu profilpostgu.globals, .endwrapper skillsgu profilpostgu.haters, .endwrapper skillsgu profilpostgu.trigger-warnings {display: none;}
 .endwrapper famestatsgu profilpostgu.icone, .endwrapper famestatsgu profilpostgu.image-fond, .endwrapper famestatsgu profilpostgu.faceclaim, .endwrapper famestatsgu profilpostgu.credits, 
 .endwrapper famestatsgu profilpostgu.age, .endwrapper famestatsgu profilpostgu.stage-name, .endwrapper famestatsgu profilpostgu.occupation, .endwrapper famestatsgu profilpostgu.points, 
 .endwrapper famestatsgu profilpostgu.content-warning, .endwrapper famestatsgu profilpostgu.date-dinscription, .endwrapper famestatsgu profilpostgu.messages, .endwrapper famestatsgu profilpostgu.pseudo, 
@@ -778,9 +777,9 @@ smallinfospacegu profilpostgu {border-radius: 5px;background: #f3f3f380;outline:
 smallinfospacegu profilpostgu labelgu {display: none;}
 smallinfospacegu profilpostgu.image-fond, smallinfospacegu profilpostgu.faceclaim, smallinfospacegu profilpostgu.credits, 
 smallinfospacegu profilpostgu.content-warning, smallinfospacegu profilpostgu.date-dinscription, smallinfospacegu profilpostgu.messages, smallinfospacegu profilpostgu.pseudo, 
-smallinfospacegu profilpostgu.pronoms, smallinfospacegu profilpostgu.trigger-warnings, smallinfospacegu profilpostgu.casualsobservers, smallinfospacegu profilpostgu.trendbees, 
-smallinfospacegu profilpostgu.fanshypers, smallinfospacegu profilpostgu.stanssupporters, smallinfospacegu profilpostgu.globals, 
-smallinfospacegu profilpostgu.haterscritics, smallinfospacegu profilpostgu.sasaengscopycats, smallinfospacegu profilpostgu.force, smallinfospacegu profilpostgu.dexterite, 
+smallinfospacegu profilpostgu.pronoms, smallinfospacegu profilpostgu.trigger-warnings, smallinfospacegu profilpostgu.casuals, 
+smallinfospacegu profilpostgu.fans, smallinfospacegu profilpostgu.globals, 
+smallinfospacegu profilpostgu.hater, smallinfospacegu profilpostgu.force, smallinfospacegu profilpostgu.dexterite, 
 smallinfospacegu profilpostgu.constitution, smallinfospacegu profilpostgu.intelligence, smallinfospacegu profilpostgu.sagesse, smallinfospacegu profilpostgu.charisme {display: none;}
 
 smallinfospacegu profilpostgu.points contentprogu:after{content: 'points';margin-left:3px}
@@ -825,8 +824,8 @@ div#field_id23 .ajax-profil_edit, div#field_id22 .ajax-profil_edit, div#field_id
 leftcolumnprofile {grid-area: 1 / 1 / 5 / 2;}
 leftcolumnprofile .icone, leftcolumnprofile .gif, leftcolumnprofile .icone, leftcolumnprofile .faceclaim, leftcolumnprofile .credits, leftcolumnprofile .age, leftcolumnprofile .stage-name, 
 leftcolumnprofile .occupation, leftcolumnprofile .content-warning, leftcolumnprofile .date-dinscription, leftcolumnprofile .messages, leftcolumnprofile .pseudo, leftcolumnprofile .pronoms, 
-leftcolumnprofile .trigger-warnings, leftcolumnprofile .casualsobservers, leftcolumnprofile .trendbees, leftcolumnprofile .fanshypers, leftcolumnprofile .stanssupporters, leftcolumnprofile .globals, 
-leftcolumnprofile .haterscritics, leftcolumnprofile .sasaengscopycats, leftcolumnprofile .points {display: none;}
+leftcolumnprofile .trigger-warnings, leftcolumnprofile .casuals, leftcolumnprofile .fans, leftcolumnprofile .globals, 
+leftcolumnprofile .haters, leftcolumnprofile .points {display: none;}
 
 profilsinfoshere {grid-area: 1 / 2 / 5 / 3;}
 
@@ -967,11 +966,12 @@ datelastco:before {content: 'dernière connexion :';margin-right:5px;margin-left
 contactprofile div#field_id23 .field_uneditable img, contactprofile div#field_id22 .field_uneditable img, contactprofile div#field_id21 .field_uneditable img, 
 contactprofile div#field_id-10 .field_uneditable img, contactprofile div#field_id-23 .field_uneditable img {display: none;}
 
-.posteravawrapper .posteravainfos profilpostgu.credits, .posteravawrapper .posteravainfos profilpostgu.age, .posteravawrapper .posteravainfos profilpostgu.stage-name, .posteravawrapper .posteravainfos profilpostgu.occupation, 
+.posteravawrapper .posteravainfos profilpostgu.credits, .posteravawrapper .posteravainfos profilpostgu.age, .posteravawrapper .posteravainfos profilpostgu.stage-name, 
+.posteravawrapper .posteravainfos profilpostgu.occupation, 
 .posteravawrapper .posteravainfos profilpostgu.points, .posteravawrapper .posteravainfos profilpostgu.content-warning, .posteravawrapper .posteravainfos profilpostgu.trigger-warnings, 
-.posteravawrapper .posteravainfos profilpostgu.casualsobservers, .posteravawrapper .posteravainfos profilpostgu.trendbees, .posteravawrapper .posteravainfos profilpostgu.fanshypers, 
-.posteravawrapper .posteravainfos profilpostgu.stanssupporters, .posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haterscritics, 
-.posteravawrapper .posteravainfos profilpostgu.sasaengscopycats, .posteravainfos profilpostgu.image-fond, .posteravainfos profilpostgu.force, .posteravainfos profilpostgu.dexterite,
+.posteravawrapper .posteravainfos profilpostgu.casuals, .posteravawrapper .posteravainfos profilpostgu.fans, 
+.posteravawrapper .posteravainfos profilpostgu.globals, .posteravawrapper .posteravainfos profilpostgu.haters, 
+.posteravainfos profilpostgu.image-fond, .posteravainfos profilpostgu.force, .posteravainfos profilpostgu.dexterite,
 .posteravainfos profilpostgu.constitution, .posteravainfos profilpostgu.intelligence, .posteravainfos profilpostgu.sagesse, .posteravainfos profilpostgu.charisme {display: none;}
 
 .posteravainfos labelgu {
