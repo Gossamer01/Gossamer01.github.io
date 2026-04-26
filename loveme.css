@@ -606,7 +606,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     width: 100%;
     height: fit-content;
     grid-template-columns: 228px auto 150px;
-    grid-template-rows: 70px 70px 42px 320px auto 100px;
+    grid-template-rows: 70px 70px 42px 320px auto 60px;
     display: grid;
     backdrop-filter: blur(5px);
 }
