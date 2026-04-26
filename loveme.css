@@ -669,13 +669,70 @@ thebuttonsthere {display: flex;flex-direction: row;align-items: center;column-ga
 
 awardtopicgu {grid-area: 5 / 1 / 6 / 2;height: 100%;padding-bottom: 10px;}
 
-contactfieldgu {grid-area: 6 / 1 / 7 / 2;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;column-gap: 15px;row-gap: 15px;justify-content: center;align-content: center;}
+contactfieldgu {
+    grid-area: 1 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 15px;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+    padding: 10px;
+}
 contactfieldgu a {padding: 3px;width: 15px;height: 15px;display: flex;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;justify-content: center;align-content: center;align-items: center;}
 contactfieldgu a img {filter: invert(40%);width: 18px;}
 
 contentmessagehere {grid-area: 4 / 2 / 7 / 4;padding: 15px;font-size: 14px;color: var(--body);overflow: hidden;font-family: 'Poppins';}
 
-.endwrapper {width: auto;background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);height: auto;grid-area: 6 / 1 / 7 / 4;border-top: 1px solid white;}
+.endwrapper {
+    width: auto;
+    background: linear-gradient(to bottom right, #a09bab2b, #a09bab82);
+    height: auto;
+    grid-area: 6 / 1 / 7 / 4;
+    border-top: 1px solid white;
+    grid-template-columns: 180px auto 370px;
+    grid-template-rows: auto auto;
+    display: grid;
+}
+
+skillsgu {
+    grid-area: 1 / 3 / 3 / 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 23px;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    align-items: center;
+}
+.endwrapper skillsgu profilpostgu.icone, .endwrapper skillsgu profilpostgu.image-fond, .endwrapper skillsgu profilpostgu.faceclaim, .endwrapper skillsgu profilpostgu.credits, 
+.endwrapper skillsgu profilpostgu.age, .endwrapper skillsgu profilpostgu.stage-name, .endwrapper skillsgu profilpostgu.occupation, .endwrapper skillsgu profilpostgu.points, 
+.endwrapper skillsgu profilpostgu.content-warning, .endwrapper skillsgu profilpostgu.date-dinscription, .endwrapper skillsgu profilpostgu.messages, .endwrapper skillsgu profilpostgu.pseudo, 
+.endwrapper skillsgu profilpostgu.pronoms, .endwrapper skillsgu profilpostgu.trigger.warnings, .endwrapper skillsgu profilpostgu.casualsobservers, .endwrapper skillsgu profilpostgu.trendbees, 
+.endwrapper skillsgu profilpostgu.fanshypers, .endwrapper skillsgu profilpostgu.stanssupporters, .endwrapper skillsgu profilpostgu.globals, .endwrapper skillsgu profilpostgu.haterscritics, 
+.endwrapper skillsgu profilpostgu.sasaengscopycats, .endwrapper skillsgu profilpostgu.trigger-warnings {display: none;}
+.endwrapper skillsgu labelgu {display: none;}
+.endwrapper skillsgu contentprogu {
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background: #f3f3f380;
+    outline: 1px solid white;
+    outline-offset: 3px;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 900;
+    align-content: flex-end;
+}
+
+.endwrapper skillsgu contentprogu:before {content: 'FOR';position: absolute;font-family: 'Poppins';font-size: 12px;text-transform: uppercase;font-weight: bold;margin-top: -100px;}
 
 rankuserprofiltop {grid-area: 1 / 1 / 3 / 2;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;font-size: 16px;color: white;font-family: 'Poppins';font-weight: 300;
     align-content: flex-end;align-items: center;margin-left: 20px;}
