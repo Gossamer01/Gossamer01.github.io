@@ -684,7 +684,14 @@ contactfieldgu {
 contactfieldgu a {padding: 3px;width: 15px;height: 15px;display: flex;background: #f3f3f380;outline: 1px solid white;outline-offset: 3px;justify-content: center;align-content: center;align-items: center;}
 contactfieldgu a img {filter: invert(40%);width: 18px;}
 
-contentmessagehere {grid-area: 4 / 2 / 7 / 4;padding: 15px;font-size: 14px;color: var(--body);overflow: hidden;font-family: 'Poppins';}
+contentmessagehere {
+    grid-area: 4 / 2 / 6 / 4;
+    padding: 15px;
+    font-size: 14px;
+    color: var(--body);
+    overflow: hidden;
+    font-family: 'Poppins';
+}
 
 .endwrapper {
     width: auto;
@@ -692,7 +699,7 @@ contentmessagehere {grid-area: 4 / 2 / 7 / 4;padding: 15px;font-size: 14px;color
     height: auto;
     grid-area: 6 / 1 / 7 / 4;
     border-top: 1px solid white;
-    grid-template-columns: 180px auto 209px;
+    grid-template-columns: 240px auto 320px;
     grid-template-rows: auto auto;
     display: grid;
 }
