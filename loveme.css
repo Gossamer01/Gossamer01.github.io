@@ -824,8 +824,6 @@ skillsgu {
     height: 25px;
 }
 
-famestatsgu casugu, famestatsgu fansgu, famestatsgu globalsgu, famestatsgu hatersgu {padding-right: 1px;}
-
 .endwrapper famestatsgu totalgu:after {content: 'k';margin-left: 3px;margin-right: 0px;}
 .endwrapper famestatsgu labelgu {display: none;}
 .endwrapper famestatsgu contentprogu {display: none;}
