@@ -794,6 +794,7 @@ skillsgu {
     align-items: center;
     justify-items: center;
     align-content: center;
+    margin-right: 15px;
 }
 .endwrapper famestatsgu totalgu {
     grid-area: 1 / 1 / 3 / 2;
@@ -808,7 +809,7 @@ skillsgu {
 }
 
 .endwrapper popularitygu {
-    width: 97%;
+    width: 100%;
     height: 30px;
     outline: 1px solid #fff;
     outline-offset: 3px;
@@ -821,6 +822,8 @@ skillsgu {
     margin: 10px;
     grid-area: 1 / 2 / 2 / 6;
 }
+
+famestatsgu casugu, famestatsgu fansgu, famestatsgu globalsgu, famestatsgu hatersgu {padding-right: 1px;}
 
 .endwrapper famestatsgu totalgu:after {content: 'k';margin-left: 3px;margin-right: 0px;}
 .endwrapper famestatsgu labelgu {display: none;}
