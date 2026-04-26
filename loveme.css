@@ -797,11 +797,14 @@ skillsgu {
 }
 .endwrapper famestatsgu totalgu {
     grid-area: 1 / 1 / 3 / 2;
-    font-family: Felgine_Regular;
-    font-size: 27px;
+    font-family: 'Poppins';
+    font-size: 25px;
     display: flex;
     width: fit-content;
     text-align: center;
+    margin-top: 6px;
+    letter-spacing: -3px;
+    font-weight: 700;
 }
 
 .endwrapper popularitygu {
