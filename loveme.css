@@ -9,6 +9,27 @@ url("https://assets.codepen.io/2434198/magna-webfont.woff") format("woff");font-
   
 div#page-body {width: 965px;}
 
+popularitygu {
+    width: 97%;
+    height: 25px;
+    outline: 1px solid #fff;
+    outline-offset: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    grid-area: 5 / 1 / 6 / 3;
+    border-radius: 25px;
+    overflow: hidden;
+}
+casugu {background: #ab90c7;}
+trendgu {background: #c7bb90;}
+fansgu {background: #c790b3;}
+stansgu {background: #90a3c7;}
+globalsgu {background: #90c7c7;}
+hatersgu {background: #c79b90;}
+sasaengsgu {background: #757575;}
+
   a {color: inherit; text-decoration: none;}
 a:visited {color: white;}
 ::selection {background: #989898; /* WebKit/Blink Browsers */}
