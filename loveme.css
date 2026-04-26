@@ -821,16 +821,7 @@ skillsgu {
 
 .endwrapper famestatsgu totalgu:after {content: 'k';}
 .endwrapper famestatsgu labelgu {display: none;}
-.endwrapper famestatsgu contentprogu {
-    display: flex;
-    margin-top: -31px;
-    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
-    font-weight: 900;
-    font-size: 12px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
+.endwrapper famestatsgu contentprogu {display: none;}
 
 rankuserprofiltop {grid-area: 1 / 1 / 3 / 2;display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: center;font-size: 16px;color: white;font-family: 'Poppins';font-weight: 300;
     align-content: flex-end;align-items: center;margin-left: 20px;}
