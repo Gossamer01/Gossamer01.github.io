@@ -22,13 +22,10 @@ popularitygu {
     border-radius: 25px;
     overflow: hidden;
 }
-casugu {background: #ab90c7;}
-trendgu {background: #c7bb90;}
-fansgu {background: #c790b3;}
-stansgu {background: #90a3c7;}
-globalsgu {background: #90c7c7;}
-hatersgu {background: #c79b90;}
-sasaengsgu {background: #757575;}
+casugu {background: #b6aac3;}
+fansgu {background: #ab90c7;}
+globalsgu {background: #8a73a3;}
+hatersgu {background: #5b5b5b;}
 
   a {color: inherit; text-decoration: none;}
 a:visited {color: white;}
