@@ -352,10 +352,31 @@ mmblistdate {
     text-transform: uppercase;
     text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px #4949498f;
 }
-mmblistdate b {
+mmblistdate b, mmblistposts b {
     color: #4f4f4f;
     text-shadow: none;
     margin-bottom: 3px;
+}
+
+mmblistposts {
+    position: relative;
+    z-index: 30;
+    grid-area: 4 / 2 / 5 / 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: 'Poppins';
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 8px 8px 0px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 10px;
+    align-content: flex-end;
+    line-height: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: -0.5px 0 #4949498f, 0 0.5px #4949498f, 0.5px 0 #4949498f, 0 -0.5px #4949498f;
 }
 /*****************CODES DE BASE***************/
 
