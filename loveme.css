@@ -145,6 +145,7 @@ span#topbarspace {width: 100%; padding-right: 25px; display: flex; column-gap: 1
 
 /******************NAVIGATION TREE****************************/
 .navbar, .navbar2, .navbar3, .navbar4 {
+    margin-left: 5px;
     outline-offset: 5px;
     text-transform: uppercase;
     text-align: left;
