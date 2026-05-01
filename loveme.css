@@ -283,6 +283,7 @@ input:checked + .slider:before {
     grid-template-rows: auto auto auto;
     display: grid;
     overflow: hidden;
+        mix-blend-mode: screen;
 }
 
 mmblistgrad {
@@ -314,6 +315,21 @@ mmblistava a img {
 mmblistname {
     position: relative;
     z-index: 30;
+    grid-area: 3 / 1 / 4 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font-family: 'Poppins';
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    padding: 5px 20px;
+}
+mmblistname a span strong {
+    font-size: 25px !important;
+    text-shadow: -1px 0 #4949498f, 0 1px #4949498f, 1px 0 #4949498f, 0 -1px #4949498f;
+    color: white;
 }
 /*****************CODES DE BASE***************/
 
