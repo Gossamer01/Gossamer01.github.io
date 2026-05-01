@@ -244,7 +244,7 @@ input:checked + .slider:before {
     align-items: flex-start;
 }
 .memberlistguselect {
-    height: 100%;
+    height: -webkit-fill-available;
     outline: 1px solid #fff;
     outline-offset: 5px;
     backdrop-filter: blur(5px);
@@ -270,7 +270,9 @@ input:checked + .slider:before {
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    margin-left: 15px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: -5px -5px -5px 15px;
 }
 
 .memberblock {
