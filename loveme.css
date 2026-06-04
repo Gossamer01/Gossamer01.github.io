@@ -744,6 +744,13 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     grid-template-rows: 40% 10% 50%;
     grid-template-columns: 33% 34% 33%;
 }
+.guconnect {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    text-shadow: -1px 0 #ffffff8f, 0 1px #ffffff8f, 1px 0 #ffffff8f, 0 -1px #ffffff8f;
+    font-weight: 900;
+}
 
 /************QUOTE CODE SPOILER HIDE********/
 .codebox .quote {background-color: var(--greybg);border: var(--greybg);border-style: solid;border-width: 1px; color: #ffffff82;
