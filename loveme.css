@@ -745,14 +745,14 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     overflow: hidden;box-shadow: 0 0 .75rem #adadad38;
 }
 .guconnect {
-    font-size: 11px;
+    font-size: 13px;
     text-transform: uppercase;
     font-family: 'Poppins';
     text-shadow: -1px 0 #ffffff8f, 0 1px #ffffff8f, 1px 0 #ffffff8f, 0 -1px #ffffff8f;
     font-weight: 900;
     grid-area: 1 / 1 / 2 / 3;
     z-index: 20;
-    padding: 5px;
+    padding: 7px;
     margin: 10px;
     background: #ffffff6b;
 }
@@ -792,6 +792,19 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     z-index: 19;
     grid-area: 1 / 1 / 4 / 4;
     opacity: 50%;
+}
+
+.guconnect48 {
+    font-size: 8px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    text-shadow: -1px 0 #ffffff8f, 0 1px #ffffff8f, 1px 0 #ffffff8f, 0 -1px #ffffff8f;
+    font-weight: 900;
+    grid-area: 3 / 2 / 4 / 3;
+    z-index: 20;
+    padding: 5px;
+    margin: 10px;
+    background: #ffffff6b;
 }
 
 /************QUOTE CODE SPOILER HIDE********/
