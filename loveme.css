@@ -731,7 +731,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 .gubottomlinks i {width: 40px;margin-right: 10px;margin-left: 10px;height: auto;display: flex;justify-content: center;align-items: center;font-size: 25px;}
 .gubottomlinks a {font-family: poppins;text-transform: uppercase;font-weight: bold;font-size: 9px;letter-spacing: 1px;}
 .glowupqeel {
-    height: 100%;
+    height: 300px;
     background: #f3f3f380;
     outline: 1px solid #fff;
     outline-offset: 5px;
@@ -742,6 +742,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     display: grid;
     grid-template-rows: 40% 10% 50%;
     grid-template-columns: 33% 34% 33%;
+    overflow: hidden;
 }
 .guconnect {
     font-size: 11px;
@@ -749,21 +750,19 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     font-family: 'Poppins';
     text-shadow: -1px 0 #ffffff8f, 0 1px #ffffff8f, 1px 0 #ffffff8f, 0 -1px #ffffff8f;
     font-weight: 900;
+    grid-area: 1 / 1 / 2 / 3;
+    z-index: 20;
+    padding: 5px;
+    margin: 10px;
+    background: #ffffff6b;
 }
 
 .guqeelbg {
     position: relative;
     overflow: hidden;
     grid-area: 1 / 1 / 4 / 4;
-    height: 250px;
     z-index: 15;
-}
-
-.guqeelbg catpic {
-    position: absolute;
-    z-index: 2;
-    -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(#ffffff00), to(#000000));
-    right: 0;
+    width: 100%;
 }
 
 .guqeelbg catpic img {
@@ -774,7 +773,6 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     filter: contrast(100%) brightness(100%) grayscale(100%);
     opacity: 50%;
 }
-
 .guqeelbg catpic:before {
     content: "";
     position: absolute;
@@ -782,6 +780,18 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     background: #ffffff7a;
     height: 100%;
     z-index: 12;
+}
+
+.guqeelcircle {
+    width: 955px;
+    height: 955px;
+    background: linear-gradient(to bottom, #d9bbd0, #ad81a9, #ffffff);
+    position: absolute;
+    border-radius: 100%;
+    bottom: -70px;
+    z-index: 19;
+    grid-area: 1 / 1 / 4 / 4;
+    opacity: 50%;
 }
 
 /************QUOTE CODE SPOILER HIDE********/
