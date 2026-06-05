@@ -755,6 +755,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     padding: 7px;
     margin: 10px;
     background: #ffffff6b;
+    box-shadow: 0 0 .75rem #adadad38;
 }
 
 .guqeelbg {
@@ -795,7 +796,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
 }
 
 .guconnect48 {
-    font-size: 8px;
+    font-size: 11px;
     text-transform: uppercase;
     font-family: 'Poppins';
     text-shadow: -1px 0 #ffffff8f, 0 1px #ffffff8f, 1px 0 #ffffff8f, 0 -1px #ffffff8f;
@@ -805,6 +806,22 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     padding: 5px;
     margin: 10px;
     background: #ffffff6b;
+    font-weight: 900;
+    box-shadow: 0 0 .75rem #adadad38;
+}
+
+.guconnect48 table {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+
+.guconnect48 td {
+    font-family: inherit;
+    background-color: #ffffff00 !important;
+}
+
+.guconnect48 table strong {
+    font-weight: inherit !important;
 }
 
 /************QUOTE CODE SPOILER HIDE********/
