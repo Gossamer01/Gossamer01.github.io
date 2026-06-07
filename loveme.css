@@ -916,7 +916,7 @@ topicrepvues h1 {color: #353941;padding-right: 5px;font-size: inherit;}
     color: white;width: auto;position: relative;padding: 15px;}
 .topicwrapper2.ksyent .posternamewrapper {text-shadow: -1px 0 #8a73a3, 0 1px #8a73a3, 1px 0 #8a73a3, 0 -1px #8a73a3;}
 .posteravawrapper:hover .posteravainfos {opacity: 1;}
-.posternamewrapper a span strong{color: #ffffff!important;}
+.posternamewrapper span strong{color: #ffffff!important;}
 
 .posterdatehere {color: #757575;font-family: poppins;font-weight: bold;font-size: 10px;height: 40px;letter-spacing: 1px;padding: 0 8px 0 15px;text-align: left;
     text-shadow: -1px -1px 0 #ffffff87, 1px -1px 0 #ffffff87, -1px 1px 0 #ffffff87, 1px 1px 0 #ffffff87;text-transform: uppercase;grid-area: 3 / 2 / 4 / 4;border-bottom: 1px solid white;
